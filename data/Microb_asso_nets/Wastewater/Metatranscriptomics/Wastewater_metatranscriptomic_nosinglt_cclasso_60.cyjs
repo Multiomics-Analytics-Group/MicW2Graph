@@ -1,0 +1,416 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.10.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "cclasso_0.60",
+    "name" : "cclasso_0.60",
+    "SUID" : 2614,
+    "__Annotations" : [ "" ],
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "2659",
+        "shared_name" : "Pseudoxanthomonas_mexicana",
+        "cluster" : 3.0,
+        "degree" : 3.0,
+        "name" : "Pseudoxanthomonas_mexicana",
+        "SUID" : 2659,
+        "id_original" : "Pseudoxanthomonas_mexicana",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 3.307855987548834,
+        "y" : -36.64360809326172
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2657",
+        "shared_name" : "Candidimonas_humi",
+        "cluster" : 2.0,
+        "degree" : 2.0,
+        "name" : "Candidimonas_humi",
+        "SUID" : 2657,
+        "id_original" : "Candidimonas_humi",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 103.30785598754883,
+        "y" : -115.4531021118164
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2655",
+        "shared_name" : "Pseudomonas_citronellolis",
+        "cluster" : 1.0,
+        "degree" : 2.0,
+        "name" : "Pseudomonas_citronellolis",
+        "SUID" : 2655,
+        "id_original" : "Pseudomonas_citronellolis",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -123.96426162719726,
+        "y" : 111.90534210205078
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2653",
+        "shared_name" : "Brackiella_oedipodis",
+        "cluster" : 3.0,
+        "degree" : 3.0,
+        "name" : "Brackiella_oedipodis",
+        "SUID" : 2653,
+        "id_original" : "Brackiella_oedipodis",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -75.46814498901367,
+        "y" : 11.905342102050781
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2651",
+        "shared_name" : "Paracoccus_kawasakiensis",
+        "cluster" : 3.0,
+        "degree" : 3.0,
+        "name" : "Paracoccus_kawasakiensis",
+        "SUID" : 2651,
+        "id_original" : "Paracoccus_kawasakiensis",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -45.187673187255854,
+        "y" : -115.4531021118164
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2649",
+        "shared_name" : "Paenochrobactrum_glaciei",
+        "cluster" : 2.0,
+        "degree" : 2.0,
+        "name" : "Paenochrobactrum_glaciei",
+        "SUID" : 2649,
+        "id_original" : "Paenochrobactrum_glaciei",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 210.55267753601075,
+        "y" : -104.8138198852539
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2647",
+        "shared_name" : "Dysgonomonas_gadei",
+        "cluster" : 3.0,
+        "degree" : 3.0,
+        "name" : "Dysgonomonas_gadei",
+        "SUID" : 2647,
+        "id_original" : "Dysgonomonas_gadei",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -123.96426162719726,
+        "y" : -66.89154815673828
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2645",
+        "shared_name" : "Tessaracoccus_bendigoensis",
+        "cluster" : 2.0,
+        "degree" : 2.0,
+        "name" : "Tessaracoccus_bendigoensis",
+        "SUID" : 2645,
+        "id_original" : "Tessaracoccus_bendigoensis",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 147.70375480651856,
+        "y" : -17.229286193847656
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2643",
+        "shared_name" : "Kocuria_palustris",
+        "cluster" : 1.0,
+        "degree" : 2.0,
+        "name" : "Kocuria_palustris",
+        "SUID" : 2643,
+        "id_original" : "Kocuria_palustris",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -16.719440078735346,
+        "y" : 122.54462432861328
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2641",
+        "shared_name" : "Millisia_brevis",
+        "cluster" : 1.0,
+        "degree" : 2.0,
+        "name" : "Millisia_brevis",
+        "SUID" : 2641,
+        "id_original" : "Millisia_brevis",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -79.56836280822753,
+        "y" : 210.12915802001953
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "2683",
+        "source" : "2653",
+        "target" : "2659",
+        "asso" : 0.6137617,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2141767,
+        "diss" : 0.4394533,
+        "source_original" : "Brackiella_oedipodis",
+        "target_original" : "Pseudoxanthomonas_mexicana",
+        "shared_name" : "Brackiella_oedipodis (interacts with) Pseudoxanthomonas_mexicana",
+        "adja" : 0.5605467,
+        "name" : "Brackiella_oedipodis (interacts with) Pseudoxanthomonas_mexicana",
+        "interaction" : "interacts with",
+        "SUID" : 2683,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2681",
+        "source" : "2651",
+        "target" : "2659",
+        "asso" : 0.6137617,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2141764,
+        "diss" : 0.4394533,
+        "source_original" : "Paracoccus_kawasakiensis",
+        "target_original" : "Pseudoxanthomonas_mexicana",
+        "shared_name" : "Paracoccus_kawasakiensis (interacts with) Pseudoxanthomonas_mexicana",
+        "adja" : 0.5605467,
+        "name" : "Paracoccus_kawasakiensis (interacts with) Pseudoxanthomonas_mexicana",
+        "interaction" : "interacts with",
+        "SUID" : 2681,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2679",
+        "source" : "2651",
+        "target" : "2653",
+        "asso" : 0.6137617,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2141761,
+        "diss" : 0.4394533,
+        "source_original" : "Paracoccus_kawasakiensis",
+        "target_original" : "Brackiella_oedipodis",
+        "shared_name" : "Paracoccus_kawasakiensis (interacts with) Brackiella_oedipodis",
+        "adja" : 0.5605467,
+        "name" : "Paracoccus_kawasakiensis (interacts with) Brackiella_oedipodis",
+        "interaction" : "interacts with",
+        "SUID" : 2679,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2677",
+        "source" : "2649",
+        "target" : "2657",
+        "asso" : 0.8882571,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2141758,
+        "diss" : 0.2363714,
+        "source_original" : "Paenochrobactrum_glaciei",
+        "target_original" : "Candidimonas_humi",
+        "shared_name" : "Paenochrobactrum_glaciei (interacts with) Candidimonas_humi",
+        "adja" : 0.7636286,
+        "name" : "Paenochrobactrum_glaciei (interacts with) Candidimonas_humi",
+        "interaction" : "interacts with",
+        "SUID" : 2677,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2675",
+        "source" : "2647",
+        "target" : "2659",
+        "asso" : 0.6137617,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2141755,
+        "diss" : 0.4394533,
+        "source_original" : "Dysgonomonas_gadei",
+        "target_original" : "Pseudoxanthomonas_mexicana",
+        "shared_name" : "Dysgonomonas_gadei (interacts with) Pseudoxanthomonas_mexicana",
+        "adja" : 0.5605467,
+        "name" : "Dysgonomonas_gadei (interacts with) Pseudoxanthomonas_mexicana",
+        "interaction" : "interacts with",
+        "SUID" : 2675,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2673",
+        "source" : "2647",
+        "target" : "2653",
+        "asso" : 0.6137617,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2141752,
+        "diss" : 0.4394533,
+        "source_original" : "Dysgonomonas_gadei",
+        "target_original" : "Brackiella_oedipodis",
+        "shared_name" : "Dysgonomonas_gadei (interacts with) Brackiella_oedipodis",
+        "adja" : 0.5605467,
+        "name" : "Dysgonomonas_gadei (interacts with) Brackiella_oedipodis",
+        "interaction" : "interacts with",
+        "SUID" : 2673,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2671",
+        "source" : "2647",
+        "target" : "2651",
+        "asso" : 0.6137617,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2141749,
+        "diss" : 0.4394533,
+        "source_original" : "Dysgonomonas_gadei",
+        "target_original" : "Paracoccus_kawasakiensis",
+        "shared_name" : "Dysgonomonas_gadei (interacts with) Paracoccus_kawasakiensis",
+        "adja" : 0.5605467,
+        "name" : "Dysgonomonas_gadei (interacts with) Paracoccus_kawasakiensis",
+        "interaction" : "interacts with",
+        "SUID" : 2671,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2669",
+        "source" : "2645",
+        "target" : "2657",
+        "asso" : 0.8882571,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2141746,
+        "diss" : 0.2363714,
+        "source_original" : "Tessaracoccus_bendigoensis",
+        "target_original" : "Candidimonas_humi",
+        "shared_name" : "Tessaracoccus_bendigoensis (interacts with) Candidimonas_humi",
+        "adja" : 0.7636286,
+        "name" : "Tessaracoccus_bendigoensis (interacts with) Candidimonas_humi",
+        "interaction" : "interacts with",
+        "SUID" : 2669,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2667",
+        "source" : "2645",
+        "target" : "2649",
+        "asso" : 0.8882571,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2141743,
+        "diss" : 0.2363714,
+        "source_original" : "Tessaracoccus_bendigoensis",
+        "target_original" : "Paenochrobactrum_glaciei",
+        "shared_name" : "Tessaracoccus_bendigoensis (interacts with) Paenochrobactrum_glaciei",
+        "adja" : 0.7636286,
+        "name" : "Tessaracoccus_bendigoensis (interacts with) Paenochrobactrum_glaciei",
+        "interaction" : "interacts with",
+        "SUID" : 2667,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2665",
+        "source" : "2643",
+        "target" : "2655",
+        "asso" : 0.669785,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2141740,
+        "diss" : 0.4063342,
+        "source_original" : "Kocuria_palustris",
+        "target_original" : "Pseudomonas_citronellolis",
+        "shared_name" : "Kocuria_palustris (interacts with) Pseudomonas_citronellolis",
+        "adja" : 0.5936658,
+        "name" : "Kocuria_palustris (interacts with) Pseudomonas_citronellolis",
+        "interaction" : "interacts with",
+        "SUID" : 2665,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2663",
+        "source" : "2641",
+        "target" : "2655",
+        "asso" : 0.6782758,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2141737,
+        "diss" : 0.4010762,
+        "source_original" : "Millisia_brevis",
+        "target_original" : "Pseudomonas_citronellolis",
+        "shared_name" : "Millisia_brevis (interacts with) Pseudomonas_citronellolis",
+        "adja" : 0.5989238,
+        "name" : "Millisia_brevis (interacts with) Pseudomonas_citronellolis",
+        "interaction" : "interacts with",
+        "SUID" : 2663,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2661",
+        "source" : "2641",
+        "target" : "2643",
+        "asso" : 0.7080307,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2141734,
+        "diss" : 0.3820794,
+        "source_original" : "Millisia_brevis",
+        "target_original" : "Kocuria_palustris",
+        "shared_name" : "Millisia_brevis (interacts with) Kocuria_palustris",
+        "adja" : 0.6179206,
+        "name" : "Millisia_brevis (interacts with) Kocuria_palustris",
+        "interaction" : "interacts with",
+        "SUID" : 2661,
+        "selected" : false
+      },
+      "selected" : false
+    } ]
+  }
+}

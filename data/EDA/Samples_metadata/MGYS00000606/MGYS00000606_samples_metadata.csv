@@ -1,0 +1,2 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+ERS1048982,AOBNOB1,SAMEA3861848,AOBNOB1,,,Australia,Wastewater,Activated Sludge,Reactor,ERR1233629

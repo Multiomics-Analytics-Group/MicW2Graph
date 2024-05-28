@@ -1,0 +1,50 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids,study_id
+SRS976606,PtcB-09,SAMN03792071,Illumina HiSeq1500 shotgun-sequencing,-34.07,-59.07,,,wastewater treatment plant,activated sludge,ERZ794912;ERZ842394;SRR2107176;SRR2107177,MGYS00002058
+SRS976079,SwgA-13,SAMN03794762,Illumina HiSeq1500 shotgun-sequencing,-34.82,-58.17,,,wastewater treatment plant,activated sludge,ERZ794919;ERZ842397;SRR2107212;SRR2107213,MGYS00002058
+SRS976068,Txt-08,SAMN03794739,Illumina HiSeq1500 shotgun-sequencing,-34.84,-58.2,,,wastewater treatment plant,activated sludge,ERZ794913;ERZ794932;SRR2107178;SRR2107179,MGYS00002058
+SRS976082,SwgA-08,SAMN03794758,Illumina HiSeq1500 shotgun-sequencing,-34.82,-58.17,,,wastewater treatment plant,activated sludge,ERZ794914;SRR2107210;SRR2107211,MGYS00002058
+SRS976061,PtcA-09,SAMN03792045,Illumina HiSeq1500 shotgun-sequencing,-34.65,-58.32,,,wastewater treatment plant,activated sludge,ERZ794915;ERZ794933,MGYS00002058
+SRS976081,Why-11,SAMN03794747,Illumina HiSeq1500 shotgun-sequencing,-30.94,-62.05,,,wastewater treatment plant,activated sludge,ERZ794916;SRR2107184;SRR2107185,MGYS00002058
+SRS976062,PtcB-08,SAMN03792070,Illumina HiSeq1500 shotgun-sequencing,-34.07,-59.07,,,wastewater treatment plant,activated sludge,ERZ794917,MGYS00002058
+SRS976063,PtcA-11,SAMN03792069,Illumina HiSeq1500 shotgun-sequencing,-34.65,-58.32,,,wastewater treatment plant,activated sludge,ERZ794918;ERZ794928,MGYS00002058
+SRS976080,SwgB-12,SAMN03794764,Illumina HiSeq1500 shotgun-sequencing,-34.47,-58.59,,,wastewater treatment plant,activated sludge,ERZ794920;SRR2107216;SRR2107215,MGYS00002058
+SRS976605,SwgB-13,SAMN03794765,Illumina HiSeq1500 shotgun-sequencing,-34.47,-58.59,,,wastewater treatment plant,activated sludge,ERZ794921;ERZ794929;SRR2107219;SRR2107218,MGYS00002058
+SRS976072,Txt-11,SAMN03794741,Illumina HiSeq1500 shotgun-sequencing,-34.84,-58.2,,,wastewater treatment plant,activated sludge,ERZ794930;SRR2107181;SRR2107180,MGYS00002058
+SRS976078,Why-10,SAMN03794746,Illumina HiSeq1500 shotgun-sequencing,-30.94,-62.05,,,wastewater treatment plant,activated sludge,ERZ794931;SRR2107182;SRR2107183,MGYS00002058
+SRS2422719,HS0,SAMN07488724,HS0,,,,,,,ERZ781404,MGYS00005011
+SRS2422978,HS5,SAMN07488725,HS5,,,,,,,ERZ781406,MGYS00005011
+SRS2422979,HS50,SAMN07488726,HS50,,,,,,,ERZ781405,MGYS00005011
+SRS2212571,Gp0115564,SAMN06343852,"Active sludge microbial communities from Klosterneuburg, Austria, studying microevolution and ecology of nitrifiers - Klosterneuburg WWTP active sludge metagenome KNB14_supernatant",48.3,16.2,Austria: Klosterneuburg,,,,ERZ795076,MGYS00004949
+SRS1687471,Gp0138836,SAMN05720170,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from Canada - AD_UKC129_MetaG,49.25,-123.1,Canada,,,,ERZ795381,MGYS00004983
+SRS1791886,Gp0138786,SAMN05720223,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from Hong Kong - AD_UKC111_MetaG,22.28,114.17,Hong Kong,,,,ERZ764804,MGYS00003395
+SRS1791882,Gp0138788,SAMN05720164,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from Hong Kong - AD_UKC115_MetaG,22.28,114.17,Hong Kong,,,,ERZ778038,MGYS00004767
+SRS1791674,Gp0138781,SAMN05720284,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from Hong Kong - AD_UKC117_MetaG,22.28,114.17,Hong Kong,,,,ERZ795053,MGYS00004926
+SRS1914373,D5,SAMN06216280,Sewage sludge,30.59,121.14,"China:Songjiang, Shanghai",,,,ERZ795067,MGYS00004940
+SRS1060545,ES,SAMN04041125,ES,34.64,119.17,China,,,,ERZ795009,MGYS00005006
+SRS1060554,EG,SAMN04041126,EG,34.65,119.17,China,,,,ERZ795010,MGYS00005006
+SRS3255898,BPA-DNA-1,SAMN08937787,DNA sample obtained before BPA adding (Phase I),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-0,sludge-water,ERZ782916,MGYS00005025
+SRS3255899,BPA-DNA-2,SAMN08937788,DNA sample obtained after BPA added for 14-15hrs,22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-14,sludge-water,ERZ782915,MGYS00005025
+SRS3255900,BPA-RNA-1,SAMN08937789,RNA sample obtained before BPA adding (Phase I),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-0-1,sludge-water,ERZ782927,MGYS00005025
+SRS3255901,BPA-RNA-2,SAMN08937790,RNA sample obtained before BPA adding (Phase I),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-0-2,sludge-water,ERZ782929,MGYS00005025
+SRS3255902,BPA-RNA-3,SAMN08937791,RNA sample obtained after BPA added for 2-3 hrs (Phase II),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-2-1,sludge-water,ERZ782928,MGYS00005025
+SRS3255903,BPA-RNA-4,SAMN08937792,RNA sample obtained after BPA added for 2-3 hrs (Phase II),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-2-2,sludge-water,ERZ782923,MGYS00005025
+SRS3255904,BPA-RNA-5,SAMN08937793,RNA sample obtained after BPA added for 14-15 hrs (Phase III),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-14-1,sludge-water,ERZ782930,MGYS00005025
+SRS3255905,BPA-RNA-6,SAMN08937794,RNA sample obtained after BPA added for 14-15 hrs (Phase III),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-14-2,sludge-water,ERZ782925,MGYS00005025
+SRS3255906,BPA-RNA-7,SAMN08937795,RNA sample obtained after BPA added for 24-25 hrs (Phase IV),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-24-1,sludge-water,ERZ782926,MGYS00005025
+SRS3255907,BPA-RNA-8,SAMN08937796,RNA sample obtained  after BPA added for 24-25 hrs (Phase IV),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-24-2,sludge-water,ERZ782924,MGYS00005025
+ERS632924,AAW-3-2012,SAMEA3180052,Aalborg West Q3 2012,57.0495,9.8648,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERZ1764620,MGYS00005802
+ERS632917,AAW-4-2010,SAMEA3180045,Aalborg West Q4 2010,57.0495,9.8648,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERZ1764613,MGYS00005802
+ERS632927,EJB-4-2011,SAMEA3180055,Ejby Moelle Q4 2011,55.3995,10.4148,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERZ1764614,MGYS00005802
+ERS632929,EGA-2-2011,SAMEA3180057,Egaa Q2 2011,56.2131,10.2425,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERZ1764618,MGYS00005802
+ERS632918,AAW-5-2010-A,SAMEA3180046,Aalborg West Q5 2010 A,57.0495,9.8648,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERZ1764622,MGYS00005802
+ERS632919,AAW-5-2010-B,SAMEA3180047,Aalborg West Q2 2010 B,57.0495,9.8648,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERZ1764624,MGYS00005802
+SRS1791806,Gp0138806,SAMN05720220,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from Japan - AD_JPNNA7_MetaG,37.43,138.83,Japan,,,,ERZ778037,MGYS00004766
+SRS1687463,Gp0138833,SAMN05720146,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from Japan - AD_JPNAS1_MetaG,43.77,142.37,Japan,,,,ERZ795030,MGYS00004911
+SRS1687472,Gp0138835,SAMN05720147,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from Japan - AD_JPNAS3_MetaG,43.77,142.37,Japan,,,,ERZ795049,MGYS00004922
+SRS1791743,Gp0138834,SAMN05720210,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from Japan - AD_JPNAS2_MetaG,43.77,142.37,Japan,,,,ERZ795058,MGYS00004931
+SRS1791745,Gp0138803,SAMN05720157,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from Japan - AD_JPNMR2_MetaG,36.29,139.38,Japan,,,,ERZ795060,MGYS00004933
+SRS1791804,Gp0138812,SAMN05720167,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from USA - AD_UKC075_MetaG,37.8,-122.27,USA,,,,ERZ778036,MGYS00004765
+SRS1687462,Gp0138811,SAMN05720219,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from USA - AD_UKC073_MetaG,37.8,-122.27,USA,,,,ERZ795029,MGYS00004910
+SRS1791740,Gp0138830,SAMN05720227,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from USA - AD_UKC052_MetaG,42.12,-87.65,USA,,,,ERZ795056,MGYS00004929
+SRS1791744,Gp0138819,SAMN05720168,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from USA - AD_UKC045_MetaG,40.12,-87.63,USA,,,,ERZ795059,MGYS00004932
+SRS1792068,Gp0141809,SAMN05720189,"Anaerobic biogas reactor microbial communites from Washington, USA - Biogas_R1 time_0 SIP DNA",47.6525,-122.3049,"USA:Washington, USA",,,,ERZ795066,MGYS00004939

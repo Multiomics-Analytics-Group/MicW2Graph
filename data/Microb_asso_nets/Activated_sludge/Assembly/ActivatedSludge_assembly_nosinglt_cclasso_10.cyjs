@@ -1,0 +1,344 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.10.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "cclasso_0.10",
+    "name" : "cclasso_0.10",
+    "SUID" : 128,
+    "__Annotations" : [ "" ],
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "169",
+        "shared_name" : "Plasmopara_viticola",
+        "cluster" : 2.0,
+        "degree" : 2.0,
+        "name" : "Plasmopara_viticola",
+        "SUID" : 169,
+        "id_original" : "Plasmopara_viticola",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 75.29669141769409,
+        "y" : -84.38028717041016
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "167",
+        "shared_name" : "Mycoplasma_hyorhinis",
+        "cluster" : 1.0,
+        "degree" : 2.0,
+        "name" : "Mycoplasma_hyorhinis",
+        "SUID" : 167,
+        "id_original" : "Mycoplasma_hyorhinis",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -131.96231126785278,
+        "y" : 93.11785125732422
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "165",
+        "shared_name" : "Adineta_vaga",
+        "cluster" : 1.0,
+        "degree" : 2.0,
+        "name" : "Adineta_vaga",
+        "SUID" : 165,
+        "id_original" : "Adineta_vaga",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -59.41497850418091,
+        "y" : 112.91185760498047
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "163",
+        "shared_name" : "Pseudomonas_moraviensis",
+        "cluster" : 1.0,
+        "degree" : 2.0,
+        "name" : "Pseudomonas_moraviensis",
+        "SUID" : 163,
+        "id_original" : "Pseudomonas_moraviensis",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -44.62619066238403,
+        "y" : -84.38028717041016
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "161",
+        "shared_name" : "Vahlkampfia_avara",
+        "cluster" : 2.0,
+        "degree" : 2.0,
+        "name" : "Vahlkampfia_avara",
+        "SUID" : 161,
+        "id_original" : "Vahlkampfia_avara",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 182.541512966156,
+        "y" : -73.74100494384766
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "159",
+        "shared_name" : "Jakoba_libera",
+        "cluster" : 2.0,
+        "degree" : 2.0,
+        "name" : "Jakoba_libera",
+        "SUID" : 159,
+        "id_original" : "Jakoba_libera",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 119.69259023666382,
+        "y" : 13.843528747558594
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "157",
+        "shared_name" : "Sorangium_cellulosum",
+        "cluster" : 1.0,
+        "degree" : 4.0,
+        "name" : "Sorangium_cellulosum",
+        "SUID" : 157,
+        "id_original" : "Sorangium_cellulosum",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -24.703308582305908,
+        "y" : 23.82958221435547
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "155",
+        "shared_name" : "Labrenzia_marina",
+        "cluster" : 1.0,
+        "degree" : 4.0,
+        "name" : "Labrenzia_marina",
+        "SUID" : 155,
+        "id_original" : "Labrenzia_marina",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -116.82400560379028,
+        "y" : -1.2012405395507812
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "189",
+        "source" : "161",
+        "target" : "169",
+        "asso" : 0.1936518,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 746,
+        "diss" : 0.6349599,
+        "source_original" : "Vahlkampfia_avara",
+        "target_original" : "Plasmopara_viticola",
+        "shared_name" : "Vahlkampfia_avara (interacts with) Plasmopara_viticola",
+        "adja" : 0.3650401,
+        "name" : "Vahlkampfia_avara (interacts with) Plasmopara_viticola",
+        "interaction" : "interacts with",
+        "SUID" : 189,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "187",
+        "source" : "159",
+        "target" : "169",
+        "asso" : 0.1164135,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 743,
+        "diss" : 0.6646753,
+        "source_original" : "Jakoba_libera",
+        "target_original" : "Plasmopara_viticola",
+        "shared_name" : "Jakoba_libera (interacts with) Plasmopara_viticola",
+        "adja" : 0.3353247,
+        "name" : "Jakoba_libera (interacts with) Plasmopara_viticola",
+        "interaction" : "interacts with",
+        "SUID" : 187,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "185",
+        "source" : "159",
+        "target" : "161",
+        "asso" : 0.1327522,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 740,
+        "diss" : 0.6585012,
+        "source_original" : "Jakoba_libera",
+        "target_original" : "Vahlkampfia_avara",
+        "shared_name" : "Jakoba_libera (interacts with) Vahlkampfia_avara",
+        "adja" : 0.3414988,
+        "name" : "Jakoba_libera (interacts with) Vahlkampfia_avara",
+        "interaction" : "interacts with",
+        "SUID" : 185,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "183",
+        "source" : "157",
+        "target" : "167",
+        "asso" : -0.21974,
+        "shared_interaction" : "interacts with",
+        "sign" : -1.0,
+        "data_key_column" : 737,
+        "diss" : 0.7809417,
+        "source_original" : "Sorangium_cellulosum",
+        "target_original" : "Mycoplasma_hyorhinis",
+        "shared_name" : "Sorangium_cellulosum (interacts with) Mycoplasma_hyorhinis",
+        "adja" : 0.2190583,
+        "name" : "Sorangium_cellulosum (interacts with) Mycoplasma_hyorhinis",
+        "interaction" : "interacts with",
+        "SUID" : 183,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "181",
+        "source" : "157",
+        "target" : "165",
+        "asso" : 0.143275,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 734,
+        "diss" : 0.6544941,
+        "source_original" : "Sorangium_cellulosum",
+        "target_original" : "Adineta_vaga",
+        "shared_name" : "Sorangium_cellulosum (interacts with) Adineta_vaga",
+        "adja" : 0.3455059,
+        "name" : "Sorangium_cellulosum (interacts with) Adineta_vaga",
+        "interaction" : "interacts with",
+        "SUID" : 181,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "179",
+        "source" : "157",
+        "target" : "163",
+        "asso" : 0.4401309,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 731,
+        "diss" : 0.5290884,
+        "source_original" : "Sorangium_cellulosum",
+        "target_original" : "Pseudomonas_moraviensis",
+        "shared_name" : "Sorangium_cellulosum (interacts with) Pseudomonas_moraviensis",
+        "adja" : 0.4709116,
+        "name" : "Sorangium_cellulosum (interacts with) Pseudomonas_moraviensis",
+        "interaction" : "interacts with",
+        "SUID" : 179,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "177",
+        "source" : "155",
+        "target" : "167",
+        "asso" : -0.21974,
+        "shared_interaction" : "interacts with",
+        "sign" : -1.0,
+        "data_key_column" : 728,
+        "diss" : 0.7809417,
+        "source_original" : "Labrenzia_marina",
+        "target_original" : "Mycoplasma_hyorhinis",
+        "shared_name" : "Labrenzia_marina (interacts with) Mycoplasma_hyorhinis",
+        "adja" : 0.2190583,
+        "name" : "Labrenzia_marina (interacts with) Mycoplasma_hyorhinis",
+        "interaction" : "interacts with",
+        "SUID" : 177,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "175",
+        "source" : "155",
+        "target" : "165",
+        "asso" : 0.143275,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 725,
+        "diss" : 0.6544941,
+        "source_original" : "Labrenzia_marina",
+        "target_original" : "Adineta_vaga",
+        "shared_name" : "Labrenzia_marina (interacts with) Adineta_vaga",
+        "adja" : 0.3455059,
+        "name" : "Labrenzia_marina (interacts with) Adineta_vaga",
+        "interaction" : "interacts with",
+        "SUID" : 175,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "173",
+        "source" : "155",
+        "target" : "163",
+        "asso" : 0.4401309,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 722,
+        "diss" : 0.5290884,
+        "source_original" : "Labrenzia_marina",
+        "target_original" : "Pseudomonas_moraviensis",
+        "shared_name" : "Labrenzia_marina (interacts with) Pseudomonas_moraviensis",
+        "adja" : 0.4709116,
+        "name" : "Labrenzia_marina (interacts with) Pseudomonas_moraviensis",
+        "interaction" : "interacts with",
+        "SUID" : 173,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "171",
+        "source" : "155",
+        "target" : "157",
+        "asso" : -0.3526316,
+        "shared_interaction" : "interacts with",
+        "sign" : -1.0,
+        "data_key_column" : 713,
+        "diss" : 0.8223842,
+        "source_original" : "Labrenzia_marina",
+        "target_original" : "Sorangium_cellulosum",
+        "shared_name" : "Labrenzia_marina (interacts with) Sorangium_cellulosum",
+        "adja" : 0.1776158,
+        "name" : "Labrenzia_marina (interacts with) Sorangium_cellulosum",
+        "interaction" : "interacts with",
+        "SUID" : 171,
+        "selected" : false
+      },
+      "selected" : false
+    } ]
+  }
+}

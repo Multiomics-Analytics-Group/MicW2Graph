@@ -1,0 +1,116 @@
+merged_files_allbiomes:
+  abundance: "data/EDA/Abundance_tables/Merged_tables/All_biomes_filtstud/all_biomes_merged_abund_tables_species_filtstud.csv"
+  taxonomy: "data/EDA/Abundance_tables/Merged_tables/All_biomes_filtstud/all_biomes_merged_taxa_tables_species_filtstud.csv"
+  samples: "data/EDA/Samples_metadata/Merged_tables/all_biomes_merged_samples_metadata_filtstud.csv"
+  study_ids: "data/EDA/Abundance_tables/Merged_tables/All_biomes_filtstud/all_biomes_studies_per_sample_filtstud.csv"
+
+merged_files_per_biome:
+  Wastewater:
+    abundance: "data/EDA/Abundance_tables/Merged_tables/Biomes/Wastewater/Wastewater_merged_abund_tables_species.csv"
+    taxonomy: "data/EDA/Abundance_tables/Merged_tables/Biomes/Wastewater/Wastewater_merged_taxa_tables_species.csv"
+  Wastewater_Water_and_sludge:
+    abundance: "data/EDA/Abundance_tables/Merged_tables/Biomes/Wastewater_Water_and_sludge/Wastewater_Water_and_sludge_merged_abund_tables_species.csv"
+    taxonomy: "data/EDA/Abundance_tables/Merged_tables/Biomes/Wastewater_Water_and_sludge/Wastewater_Water_and_sludge_merged_taxa_tables_species.csv"
+  Wastewater_Industrial_wastewater:
+    abundance: "data/EDA/Abundance_tables/Merged_tables/Biomes/Wastewater_Industrial_wastewater/Wastewater_Industrial_wastewater_merged_abund_tables_species.csv"
+    taxonomy: "data/EDA/Abundance_tables/Merged_tables/Biomes/Wastewater_Industrial_wastewater/Wastewater_Industrial_wastewater_merged_taxa_tables_species.csv"
+  Wastewater_Activated_Sludge:
+    abundance: "data/EDA/Abundance_tables/Merged_tables/Biomes/Wastewater_Activated_Sludge/Wastewater_Activated_Sludge_merged_abund_tables_species.csv"
+    taxonomy: "data/EDA/Abundance_tables/Merged_tables/Biomes/Wastewater_Activated_Sludge/Wastewater_Activated_Sludge_merged_taxa_tables_species.csv"
+
+microbial_asso_nets:
+  Activated_sludge:
+    Assembly: "data/Microb_asso_nets/Activated_sludge/Assembly/ActivatedSludge_assembly_nosinglt_cclasso_10"
+    Metagenomics: "data/Microb_asso_nets/Activated_sludge/Metagenomics/ActivatedSludge_metagenomic_nosinglt_cclasso_70"
+    Metatranscriptomics: "data/Microb_asso_nets/Activated_sludge/Metatranscriptomics/ActivatedSludge_metatranscriptomic_nosinglt_cclasso_40"
+  Wastewater:
+    Assembly: "data/Microb_asso_nets/Wastewater/Assembly/Wastewater_assembly_nosinglt_cclasso_10"
+    Metagenomics: "data/Microb_asso_nets/Wastewater/Metagenomics/Wastewater_metagenomic_nosinglt_cclasso_25"
+    Metatranscriptomics: "data/Microb_asso_nets/Wastewater/Metatranscriptomics/Wastewater_metatranscriptomic_nosinglt_cclasso_60"
+  Industrial_wastewater:
+    Metagenomics: "data/Microb_asso_nets/Industrial_wastewater/Industrial_wastewater_metagenomic_nosinglt_cclasso_50"
+  Water_and_sludge:
+    Metagenomics: "data/Microb_asso_nets/Water_and_sludge/Water_and_sludge_metagenomic_nosinglt_cclasso_70"
+
+knowledge_graphs:
+  Activated_sludge:
+    Assembly: "data/KG/Activated_sludge/ActivatedSludge_assembly"
+    Metagenomics: "data/KG/Activated_sludge/ActivatedSludge_metagenomics"
+    Metatranscriptomics: "data/KG/Activated_sludge/ActivatedSludge_metatranscriptomics"
+  Wastewater:
+    Assembly: "data/KG/Wastewater/Wastewater_assembly"
+    Metagenomics: "data/KG/Wastewater/Wastewater_metagenomics"
+    Metatranscriptomics: "data/KG/Wastewater/Wastewater_metatrasncriptomics"
+  Industrial_wastewater:
+    Metagenomics: "data/KG/Industrial_wastewater/IndustrialWastewater_metagenomics"
+  Water_and_sludge:
+    Metagenomics: "data/KG/Water_and_sludge/WaterSludge_metagenomics"
+  Complete_kg: "data/KG/Complete_KG/MicW2Graph"
+
+case_studies:
+  Wastewater_and_metagenomics_association_cluster1: "data/Case_studies/Wastewater_and_metagenomics_association_cluster1"
+  Wastewater_and_metagenomics_association_cluster2: "data/Case_studies/Wastewater_and_metagenomics_association_cluster2"
+  Wastewater_and_metagenomics_functional_cluster: "data/Case_studies/Wastewater_and_metagenomics_functional_cluster"
+  Activated_sludge_and_metagenomics_association_cluster: "data/Case_studies/Activated_sludge_and_metagenomics_association_cluster"
+
+kg_nodes:
+  Class:
+    color: '#d6d211ff'
+    border-color: '#888408ff'
+  Family:
+    color: '#2793146b'
+    border-color: '#31c17aff'
+  Genus:
+    color: '#7ad1ffff'
+    border-color: '#009bedff'
+  Kingdom:
+    color: '#e9ccaaff'
+    border-color: '#cf8f44ff'
+  Order:
+    color: '#c5aae9ff'
+    border-color: '#9b6bd9ff'
+  Phylum:
+    color: '#b5e3ecff'
+    border-color: '#47b9d1ff'
+  Species:
+    color: '#e3cd72ff'
+    border-color: '#a48f23ff'
+  ActivityAndBehavior:
+    color: '#77b3ddc9'
+    border-color: '#256491c9'
+  BiologicalProcess:
+    color: '#cdfb98ff'
+    border-color: '#76d30aff'
+  ChemicalEntity:
+    color: '#e9aaaaff'
+    border-color: '#d65c5cff'
+  EnvironmentalFeature:
+    color: '#ecb5ebff'
+    border-color: '#d761d6ff'
+  PhenotypicFeature:
+    color: '#f3ab8eff'
+    border-color: '#e75d24ff'
+
+kg_edges:
+  ASSOCIATED_WITH:
+    color: '#B53C44FF'
+  PARTICIPATES_IN:
+    color: '#11449cff'
+  CAPABLE_OF:
+    color: '#11449cff'
+  PRODUCES:
+    color: '#11449cff'
+  HAS_PHENOTYPE:
+    color: '#11449cff'
+  LOCATED_IN:
+    color: '#11449cff'
+  HAS_NUTRIENT:
+    color: '#11449cff'
+  SUBCLASS_OF: 
+    color: '#a5abb6ff'
+
+urls:
+
+
+
+

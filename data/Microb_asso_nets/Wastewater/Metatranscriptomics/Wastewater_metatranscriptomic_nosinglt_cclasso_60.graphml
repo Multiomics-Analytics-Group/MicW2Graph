@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="SUID" attr.type="long" for="node" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="node" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="node" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="node" id="selected"/>
+    <key attr.name="id" attr.type="string" for="node" id="id"/>
+    <key attr.name="degree" attr.type="double" for="node" id="degree"/>
+    <key attr.name="cluster" attr.type="double" for="node" id="cluster"/>
+    <key attr.name="SUID" attr.type="long" for="edge" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="edge" id="shared name"/>
+    <key attr.name="shared interaction" attr.type="string" for="edge" id="shared interaction"/>
+    <key attr.name="name" attr.type="string" for="edge" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="edge" id="selected"/>
+    <key attr.name="interaction" attr.type="string" for="edge" id="interaction"/>
+    <key attr.name="source" attr.type="string" for="edge" id="source"/>
+    <key attr.name="target" attr.type="string" for="edge" id="target"/>
+    <key attr.name="data.key.column" attr.type="int" for="edge" id="data.key.column"/>
+    <key attr.name="asso" attr.type="double" for="edge" id="asso"/>
+    <key attr.name="diss" attr.type="double" for="edge" id="diss"/>
+    <key attr.name="adja" attr.type="double" for="edge" id="adja"/>
+    <key attr.name="sign" attr.type="double" for="edge" id="sign"/>
+    <key attr.name="SUID" attr.type="long" for="graph" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="graph" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="graph" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="graph" id="selected"/>
+    <key attr.name="__Annotations" attr.type="string" for="graph" id="__Annotations"/>
+    <graph edgedefault="directed" id="cclasso_0.60">
+        <node id="2659">
+            <data key="SUID">2659</data>
+            <data key="shared name">Pseudoxanthomonas_mexicana</data>
+            <data key="name">Pseudoxanthomonas_mexicana</data>
+            <data key="selected">false</data>
+            <data key="id">Pseudoxanthomonas_mexicana</data>
+            <data key="degree">3.0</data>
+            <data key="cluster">3.0</data>
+        </node>
+        <node id="2657">
+            <data key="SUID">2657</data>
+            <data key="shared name">Candidimonas_humi</data>
+            <data key="name">Candidimonas_humi</data>
+            <data key="selected">false</data>
+            <data key="id">Candidimonas_humi</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">2.0</data>
+        </node>
+        <node id="2655">
+            <data key="SUID">2655</data>
+            <data key="shared name">Pseudomonas_citronellolis</data>
+            <data key="name">Pseudomonas_citronellolis</data>
+            <data key="selected">false</data>
+            <data key="id">Pseudomonas_citronellolis</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <node id="2653">
+            <data key="SUID">2653</data>
+            <data key="shared name">Brackiella_oedipodis</data>
+            <data key="name">Brackiella_oedipodis</data>
+            <data key="selected">false</data>
+            <data key="id">Brackiella_oedipodis</data>
+            <data key="degree">3.0</data>
+            <data key="cluster">3.0</data>
+        </node>
+        <node id="2651">
+            <data key="SUID">2651</data>
+            <data key="shared name">Paracoccus_kawasakiensis</data>
+            <data key="name">Paracoccus_kawasakiensis</data>
+            <data key="selected">false</data>
+            <data key="id">Paracoccus_kawasakiensis</data>
+            <data key="degree">3.0</data>
+            <data key="cluster">3.0</data>
+        </node>
+        <node id="2649">
+            <data key="SUID">2649</data>
+            <data key="shared name">Paenochrobactrum_glaciei</data>
+            <data key="name">Paenochrobactrum_glaciei</data>
+            <data key="selected">false</data>
+            <data key="id">Paenochrobactrum_glaciei</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">2.0</data>
+        </node>
+        <node id="2647">
+            <data key="SUID">2647</data>
+            <data key="shared name">Dysgonomonas_gadei</data>
+            <data key="name">Dysgonomonas_gadei</data>
+            <data key="selected">false</data>
+            <data key="id">Dysgonomonas_gadei</data>
+            <data key="degree">3.0</data>
+            <data key="cluster">3.0</data>
+        </node>
+        <node id="2645">
+            <data key="SUID">2645</data>
+            <data key="shared name">Tessaracoccus_bendigoensis</data>
+            <data key="name">Tessaracoccus_bendigoensis</data>
+            <data key="selected">false</data>
+            <data key="id">Tessaracoccus_bendigoensis</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">2.0</data>
+        </node>
+        <node id="2643">
+            <data key="SUID">2643</data>
+            <data key="shared name">Kocuria_palustris</data>
+            <data key="name">Kocuria_palustris</data>
+            <data key="selected">false</data>
+            <data key="id">Kocuria_palustris</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <node id="2641">
+            <data key="SUID">2641</data>
+            <data key="shared name">Millisia_brevis</data>
+            <data key="name">Millisia_brevis</data>
+            <data key="selected">false</data>
+            <data key="id">Millisia_brevis</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <edge source="2653" target="2659">
+            <data key="SUID">2683</data>
+            <data key="shared name">Brackiella_oedipodis (interacts with) Pseudoxanthomonas_mexicana</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Brackiella_oedipodis (interacts with) Pseudoxanthomonas_mexicana</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Brackiella_oedipodis</data>
+            <data key="target">Pseudoxanthomonas_mexicana</data>
+            <data key="data.key.column">2141767</data>
+            <data key="asso">0.6137617</data>
+            <data key="diss">0.4394533</data>
+            <data key="adja">0.5605467</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="2651" target="2659">
+            <data key="SUID">2681</data>
+            <data key="shared name">Paracoccus_kawasakiensis (interacts with) Pseudoxanthomonas_mexicana</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Paracoccus_kawasakiensis (interacts with) Pseudoxanthomonas_mexicana</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Paracoccus_kawasakiensis</data>
+            <data key="target">Pseudoxanthomonas_mexicana</data>
+            <data key="data.key.column">2141764</data>
+            <data key="asso">0.6137617</data>
+            <data key="diss">0.4394533</data>
+            <data key="adja">0.5605467</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="2651" target="2653">
+            <data key="SUID">2679</data>
+            <data key="shared name">Paracoccus_kawasakiensis (interacts with) Brackiella_oedipodis</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Paracoccus_kawasakiensis (interacts with) Brackiella_oedipodis</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Paracoccus_kawasakiensis</data>
+            <data key="target">Brackiella_oedipodis</data>
+            <data key="data.key.column">2141761</data>
+            <data key="asso">0.6137617</data>
+            <data key="diss">0.4394533</data>
+            <data key="adja">0.5605467</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="2649" target="2657">
+            <data key="SUID">2677</data>
+            <data key="shared name">Paenochrobactrum_glaciei (interacts with) Candidimonas_humi</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Paenochrobactrum_glaciei (interacts with) Candidimonas_humi</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Paenochrobactrum_glaciei</data>
+            <data key="target">Candidimonas_humi</data>
+            <data key="data.key.column">2141758</data>
+            <data key="asso">0.8882571</data>
+            <data key="diss">0.2363714</data>
+            <data key="adja">0.7636286</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="2647" target="2659">
+            <data key="SUID">2675</data>
+            <data key="shared name">Dysgonomonas_gadei (interacts with) Pseudoxanthomonas_mexicana</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Dysgonomonas_gadei (interacts with) Pseudoxanthomonas_mexicana</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Dysgonomonas_gadei</data>
+            <data key="target">Pseudoxanthomonas_mexicana</data>
+            <data key="data.key.column">2141755</data>
+            <data key="asso">0.6137617</data>
+            <data key="diss">0.4394533</data>
+            <data key="adja">0.5605467</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="2647" target="2653">
+            <data key="SUID">2673</data>
+            <data key="shared name">Dysgonomonas_gadei (interacts with) Brackiella_oedipodis</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Dysgonomonas_gadei (interacts with) Brackiella_oedipodis</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Dysgonomonas_gadei</data>
+            <data key="target">Brackiella_oedipodis</data>
+            <data key="data.key.column">2141752</data>
+            <data key="asso">0.6137617</data>
+            <data key="diss">0.4394533</data>
+            <data key="adja">0.5605467</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="2647" target="2651">
+            <data key="SUID">2671</data>
+            <data key="shared name">Dysgonomonas_gadei (interacts with) Paracoccus_kawasakiensis</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Dysgonomonas_gadei (interacts with) Paracoccus_kawasakiensis</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Dysgonomonas_gadei</data>
+            <data key="target">Paracoccus_kawasakiensis</data>
+            <data key="data.key.column">2141749</data>
+            <data key="asso">0.6137617</data>
+            <data key="diss">0.4394533</data>
+            <data key="adja">0.5605467</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="2645" target="2657">
+            <data key="SUID">2669</data>
+            <data key="shared name">Tessaracoccus_bendigoensis (interacts with) Candidimonas_humi</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Tessaracoccus_bendigoensis (interacts with) Candidimonas_humi</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Tessaracoccus_bendigoensis</data>
+            <data key="target">Candidimonas_humi</data>
+            <data key="data.key.column">2141746</data>
+            <data key="asso">0.8882571</data>
+            <data key="diss">0.2363714</data>
+            <data key="adja">0.7636286</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="2645" target="2649">
+            <data key="SUID">2667</data>
+            <data key="shared name">Tessaracoccus_bendigoensis (interacts with) Paenochrobactrum_glaciei</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Tessaracoccus_bendigoensis (interacts with) Paenochrobactrum_glaciei</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Tessaracoccus_bendigoensis</data>
+            <data key="target">Paenochrobactrum_glaciei</data>
+            <data key="data.key.column">2141743</data>
+            <data key="asso">0.8882571</data>
+            <data key="diss">0.2363714</data>
+            <data key="adja">0.7636286</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="2643" target="2655">
+            <data key="SUID">2665</data>
+            <data key="shared name">Kocuria_palustris (interacts with) Pseudomonas_citronellolis</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Kocuria_palustris (interacts with) Pseudomonas_citronellolis</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Kocuria_palustris</data>
+            <data key="target">Pseudomonas_citronellolis</data>
+            <data key="data.key.column">2141740</data>
+            <data key="asso">0.669785</data>
+            <data key="diss">0.4063342</data>
+            <data key="adja">0.5936658</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="2641" target="2655">
+            <data key="SUID">2663</data>
+            <data key="shared name">Millisia_brevis (interacts with) Pseudomonas_citronellolis</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Millisia_brevis (interacts with) Pseudomonas_citronellolis</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Millisia_brevis</data>
+            <data key="target">Pseudomonas_citronellolis</data>
+            <data key="data.key.column">2141737</data>
+            <data key="asso">0.6782758</data>
+            <data key="diss">0.4010762</data>
+            <data key="adja">0.5989238</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="2641" target="2643">
+            <data key="SUID">2661</data>
+            <data key="shared name">Millisia_brevis (interacts with) Kocuria_palustris</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Millisia_brevis (interacts with) Kocuria_palustris</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Millisia_brevis</data>
+            <data key="target">Kocuria_palustris</data>
+            <data key="data.key.column">2141734</data>
+            <data key="asso">0.7080307</data>
+            <data key="diss">0.3820794</data>
+            <data key="adja">0.6179206</data>
+            <data key="sign">1.0</data>
+        </edge>
+    </graph>
+</graphml>

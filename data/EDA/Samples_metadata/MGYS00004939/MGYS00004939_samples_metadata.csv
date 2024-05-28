@@ -1,0 +1,2 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+SRS1792068,Gp0141809,SAMN05720189,"Anaerobic biogas reactor microbial communites from Washington, USA - Biogas_R1 time_0 SIP DNA",47.6525,-122.3049,"USA:Washington, USA",,,,ERZ795066

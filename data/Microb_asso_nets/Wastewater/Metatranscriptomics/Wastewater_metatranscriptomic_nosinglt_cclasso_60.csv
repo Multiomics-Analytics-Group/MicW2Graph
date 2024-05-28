@@ -1,0 +1,13 @@
+"v1","v2","asso","diss","adja"
+"Millisia_brevis","Kocuria_palustris",0.708030656909628,0.382079404764489,0.617920595235511
+"Millisia_brevis","Pseudomonas_citronellolis",0.678275798913728,0.401076177980114,0.598923822019886
+"Kocuria_palustris","Pseudomonas_citronellolis",0.669785034354168,0.406334200902306,0.593665799097694
+"Tessaracoccus_bendigoensis","Paenochrobactrum_glaciei",0.888257104813133,0.236371418732116,0.763628581267884
+"Tessaracoccus_bendigoensis","Candidimonas_humi",0.888257104813195,0.236371418732051,0.763628581267949
+"Dysgonomonas_gadei","Paracoccus_kawasakiensis",0.613761680957729,0.439453250666252,0.560546749333748
+"Dysgonomonas_gadei","Brackiella_oedipodis",0.613761680957838,0.43945325066619,0.56054674933381
+"Dysgonomonas_gadei","Pseudoxanthomonas_mexicana",0.613761680957761,0.439453250666234,0.560546749333766
+"Paenochrobactrum_glaciei","Candidimonas_humi",0.888257104813124,0.236371418732126,0.763628581267874
+"Paracoccus_kawasakiensis","Brackiella_oedipodis",0.613761680957774,0.439453250666226,0.560546749333774
+"Paracoccus_kawasakiensis","Pseudoxanthomonas_mexicana",0.613761680957798,0.439453250666213,0.560546749333787
+"Brackiella_oedipodis","Pseudoxanthomonas_mexicana",0.613761680957807,0.439453250666207,0.560546749333793

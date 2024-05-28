@@ -1,0 +1,17 @@
+Superkingdom,Kingdom,Phylum,Class,Order,Family,Genus,Family_Genus,ERZ781404,ERZ781406,ERZ781405
+Bacteria,Bacteria,Acidobacteria,Solibacteres,Solibacterales,Bryobacteraceae,Bryobacter,Bryobacter_Bryobacteraceae,1.0,2.0,1.0
+Bacteria,Bacteria,Actinobacteria,Actinobacteria,Nakamurellales,Nakamurellaceae,Nakamurella,Nakamurella_Nakamurellaceae,2.0,0.0,0.0
+Bacteria,Bacteria,Bacteroidetes,Chitinophagia,Chitinophagales,Chitinophagaceae,Ferruginibacter,Ferruginibacter_Chitinophagaceae,0.0,1.0,1.0
+Bacteria,Bacteria,Deinococcus-Thermus,Deinococci,Deinococcales,Trueperaceae,Truepera,Truepera_Trueperaceae,1.0,1.0,1.0
+Bacteria,Bacteria,Ignavibacteriae,Ignavibacteria,Ignavibacteriales,Ignavibacteriaceae,Ignavibacterium,Ignavibacterium_Ignavibacteriaceae,1.0,2.0,2.0
+Bacteria,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,Brevundimonas_Caulobacteraceae,1.0,0.0,0.0
+Bacteria,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,Phenylobacterium_Caulobacteraceae,0.0,1.0,1.0
+Bacteria,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Rhodobacter,Rhodobacter_Rhodobacteraceae,0.0,1.0,0.0
+Bacteria,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingopyxis,Sphingopyxis_Sphingomonadaceae,1.0,1.0,1.0
+Bacteria,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Limnobacter,Limnobacter_Burkholderiaceae,1.0,1.0,1.0
+Bacteria,Bacteria,Proteobacteria,Betaproteobacteria,Nitrosomonadales,Nitrosomonadaceae,Nitrosomonas,Nitrosomonas_Nitrosomonadaceae,1.0,2.0,3.0
+Bacteria,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas_Pseudomonadaceae,0.0,0.0,1.0
+Bacteria,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Thermomonas,Thermomonas_Xanthomonadaceae,0.0,0.0,1.0
+Bacteria,Bacteria,Spirochaetes,Spirochaetia,,Leptospiraceae,Leptonema,Leptonema_Leptospiraceae,0.0,1.0,1.0
+Bacteria,Bacteria,Verrucomicrobia,Spartobacteria,,,Terrimicrobium,Terrimicrobium,0.0,1.0,0.0
+Eukaryota,Metazoa,Nematoda,Chromadorea,Rhabditida,Rhabditidae,Caenorhabditis,Caenorhabditis_Rhabditidae,0.0,2.0,0.0

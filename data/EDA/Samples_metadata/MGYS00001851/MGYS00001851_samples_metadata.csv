@@ -1,0 +1,7 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+DRS034400,DRS034400,SAMD00056903,DRS034400,35.6693,139.4257,"Japan:Tokyo, Hachioji",,thermophilic anaerobic methanogenic reactor,water,DRR066655
+DRS034401,DRS034401,SAMD00056904,DRS034401,35.6693,139.4257,"Japan:Tokyo, Hachioji",,thermophilic anaerobic methanogenic reactor,biofilm,DRR066667;DRR066656
+DRS034402,DRS034402,SAMD00056905,DRS034402,35.6693,139.4257,"Japan:Tokyo, Hachioji",,thermophilic anaerobic methanogenic reactor,water,DRR066657
+DRS034403,DRS034403,SAMD00056906,DRS034403,35.6693,139.4257,"Japan:Tokyo, Hachioji",,thermophilic anaerobic methanogenic reactor,biofilm,DRR066668;DRR066658
+DRS034404,DRS034404,SAMD00056907,DRS034404,35.6693,139.4257,"Japan:Tokyo, Hachioji",,thermophilic anaerobic methanogenic reactor,water,DRR066659
+DRS034405,DRS034405,SAMD00056908,DRS034405,35.6693,139.4257,"Japan:Tokyo, Hachioji",,thermophilic anaerobic methanogenic reactor,biofilm,DRR066660

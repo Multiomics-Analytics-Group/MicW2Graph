@@ -1,0 +1,2 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+ERS946133,AS95Spen15102014,SAMEA3638984,AS95Spen15102014,54.7149,-1.614,United Kingdom,Freshwater biome,Wastewater treatment plant,Sewage,ERR1101751

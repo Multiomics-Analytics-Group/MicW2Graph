@@ -1,0 +1,2 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+ERS223627,palm oil mill effluent (POME) metagenome,SAMEA2163750,palm oil mill effluent (POME) metagenome,2.0,101.0,Malaysia,palm oil mill effluent,closed biodigester,sludge,ERR276848

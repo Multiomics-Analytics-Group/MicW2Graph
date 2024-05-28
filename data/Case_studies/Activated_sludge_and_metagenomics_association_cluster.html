@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: white;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"betweenness_centrality": 1038.6530648905996, "border-color": "#009bedff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": 0.2767857142857143, "color": {"background": "#7ad1ffff", "border": "#009bedff"}, "degree_centrality": 20.0, "font": {"size": 12}, "id": "n10", "label": "Nitrosomonas", "labels": ":Genus", "name": "Nitrosomonas", "pagerank_centrality": 2.4792479654135016, "propertyValue": "[\u0027has_rank NCBITaxon:genus\u0027]", "shape": "dot", "size": 24, "synonym": "Unknown", "xref": "[\u0027GC_ID:11\u0027]"}, {"betweenness_centrality": 846.4779036407153, "border-color": "#76d30aff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "BiologicalProcess", "closeness_centrality": 0.32978723404255317, "color": {"background": "#cdfb98ff", "border": "#76d30aff"}, "degree_centrality": 18.0, "description": "A trophic process during which a living entity acquires food and energy by consuming another organism or organism part, living or dead.", "font": {"size": 12}, "id": "n81", "iri": "http://purl.obolibrary.org/obo/ECOCORE_00000011", "label": "Heterotrophy", "labels": ":BiologicalProcess", "name": "Heterotrophy", "pagerank_centrality": 1.7438053272001854, "providedBy": "MiDAS|KG-Microbe", "shape": "dot", "size": 21, "synonym": "", "xref": ""}, {"betweenness_centrality": 0.0, "border-color": "#76d30aff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "BiologicalProcess", "closeness_centrality": 0.2171628721541156, "color": {"background": "#cdfb98ff", "border": "#76d30aff"}, "degree_centrality": 2.0, "description": "A trophic process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from preformed molecules. Autotrophs are able to fix CO2 as a carbon source for growth. Important examples in wastewater treatment include nitrite and ammonia oxidizers (NOB and AOB), anaerobic ammonia oxidizers (anammox). Mixotrophs can obtain carbon by fixing CO2 and or from organic sources (heterotrophy). The criterium for this MiDAS field is the potential for CO2 fixation i.e. organisms possessing the Calvin-cycle.", "font": {"size": 12}, "id": "n69", "iri": "http://purl.obolibrary.org/obo/ECOCORE_00000163", "label": "Chemotrophy", "labels": ":BiologicalProcess", "name": "Chemotrophy", "pagerank_centrality": 0.3591291234831877, "providedBy": "MiDAS|KG-Microbe", "shape": "dot", "size": 8, "synonym": "", "xref": ""}, {"betweenness_centrality": 466.96011170404756, "border-color": "#76d30aff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "BiologicalProcess", "closeness_centrality": 0.3147208121827411, "color": {"background": "#cdfb98ff", "border": "#76d30aff"}, "degree_centrality": 18.0, "description": "The chemical reactions and pathways involving carbohydrates, any of a group of organic compounds based of the general formula Cx(H2O)y. The three main classes of organics fed into wastewater treatment systems are represented here: Lipids/fatty acids; carbohydrates/sugars; proteins/amino acids. In this MiDAS field guide there is no differentiation between those able to use complex organics and those only able to utilize simple compounds released during hydrolysis. Where known, this is covered in the genus description. Organisms only need to reportedly assimilate one compound for the class to be designated as positive for this field.", "font": {"size": 12}, "id": "n291", "iri": "http://purl.obolibrary.org/obo/GO_0005975 ", "label": "Carbohydrate metabolic process", "labels": ":BiologicalProcess", "name": "Carbohydrate metabolic process", "pagerank_centrality": 1.7413181515657719, "providedBy": "MiDAS", "shape": "dot", "size": 15, "synonym": "carbohydrate metabolism", "xref": ""}, {"betweenness_centrality": 55.83398998662155, "border-color": "#76d30aff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "BiologicalProcess", "closeness_centrality": 0.2572614107883817, "color": {"background": "#cdfb98ff", "border": "#76d30aff"}, "degree_centrality": 4.0, "description": "The reduction of nitrate to dinitrogen by four reactions; each intermediate is transformed to the next lower oxidation state; also part of cellular bioenergetics; the nitrogen compounds can serve as terminal acceptors for electron transport phosphorylation in place of oxygen. The denitrifiers are usually facultative-anaerobic heterotrophic organisms utilizing nitrate and/or nitrite as electron acceptors in the absence of oxygen. Denitrification is the final step of nitrogen removal from wastewater and generally occurs under anaerobic conditions. Nitrate is available from the oxidation of ammonia by the aerobic activities of the nitrifiers (AOB and NOB). Denitrification involves the sequential reduction of nitrate to inert dinitrogen gas, via several intermediates (nitrite, nitric oxide (gas) and nitrous oxide (gas)). Not all organisms involved in denitrification possess all the genes for reduction of nitrate all the way to dinitrogen gas. As such, for MiDAS profiles, the nitrite reducing organisms are selected to represent the denitrifiers; given denitrification is defined as \u201cthe dissimilatory transformation of nitrate or nitrite to a gas species concomitant with energy conservation\u201d and not all organisms capable of nitrate reduction can reduce nitrite.", "font": {"size": 12}, "id": "n65", "iri": "http://purl.obolibrary.org/obo/GO_0019333", "label": "Denitrification pathway", "labels": ":BiologicalProcess", "name": "Denitrification pathway", "pagerank_centrality": 0.5415841339380558, "providedBy": "MiDAS|KG-Microbe", "shape": "dot", "size": 8, "synonym": "", "xref": ""}, {"betweenness_centrality": 241.57325920163362, "border-color": "#76d30aff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "BiologicalProcess", "closeness_centrality": 0.30170316301703165, "color": {"background": "#cdfb98ff", "border": "#76d30aff"}, "degree_centrality": 14.0, "description": "The chemical reactions and pathways involving a short-chain fatty acid. A short-chain fatty acid has an aliphatic tail containing fewer than 6 carbons. The three main classes of organics fed into wastewater treatment systems are represented here: Lipids/fatty acids; carbohydrates/sugars; proteins/amino acids. In this MiDAS field guide there is no differentiation between those able to use complex organics and those only able to utilize simple compounds released during hydrolysis. Where known, this is covered in the genus description. Organisms only need to reportedly assimilate one compound for the class to be designated as positive for this field.", "font": {"size": 12}, "id": "n290", "iri": "http://purl.obolibrary.org/obo/GO_0046459 ", "label": "Short-chain fatty acid metabolic process", "labels": ":BiologicalProcess", "name": "Short-chain fatty acid metabolic process", "pagerank_centrality": 1.3725780668159704, "providedBy": "MiDAS", "shape": "dot", "size": 11, "synonym": "short-chain fatty acid metabolism", "xref": ""}, {"betweenness_centrality": 132.95147300068362, "border-color": "#a48f23ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": 0.22103386809269163, "cluster": "3", "color": {"background": "#e3cd72ff", "border": "#a48f23ff"}, "degree_centrality": 6.0, "font": {"size": 12}, "id": "n50", "label": "Nitrosomonas mobilis", "labels": ":Species", "name": "Nitrosomonas mobilis", "pagerank_centrality": 0.8785321875992748, "propertyValue": "[\u0027has_rank NCBITaxon:species\u0027]", "shape": "dot", "size": 10, "synonym": "[\u0027\"Nitrosococcus mobilis\" RELATED synonym []\u0027]", "xref": "[\u0027GC_ID:11\u0027, \u0027PMID:5979\u0027]"}, {"betweenness_centrality": 132.95147300068362, "border-color": "#a48f23ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": 0.22103386809269163, "cluster": "3", "color": {"background": "#e3cd72ff", "border": "#a48f23ff"}, "degree_centrality": 6.0, "font": {"size": 12}, "id": "n51", "label": "Nitrosomonas halophila", "labels": ":Species", "name": "Nitrosomonas halophila", "pagerank_centrality": 0.8785321875992748, "propertyValue": "[\u0027has_rank NCBITaxon:species\u0027]", "shape": "dot", "size": 10, "synonym": "Unknown", "xref": "[\u0027GC_ID:11\u0027, \u0027PMID:11511864\u0027]"}, {"betweenness_centrality": 164.94294600136692, "border-color": "#a48f23ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": 0.18618618618618618, "cluster": "3", "color": {"background": "#e3cd72ff", "border": "#a48f23ff"}, "degree_centrality": 6.0, "font": {"size": 12}, "id": "n52", "label": "Thiodictyon syntrophicum", "labels": ":Species", "name": "Thiodictyon syntrophicum", "pagerank_centrality": 0.966349880344243, "propertyValue": "[\u0027has_rank NCBITaxon:species\u0027]", "shape": "dot", "size": 10, "synonym": "[\u0027\"Thiodictyon syntrophicum\" EXACT equivalent_name []\u0027]", "xref": "[\u0027GC_ID:11\u0027, \u0027PMID:22386960\u0027, \u0027PMID:7857801\u0027, \u0027PMID:8123559\u0027]"}, {"betweenness_centrality": 77.02294600136707, "border-color": "#009bedff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": 0.1646746347941567, "color": {"background": "#7ad1ffff", "border": "#009bedff"}, "degree_centrality": 4.0, "font": {"size": 12}, "id": "n11", "label": "Thiodictyon", "labels": ":Genus", "name": "Thiodictyon", "pagerank_centrality": 0.7610431108179928, "propertyValue": "[\u0027has_rank NCBITaxon:genus\u0027]", "shape": "dot", "size": 9, "synonym": "Unknown", "xref": "[\u0027GC_ID:11\u0027]"}]);
+                  edges = new vis.DataSet([{"color": "#11449cff", "font": {"size": 6}, "from": "n10", "hasattribute": "Positive", "id": "e80", "label": "PARTICIPATES_IN", "providedBy": "MiDAS", "supportingStudyContext": "[\u0027In_vitro_Genomic\u0027]", "to": "n81", "width": 1}, {"color": "#11449cff", "font": {"size": 6}, "from": "n10", "hasattribute": "Positive", "id": "e87", "label": "PARTICIPATES_IN", "providedBy": "MiDAS", "supportingStudyContext": "[\u0027In_situ\u0027, \u0027In_vitro_Genomic\u0027]", "to": "n69", "width": 1}, {"color": "#11449cff", "font": {"size": 6}, "from": "n10", "hasattribute": "Positive", "id": "e89", "label": "PARTICIPATES_IN", "providedBy": "MiDAS", "supportingStudyContext": "[\u0027In_vitro_Genomic\u0027]", "to": "n291", "width": 1}, {"color": "#11449cff", "font": {"size": 6}, "from": "n10", "hasattribute": "Positive", "id": "e109", "label": "PARTICIPATES_IN", "providedBy": "MiDAS", "supportingStudyContext": "[\u0027In_vitro_Genomic\u0027]", "to": "n65", "width": 1}, {"color": "#11449cff", "font": {"size": 6}, "from": "n10", "hasattribute": "Positive", "id": "e113", "label": "PARTICIPATES_IN", "providedBy": "MiDAS", "supportingStudyContext": "[\u0027In_vitro_Genomic\u0027]", "to": "n290", "width": 1}, {"associationSlot": "0.716895209779724", "biome": "ENVO_00002046", "biomeName": "activatedsludge", "color": "#B53C44FF", "font": {"size": 6}, "from": "n50", "id": "e24", "label": "ASSOCIATED_WITH", "supportingDataSource": "cclasso microbial association network", "supportingStudyMethodType": "metagenomics", "to": "n51", "width": 1}, {"associationSlot": "0.711466759665129", "biome": "ENVO_00002046", "biomeName": "activatedsludge", "color": "#B53C44FF", "font": {"size": 6}, "from": "n50", "id": "e25", "label": "ASSOCIATED_WITH", "supportingDataSource": "cclasso microbial association network", "supportingStudyMethodType": "metagenomics", "to": "n52", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n50", "id": "e179", "label": "SUBCLASS_OF", "to": "n10", "width": 1}, {"associationSlot": "0.712904363245591", "biome": "ENVO_00002046", "biomeName": "activatedsludge", "color": "#B53C44FF", "font": {"size": 6}, "from": "n51", "id": "e26", "label": "ASSOCIATED_WITH", "supportingDataSource": "cclasso microbial association network", "supportingStudyMethodType": "metagenomics", "to": "n52", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n51", "id": "e180", "label": "SUBCLASS_OF", "to": "n10", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n52", "id": "e181", "label": "SUBCLASS_OF", "to": "n11", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.005,
+            "damping": 0.4,
+            "gravitationalConstant": -15,
+            "springConstant": 0.1,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

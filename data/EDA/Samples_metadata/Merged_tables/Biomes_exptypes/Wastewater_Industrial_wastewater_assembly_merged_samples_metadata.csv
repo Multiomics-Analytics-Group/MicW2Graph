@@ -1,0 +1,4 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids,study_id
+SRS1791885,Gp0138790,SAMN05720209,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from China - AD_SCU002_MetaG,30.66,104.06,China,,,,ERZ1756056;OFEK01,MGYS00002316
+,,,,,,,,,,,MGYS00002316
+SRS1692508,Gp0138787,SAMN05720207,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from Hong Kong - AD_UKC113_MetaG,22.28,114.17,Hong Kong,,,,ERZ724020,MGYS00003512

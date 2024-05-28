@@ -1,0 +1,2 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+ERS918710,Activated sludge samples taken from Kocejve WWTP on the 24th of september 2012,SAMEA3611561,Activated sludge samples taken from Kocejve WWTP on the 24th of september 2012,45.643,14.8619,Slovenia,Urban,Wastewater Treatment Plant,Activated Sludge,ERR1076076;ERR1076078;ERR1076077;ERR1076074;ERR1076081;ERR1076073;ERR1076082;ERR1076079;ERR1076075;ERR1076080

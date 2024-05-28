@@ -1,0 +1,13 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+SRS976606,PtcB-09,SAMN03792071,Illumina HiSeq1500 shotgun-sequencing,-34.07,-59.07,,,wastewater treatment plant,activated sludge,ERZ794912;ERZ842394;SRR2107176;SRR2107177
+SRS976079,SwgA-13,SAMN03794762,Illumina HiSeq1500 shotgun-sequencing,-34.82,-58.17,,,wastewater treatment plant,activated sludge,ERZ794919;ERZ842397;SRR2107212;SRR2107213
+SRS976068,Txt-08,SAMN03794739,Illumina HiSeq1500 shotgun-sequencing,-34.84,-58.2,,,wastewater treatment plant,activated sludge,ERZ794913;ERZ794932;SRR2107178;SRR2107179
+SRS976082,SwgA-08,SAMN03794758,Illumina HiSeq1500 shotgun-sequencing,-34.82,-58.17,,,wastewater treatment plant,activated sludge,ERZ794914;SRR2107210;SRR2107211
+SRS976061,PtcA-09,SAMN03792045,Illumina HiSeq1500 shotgun-sequencing,-34.65,-58.32,,,wastewater treatment plant,activated sludge,ERZ794915;ERZ794933
+SRS976081,Why-11,SAMN03794747,Illumina HiSeq1500 shotgun-sequencing,-30.94,-62.05,,,wastewater treatment plant,activated sludge,ERZ794916;SRR2107184;SRR2107185
+SRS976062,PtcB-08,SAMN03792070,Illumina HiSeq1500 shotgun-sequencing,-34.07,-59.07,,,wastewater treatment plant,activated sludge,ERZ794917
+SRS976063,PtcA-11,SAMN03792069,Illumina HiSeq1500 shotgun-sequencing,-34.65,-58.32,,,wastewater treatment plant,activated sludge,ERZ794918;ERZ794928
+SRS976080,SwgB-12,SAMN03794764,Illumina HiSeq1500 shotgun-sequencing,-34.47,-58.59,,,wastewater treatment plant,activated sludge,ERZ794920;SRR2107216;SRR2107215
+SRS976605,SwgB-13,SAMN03794765,Illumina HiSeq1500 shotgun-sequencing,-34.47,-58.59,,,wastewater treatment plant,activated sludge,ERZ794921;ERZ794929;SRR2107219;SRR2107218
+SRS976072,Txt-11,SAMN03794741,Illumina HiSeq1500 shotgun-sequencing,-34.84,-58.2,,,wastewater treatment plant,activated sludge,ERZ794930;SRR2107181;SRR2107180
+SRS976078,Why-10,SAMN03794746,Illumina HiSeq1500 shotgun-sequencing,-30.94,-62.05,,,wastewater treatment plant,activated sludge,ERZ794931;SRR2107182;SRR2107183

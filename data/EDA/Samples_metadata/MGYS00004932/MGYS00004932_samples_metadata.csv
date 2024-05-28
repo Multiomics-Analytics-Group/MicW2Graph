@@ -1,0 +1,2 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+SRS1791744,Gp0138819,SAMN05720168,Active sludge microbial communities of municipal wastewater-treating anaerobic digesters from USA - AD_UKC045_MetaG,40.12,-87.63,USA,,,,ERZ795059

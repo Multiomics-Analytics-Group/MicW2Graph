@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="SUID" attr.type="long" for="node" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="node" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="node" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="node" id="selected"/>
+    <key attr.name="id" attr.type="string" for="node" id="id"/>
+    <key attr.name="degree" attr.type="double" for="node" id="degree"/>
+    <key attr.name="cluster" attr.type="double" for="node" id="cluster"/>
+    <key attr.name="SUID" attr.type="long" for="edge" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="edge" id="shared name"/>
+    <key attr.name="shared interaction" attr.type="string" for="edge" id="shared interaction"/>
+    <key attr.name="name" attr.type="string" for="edge" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="edge" id="selected"/>
+    <key attr.name="interaction" attr.type="string" for="edge" id="interaction"/>
+    <key attr.name="source" attr.type="string" for="edge" id="source"/>
+    <key attr.name="target" attr.type="string" for="edge" id="target"/>
+    <key attr.name="data.key.column" attr.type="int" for="edge" id="data.key.column"/>
+    <key attr.name="asso" attr.type="double" for="edge" id="asso"/>
+    <key attr.name="diss" attr.type="double" for="edge" id="diss"/>
+    <key attr.name="adja" attr.type="double" for="edge" id="adja"/>
+    <key attr.name="sign" attr.type="double" for="edge" id="sign"/>
+    <key attr.name="SUID" attr.type="long" for="graph" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="graph" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="graph" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="graph" id="selected"/>
+    <key attr.name="__Annotations" attr.type="string" for="graph" id="__Annotations"/>
+    <graph edgedefault="directed" id="cclasso_0.10">
+        <node id="169">
+            <data key="SUID">169</data>
+            <data key="shared name">Plasmopara_viticola</data>
+            <data key="name">Plasmopara_viticola</data>
+            <data key="selected">false</data>
+            <data key="id">Plasmopara_viticola</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">2.0</data>
+        </node>
+        <node id="167">
+            <data key="SUID">167</data>
+            <data key="shared name">Mycoplasma_hyorhinis</data>
+            <data key="name">Mycoplasma_hyorhinis</data>
+            <data key="selected">false</data>
+            <data key="id">Mycoplasma_hyorhinis</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <node id="165">
+            <data key="SUID">165</data>
+            <data key="shared name">Adineta_vaga</data>
+            <data key="name">Adineta_vaga</data>
+            <data key="selected">false</data>
+            <data key="id">Adineta_vaga</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <node id="163">
+            <data key="SUID">163</data>
+            <data key="shared name">Pseudomonas_moraviensis</data>
+            <data key="name">Pseudomonas_moraviensis</data>
+            <data key="selected">false</data>
+            <data key="id">Pseudomonas_moraviensis</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <node id="161">
+            <data key="SUID">161</data>
+            <data key="shared name">Vahlkampfia_avara</data>
+            <data key="name">Vahlkampfia_avara</data>
+            <data key="selected">false</data>
+            <data key="id">Vahlkampfia_avara</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">2.0</data>
+        </node>
+        <node id="159">
+            <data key="SUID">159</data>
+            <data key="shared name">Jakoba_libera</data>
+            <data key="name">Jakoba_libera</data>
+            <data key="selected">false</data>
+            <data key="id">Jakoba_libera</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">2.0</data>
+        </node>
+        <node id="157">
+            <data key="SUID">157</data>
+            <data key="shared name">Sorangium_cellulosum</data>
+            <data key="name">Sorangium_cellulosum</data>
+            <data key="selected">false</data>
+            <data key="id">Sorangium_cellulosum</data>
+            <data key="degree">4.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <node id="155">
+            <data key="SUID">155</data>
+            <data key="shared name">Labrenzia_marina</data>
+            <data key="name">Labrenzia_marina</data>
+            <data key="selected">false</data>
+            <data key="id">Labrenzia_marina</data>
+            <data key="degree">4.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <edge source="161" target="169">
+            <data key="SUID">189</data>
+            <data key="shared name">Vahlkampfia_avara (interacts with) Plasmopara_viticola</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Vahlkampfia_avara (interacts with) Plasmopara_viticola</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Vahlkampfia_avara</data>
+            <data key="target">Plasmopara_viticola</data>
+            <data key="data.key.column">746</data>
+            <data key="asso">0.1936518</data>
+            <data key="diss">0.6349599</data>
+            <data key="adja">0.3650401</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="159" target="169">
+            <data key="SUID">187</data>
+            <data key="shared name">Jakoba_libera (interacts with) Plasmopara_viticola</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Jakoba_libera (interacts with) Plasmopara_viticola</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Jakoba_libera</data>
+            <data key="target">Plasmopara_viticola</data>
+            <data key="data.key.column">743</data>
+            <data key="asso">0.1164135</data>
+            <data key="diss">0.6646753</data>
+            <data key="adja">0.3353247</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="159" target="161">
+            <data key="SUID">185</data>
+            <data key="shared name">Jakoba_libera (interacts with) Vahlkampfia_avara</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Jakoba_libera (interacts with) Vahlkampfia_avara</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Jakoba_libera</data>
+            <data key="target">Vahlkampfia_avara</data>
+            <data key="data.key.column">740</data>
+            <data key="asso">0.1327522</data>
+            <data key="diss">0.6585012</data>
+            <data key="adja">0.3414988</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="157" target="167">
+            <data key="SUID">183</data>
+            <data key="shared name">Sorangium_cellulosum (interacts with) Mycoplasma_hyorhinis</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Sorangium_cellulosum (interacts with) Mycoplasma_hyorhinis</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Sorangium_cellulosum</data>
+            <data key="target">Mycoplasma_hyorhinis</data>
+            <data key="data.key.column">737</data>
+            <data key="asso">-0.21974</data>
+            <data key="diss">0.7809417</data>
+            <data key="adja">0.2190583</data>
+            <data key="sign">-1.0</data>
+        </edge>
+        <edge source="157" target="165">
+            <data key="SUID">181</data>
+            <data key="shared name">Sorangium_cellulosum (interacts with) Adineta_vaga</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Sorangium_cellulosum (interacts with) Adineta_vaga</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Sorangium_cellulosum</data>
+            <data key="target">Adineta_vaga</data>
+            <data key="data.key.column">734</data>
+            <data key="asso">0.143275</data>
+            <data key="diss">0.6544941</data>
+            <data key="adja">0.3455059</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="157" target="163">
+            <data key="SUID">179</data>
+            <data key="shared name">Sorangium_cellulosum (interacts with) Pseudomonas_moraviensis</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Sorangium_cellulosum (interacts with) Pseudomonas_moraviensis</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Sorangium_cellulosum</data>
+            <data key="target">Pseudomonas_moraviensis</data>
+            <data key="data.key.column">731</data>
+            <data key="asso">0.4401309</data>
+            <data key="diss">0.5290884</data>
+            <data key="adja">0.4709116</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="155" target="167">
+            <data key="SUID">177</data>
+            <data key="shared name">Labrenzia_marina (interacts with) Mycoplasma_hyorhinis</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Labrenzia_marina (interacts with) Mycoplasma_hyorhinis</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Labrenzia_marina</data>
+            <data key="target">Mycoplasma_hyorhinis</data>
+            <data key="data.key.column">728</data>
+            <data key="asso">-0.21974</data>
+            <data key="diss">0.7809417</data>
+            <data key="adja">0.2190583</data>
+            <data key="sign">-1.0</data>
+        </edge>
+        <edge source="155" target="165">
+            <data key="SUID">175</data>
+            <data key="shared name">Labrenzia_marina (interacts with) Adineta_vaga</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Labrenzia_marina (interacts with) Adineta_vaga</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Labrenzia_marina</data>
+            <data key="target">Adineta_vaga</data>
+            <data key="data.key.column">725</data>
+            <data key="asso">0.143275</data>
+            <data key="diss">0.6544941</data>
+            <data key="adja">0.3455059</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="155" target="163">
+            <data key="SUID">173</data>
+            <data key="shared name">Labrenzia_marina (interacts with) Pseudomonas_moraviensis</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Labrenzia_marina (interacts with) Pseudomonas_moraviensis</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Labrenzia_marina</data>
+            <data key="target">Pseudomonas_moraviensis</data>
+            <data key="data.key.column">722</data>
+            <data key="asso">0.4401309</data>
+            <data key="diss">0.5290884</data>
+            <data key="adja">0.4709116</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="155" target="157">
+            <data key="SUID">171</data>
+            <data key="shared name">Labrenzia_marina (interacts with) Sorangium_cellulosum</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Labrenzia_marina (interacts with) Sorangium_cellulosum</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Labrenzia_marina</data>
+            <data key="target">Sorangium_cellulosum</data>
+            <data key="data.key.column">713</data>
+            <data key="asso">-0.3526316</data>
+            <data key="diss">0.8223842</data>
+            <data key="adja">0.1776158</data>
+            <data key="sign">-1.0</data>
+        </edge>
+    </graph>
+</graphml>

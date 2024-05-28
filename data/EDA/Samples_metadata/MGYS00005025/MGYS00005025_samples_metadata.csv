@@ -1,0 +1,11 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+SRS3255898,BPA-DNA-1,SAMN08937787,DNA sample obtained before BPA adding (Phase I),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-0,sludge-water,ERZ782916
+SRS3255899,BPA-DNA-2,SAMN08937788,DNA sample obtained after BPA added for 14-15hrs,22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-14,sludge-water,ERZ782915
+SRS3255900,BPA-RNA-1,SAMN08937789,RNA sample obtained before BPA adding (Phase I),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-0-1,sludge-water,ERZ782927
+SRS3255901,BPA-RNA-2,SAMN08937790,RNA sample obtained before BPA adding (Phase I),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-0-2,sludge-water,ERZ782929
+SRS3255902,BPA-RNA-3,SAMN08937791,RNA sample obtained after BPA added for 2-3 hrs (Phase II),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-2-1,sludge-water,ERZ782928
+SRS3255903,BPA-RNA-4,SAMN08937792,RNA sample obtained after BPA added for 2-3 hrs (Phase II),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-2-2,sludge-water,ERZ782923
+SRS3255904,BPA-RNA-5,SAMN08937793,RNA sample obtained after BPA added for 14-15 hrs (Phase III),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-14-1,sludge-water,ERZ782930
+SRS3255905,BPA-RNA-6,SAMN08937794,RNA sample obtained after BPA added for 14-15 hrs (Phase III),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-14-2,sludge-water,ERZ782925
+SRS3255906,BPA-RNA-7,SAMN08937795,RNA sample obtained after BPA added for 24-25 hrs (Phase IV),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-24-1,sludge-water,ERZ782926
+SRS3255907,BPA-RNA-8,SAMN08937796,RNA sample obtained  after BPA added for 24-25 hrs (Phase IV),22.25,114.1667,China: Hong Kong,bisphenol A culture medium,BPA degrading-24-2,sludge-water,ERZ782924

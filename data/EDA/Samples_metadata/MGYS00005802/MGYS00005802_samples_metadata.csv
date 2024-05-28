@@ -1,0 +1,7 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+ERS632924,AAW-3-2012,SAMEA3180052,Aalborg West Q3 2012,57.0495,9.8648,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERZ1764620
+ERS632917,AAW-4-2010,SAMEA3180045,Aalborg West Q4 2010,57.0495,9.8648,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERZ1764613
+ERS632927,EJB-4-2011,SAMEA3180055,Ejby Moelle Q4 2011,55.3995,10.4148,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERZ1764614
+ERS632929,EGA-2-2011,SAMEA3180057,Egaa Q2 2011,56.2131,10.2425,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERZ1764618
+ERS632918,AAW-5-2010-A,SAMEA3180046,Aalborg West Q5 2010 A,57.0495,9.8648,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERZ1764622
+ERS632919,AAW-5-2010-B,SAMEA3180047,Aalborg West Q2 2010 B,57.0495,9.8648,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERZ1764624

@@ -1,0 +1,15 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+ERS805486,MBR Sludge,SAMEA3498337,MBR Sludge,57.05,9.8654,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERR977407
+ERS805487,MBR Sludge,SAMEA3498338,MBR Sludge,57.05,9.8654,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERR977409;ERR977408
+ERS805488,MBR Sludge,SAMEA3498339,MBR Sludge,57.05,9.8654,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERR977410
+ERS805489,MBR Sludge,SAMEA3498340,MBR Sludge,57.05,9.8654,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERR977423
+ERS805490,MBR Sludge,SAMEA3498341,MBR Sludge,57.05,9.8654,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERR977424
+ERS805491,MBR Sludge,SAMEA3498342,MBR Sludge,57.05,9.8654,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERR977425
+ERS805492,ENR4_A,SAMEA3498343,ENR4_A,43.3792,43.7239,Russia,oil well,oil well,biofilm material,ERR977403
+ERS805493,ENR4_E,SAMEA3498344,ENR4_E,43.3792,43.7239,Russia,oil well,oil well,biofilm material,ERR977404
+ERS805494,ENR4_F,SAMEA3498345,ENR4_F,43.3792,43.7239,Russia,oil well,oil well,biofilm material,ERR977405
+ERS805495,ENR6_N3,SAMEA3498346,ENR6_N3,43.3792,43.7239,Russia,oil well,oil well,biofilm material,ERR977406
+ERS805496,Vetmed_Pskit,SAMEA3498347,Vetmed_Pskit,48.2549,16.4293,Austria,wastewater treatment plant,wastewater treatment plant,activated sludge,ERR977411;ERR977413;ERR977412
+ERS805497,Vetmed_23,SAMEA3498348,Vetmed_23,48.2549,16.4293,Austria,wastewater treatment plant,wastewater treatment plant,activated sludge,ERR977415;ERR977416;ERR977414
+ERS805498,GWW_HP_F1,SAMEA3498349,GWW_HP_F1,52.1489,10.5428,Germany,water well,water well,biofilm material,ERR977417;ERR977419;ERR977418
+ERS805499,GWW_HP_D,SAMEA3498350,GWW_HP_D,52.1489,10.5428,Germany,water well,water well,biofilm material,ERR977421;ERR977420;ERR977422

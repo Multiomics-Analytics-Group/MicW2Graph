@@ -1,0 +1,6 @@
+OTU,Superkingdom,Kingdom,Phylum,Class,Order,Family,Genus,Species
+OTU1,Bacteria,Bacteria,Proteobacteria,Deltaproteobacteria,Syntrophobacterales,Syntrophobacteraceae,Syntrophobacter,fumaroxidans
+OTU2,Bacteria,Bacteria,Spirochaetes,Spirochaetia,,Leptospiraceae,Leptonema,illini
+OTU3,Eukaryota,Eukaryota,,,Trichomonadida,,Pseudotrichomonas,keilini
+OTU4,Bacteria,Bacteria,Bacteroidetes,Bacteroidia,Bacteroidales,Porphyromonadaceae,Petrimonas,mucosa
+OTU5,Bacteria,Bacteria,Firmicutes,Clostridia,Clostridiales,Syntrophomonadaceae,Syntrophomonas,palmitatica

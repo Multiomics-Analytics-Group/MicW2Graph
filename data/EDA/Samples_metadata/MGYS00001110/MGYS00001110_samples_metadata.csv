@@ -1,0 +1,71 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+ERS1162588,SWESTP59,SAMEA3991478,Uppsala-primary/surplus 201,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,sludge,ERR1414267
+ERS1162592,SWESTP63,SAMEA3991482,Kappala-primary 226,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,raw primary sludge,ERR1414271
+ERS1162586,SWESTP57,SAMEA3991476,Uppsala-treated 169,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,surface water,ERR1414265
+ERS1162530,Uppsala-primary/surplus 102,SAMEA3991420,Uppsala-primary/surplus 102,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,sludge,ERR1414209
+ERS1162531,Uppsala-primary/surplus 103,SAMEA3991421,Uppsala-primary/surplus 103,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,sludge,ERR1414210
+ERS1162532,Uppsala-primary/surplus 104,SAMEA3991422,Uppsala-primary/surplus 104,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,sludge,ERR1414211
+ERS1162533,Uppsala-surplus 105,SAMEA3991423,Uppsala-surplus 105,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,activated sludge,ERR1414212
+ERS1162534,Uppsala-surplus 106,SAMEA3991424,Uppsala-surplus 106,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,activated sludge,ERR1414213
+ERS1162535,Uppsala-surplus 107,SAMEA3991425,Uppsala-surplus 107,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,activated sludge,ERR1414214
+ERS1162536,Uppsala-surplus 108,SAMEA3991426,Uppsala-surplus 108,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,activated sludge,ERR1414215
+ERS1162537,Uppsala-digested 109,SAMEA3991427,Uppsala-digested 109,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414216
+ERS1162538,Uppsala-digested 110,SAMEA3991428,Uppsala-digested 110,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414217
+ERS1162539,Uppsala-digested 111,SAMEA3991429,Uppsala-digested 111,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414218
+ERS1162540,Uppsala-digested 112,SAMEA3991430,Uppsala-digested 112,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414219
+ERS1162541,Kappala-digested 113,SAMEA3991431,Kappala-digested 113,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414220
+ERS1162542,Kappala-digested 114,SAMEA3991432,Kappala-digested 114,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414221
+ERS1162543,Kappala-digested 115,SAMEA3991433,Kappala-digested 115,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414222
+ERS1162544,Kappala-kemikond 117,SAMEA3991434,Kappala-kemikond 117,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414223
+ERS1162545,Kappala-kemikond 118,SAMEA3991435,Kappala-kemikond 118,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414224
+ERS1162546,Kappala-kemikond 119,SAMEA3991436,Kappala-kemikond 119,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414225
+ERS1162547,Kappala-surplus 121,SAMEA3991437,Kappala-surplus 121,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,activated sludge,ERR1414226
+ERS1162548,Kappala-surplus 122,SAMEA3991438,Kappala-surplus 122,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,activated sludge,ERR1414227
+ERS1162549,Kappala-surplus 123,SAMEA3991439,Kappala-surplus 123,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,activated sludge,ERR1414228
+ERS1162550,Kappala-surplus 124,SAMEA3991440,Kappala-surplus 124,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,activated sludge,ERR1414229
+ERS1162551,Henriksdal-surplus 129,SAMEA3991441,Henriksdal-surplus 129,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,activated sludge,ERR1414230
+ERS1162552,Henriksdal-surplus 130,SAMEA3991442,Henriksdal-surplus 130,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,activated sludge,ERR1414231
+ERS1162553,Henriksdal-surplus 131,SAMEA3991443,Henriksdal-surplus 131,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,activated sludge,ERR1414232
+ERS1162554,Henriksdal-digested 137,SAMEA3991444,Henriksdal-digested 137,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414233
+ERS1162555,Henriksdal-digested 138,SAMEA3991445,Henriksdal-digested 138,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414234
+ERS1162556,Henriksdal-digested 139,SAMEA3991446,Henriksdal-digested 139,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414235
+ERS1162557,Henriksdal-digested 140,SAMEA3991447,Henriksdal-digested 140,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414236
+ERS1162558,Henriksdal-influent-HA 141,SAMEA3991448,Henriksdal-influent-HA 141,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414237
+ERS1162559,Henriksdal-influent-HA 142,SAMEA3991449,Henriksdal-influent-HA 142,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414238
+ERS1162560,Uppsala-influent-AD 143,SAMEA3991450,Uppsala-influent-AD 143,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414239
+ERS1162561,Uppsala-influent-AD 144,SAMEA3991451,Uppsala-influent-AD 144,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414240
+ERS1162562,Uppsala-influent-C 145,SAMEA3991452,Uppsala-influent-C 145,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414241
+ERS1162563,Uppsala-influent-C 146,SAMEA3991453,Uppsala-influent-C 146,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414242
+ERS1162564,Kappala-influent 147,SAMEA3991454,Kappala-influent 147,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414243
+ERS1162565,Kappala-influent 148,SAMEA3991455,Kappala-influent 148,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414244
+ERS1162566,Henriksdal-influent-S 149,SAMEA3991456,Henriksdal-influent-S 149,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414245
+ERS1162567,Henriksdal-influent-S 150,SAMEA3991457,Henriksdal-influent-S 150,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414246
+ERS1162568,Henriksdal-influent-HA 151,SAMEA3991458,Henriksdal-influent-HA 151,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414247
+ERS1162569,Henriksdal-influent-HA 152,SAMEA3991459,Henriksdal-influent-HA 152,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414248
+ERS1162570,Uppsala-influent-AD 153,SAMEA3991460,Uppsala-influent-AD 153,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414249
+ERS1162571,Uppsala-influent-AD 154,SAMEA3991461,Uppsala-influent-AD 154,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414250
+ERS1162572,Uppsala-influent-C 155,SAMEA3991462,Uppsala-influent-C 155,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414251
+ERS1162573,Uppsala-influent-C 156,SAMEA3991463,Uppsala-influent-C 156,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414252
+ERS1162574,Kappala-influent 157,SAMEA3991464,Kappala-influent 157,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414253
+ERS1162575,Kappala-influent 158,SAMEA3991465,Kappala-influent 158,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414254
+ERS1162576,Henriksdal-influent-S 159,SAMEA3991466,Henriksdal-influent-S 159,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414255
+ERS1162577,Henriksdal-influent-S 160,SAMEA3991467,Henriksdal-influent-S 160,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,sewage,ERR1414256
+ERS1162578,Henriksdal-treated 161,SAMEA3991468,Henriksdal-treated 161,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,surface water,ERR1414257
+ERS1162579,Henriksdal-treated 162,SAMEA3991469,Henriksdal-treated 162,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,surface water,ERR1414258
+ERS1162580,Henriksdal-sandfiltered 163,SAMEA3991470,Henriksdal-sandfiltered 163,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,surface water,ERR1414259
+ERS1162581,Henriksdal-sandfiltered 164,SAMEA3991471,Henriksdal-sandfiltered 164,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,surface water,ERR1414260
+ERS1162582,Kappala-treated 165,SAMEA3991472,Kappala-treated 165,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,surface water,ERR1414261
+ERS1162583,Kappala-treated 166,SAMEA3991473,Kappala-treated 166,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,surface water,ERR1414262
+ERS1162584,Kappala-sandfiltered 167,SAMEA3991474,Kappala-sandfiltered 167,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,surface water,ERR1414263
+ERS1162585,Kappala-sandfiltered 168,SAMEA3991475,Kappala-sandfiltered 168,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,surface water,ERR1414264
+ERS1162587,Uppsala-treated 170,SAMEA3991477,Uppsala-treated 170,59.8445,17.6598,Sweden,anthropogenic terrestrial biome,sewage plant,surface water,ERR1414266
+ERS1162589,Kappala-digested 216,SAMEA3991479,Kappala-digested 216,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414268
+ERS1162590,Kappala-kemikond 220,SAMEA3991480,Kappala-kemikond 220,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,biosolids,ERR1414269
+ERS1162591,Kappala-primary 225,SAMEA3991481,Kappala-primary 225,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,raw primary sludge,ERR1414270
+ERS1162593,Kappala-primary 227,SAMEA3991483,Kappala-primary 227,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,raw primary sludge,ERR1414272
+ERS1162594,Kappala-primary 228,SAMEA3991484,Kappala-primary 228,59.3556,18.2271,Sweden,anthropogenic terrestrial biome,sewage plant,raw primary sludge,ERR1414273
+ERS1162595,Henriksdal-surplus 232,SAMEA3991485,Henriksdal-surplus 232,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,activated sludge,ERR1414274
+ERS1162596,Henriksdal-primary 233,SAMEA3991486,Henriksdal-primary 233,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,raw primary sludge,ERR1414275
+ERS1162597,Henriksdal-primary 234,SAMEA3991487,Henriksdal-primary 234,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,raw primary sludge,ERR1414276
+ERS1162598,Henriksdal-primary 235,SAMEA3991488,Henriksdal-primary 235,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,raw primary sludge,ERR1414277
+ERS1162599,Henriksdal-primary 236,SAMEA3991489,Henriksdal-primary 236,59.3107,18.1084,Sweden,anthropogenic terrestrial biome,sewage plant,raw primary sludge,ERR1414278

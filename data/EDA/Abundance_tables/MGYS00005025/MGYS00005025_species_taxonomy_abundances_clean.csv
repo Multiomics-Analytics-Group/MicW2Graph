@@ -1,0 +1,5 @@
+Superkingdom,Kingdom,Phylum,Class,Order,Family,Genus,Species,Genus_Species,ERZ782916,ERZ782915,ERZ782927,ERZ782929,ERZ782928,ERZ782923,ERZ782930,ERZ782925,ERZ782926,ERZ782924
+Bacteria,Bacteria,Tenericutes,Mollicutes,Mycoplasmatales,Mycoplasmataceae,Mycoplasma,hyorhinis,Mycoplasma_hyorhinis,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0
+Eukaryota,Eukaryota,,,,Jakobidae,Jakoba,libera,Jakoba_libera,1.0,1.0,1.0,2.0,1.0,2.0,1.0,2.0,1.0,1.0
+Eukaryota,Eukaryota,,Heterolobosea,Schizopyrenida,Vahlkampfiidae,Vahlkampfia,avara,Vahlkampfia_avara,1.0,0.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0
+Eukaryota,Eukaryota,,Oomycetes,Peronosporales,Peronosporaceae,Plasmopara,viticola,Plasmopara_viticola,0.0,0.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0

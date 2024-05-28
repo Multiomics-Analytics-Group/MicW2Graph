@@ -1,0 +1,7 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+ERS666855,DNA1,SAMEA3270999,DNA1,57.0495,9.8648,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERR770579
+ERS666856,DNA2,SAMEA3271000,DNA2,57.0495,9.8648,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERR770580
+ERS666857,DNA3,SAMEA3271001,DNA3,57.0495,9.8648,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERR770581
+ERS666858,RNA1,SAMEA3271002,RNA1,57.0495,9.8648,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERR770582
+ERS666859,RNA2,SAMEA3271003,RNA2,57.0495,9.8648,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERR770583
+ERS666860,RNA3,SAMEA3271004,RNA3,57.0495,9.8648,Denmark,wastewater treatment plant,wastewater treatment plant,activated sludge,ERR770584

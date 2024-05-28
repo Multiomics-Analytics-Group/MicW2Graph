@@ -1,0 +1,23 @@
+div[data-testid="stText"]{
+    inline-size: 200px;
+    overflow:hidden;
+}
+/* breakline for metric text         */
+div[data-testid="text-container"] > label[data-testid="stMetricLabel"] > div {
+    color: black; 
+}
+
+/* Hide Streamlit bars */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+section[data-testid="stSidebar"][aria-expanded="true"]{
+    display: none;
+
+}
+

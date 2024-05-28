@@ -1,0 +1,4 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+ERS1545891,MP_reactors,SAMEA80832418,MP_reactors,50.9,4.7,Belgium,anaerobic reactor,mesophilic anaerobic reactor,wastewater,ERR1823510
+ERS1545892,MP_reactors,SAMEA80833168,MP_reactors,50.9,4.7,Belgium,anaerobic reactor,mesophilic anaerobic reactor,wastewater,ERR1823511
+ERS1545893,MP_reactors,SAMEA80833918,MP_reactors,50.9,4.7,Belgium,anaerobic reactor,mesophilic anaerobic reactor,wastewater,ERR1823512

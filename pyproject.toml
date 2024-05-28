@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "micw2graph"
+version = "0.1.0"
+description = "Building a knowledge graph of the wastewater treatment microbiome and its biological context"
+authors = ["sayalaruano <sebasar1245@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+scipy = "1.10.1"
+jsonapi-client = "^0.9.9"
+requests = "^2.32.2"
+plotly = "^5.22.0"
+scikit-learn = "^1.5.0"
+scikit-bio = "0.5.9"
+streamlit = "1.32.2"
+streamlit-aggrid = "0.3.4.post3"
+seaborn = "^0.13.2"
+colorcet = "^3.0.1"
+biopython = "^1.83"
+networkx = "^3.3"
+pyvis = "^0.3.2"
+PyYAML = "^6.0.1"
+streamlit-extras = "^0.4.2"
+streamlit-option-menu = "^0.3.12"
+stvis = "^0.0.2"
+urllib3 = "^2.2.1"
+
+[tool.poetry.group.dev.dependencies]
+kaleido = "0.2.1"
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

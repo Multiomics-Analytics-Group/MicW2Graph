@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: white;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"SUID": 2653, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 3.0, "color": "#1CA71C", "degree": 3.0, "font": {"size": 12}, "id": "2653", "label": "Brackiella_oedipodis", "name": "Brackiella_oedipodis", "selected": false, "shape": "dot", "shared name": "Brackiella_oedipodis", "size": 30}, {"SUID": 2659, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 3.0, "color": "#1CA71C", "degree": 3.0, "font": {"size": 12}, "id": "2659", "label": "Pseudoxanthomonas_mexicana", "name": "Pseudoxanthomonas_mexicana", "selected": false, "shape": "dot", "shared name": "Pseudoxanthomonas_mexicana", "size": 30}, {"SUID": 2651, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 3.0, "color": "#1CA71C", "degree": 3.0, "font": {"size": 12}, "id": "2651", "label": "Paracoccus_kawasakiensis", "name": "Paracoccus_kawasakiensis", "selected": false, "shape": "dot", "shared name": "Paracoccus_kawasakiensis", "size": 30}, {"SUID": 2649, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 2.0, "color": "#E15F99", "degree": 2.0, "font": {"size": 12}, "id": "2649", "label": "Paenochrobactrum_glaciei", "name": "Paenochrobactrum_glaciei", "selected": false, "shape": "dot", "shared name": "Paenochrobactrum_glaciei", "size": 6}, {"SUID": 2657, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 2.0, "color": "#E15F99", "degree": 2.0, "font": {"size": 12}, "id": "2657", "label": "Candidimonas_humi", "name": "Candidimonas_humi", "selected": false, "shape": "dot", "shared name": "Candidimonas_humi", "size": 6}, {"SUID": 2647, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 3.0, "color": "#1CA71C", "degree": 3.0, "font": {"size": 12}, "id": "2647", "label": "Dysgonomonas_gadei", "name": "Dysgonomonas_gadei", "selected": false, "shape": "dot", "shared name": "Dysgonomonas_gadei", "size": 30}, {"SUID": 2645, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 2.0, "color": "#E15F99", "degree": 2.0, "font": {"size": 12}, "id": "2645", "label": "Tessaracoccus_bendigoensis", "name": "Tessaracoccus_bendigoensis", "selected": false, "shape": "dot", "shared name": "Tessaracoccus_bendigoensis", "size": 6}, {"SUID": 2643, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 1.0, "color": "#2E91E5", "degree": 2.0, "font": {"size": 12}, "id": "2643", "label": "Kocuria_palustris", "name": "Kocuria_palustris", "selected": false, "shape": "dot", "shared name": "Kocuria_palustris", "size": 6}, {"SUID": 2655, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 1.0, "color": "#2E91E5", "degree": 2.0, "font": {"size": 12}, "id": "2655", "label": "Pseudomonas_citronellolis", "name": "Pseudomonas_citronellolis", "selected": false, "shape": "dot", "shared name": "Pseudomonas_citronellolis", "size": 6}, {"SUID": 2641, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 1.0, "color": "#2E91E5", "degree": 2.0, "font": {"size": 12}, "id": "2641", "label": "Millisia_brevis", "name": "Millisia_brevis", "selected": false, "shape": "dot", "shared name": "Millisia_brevis", "size": 6}]);
+                  edges = new vis.DataSet([{"SUID": 2683, "adja": 0.5605467, "asso": 0.6137617, "data.key.column": 2141767, "diss": 0.4394533, "from": "2653", "interaction": "interacts with", "name": "Brackiella_oedipodis (interacts with) Pseudoxanthomonas_mexicana", "selected": false, "shared interaction": "interacts with", "shared name": "Brackiella_oedipodis (interacts with) Pseudoxanthomonas_mexicana", "sign": 1.0, "to": "2659", "width": 1}, {"SUID": 2681, "adja": 0.5605467, "asso": 0.6137617, "data.key.column": 2141764, "diss": 0.4394533, "from": "2651", "interaction": "interacts with", "name": "Paracoccus_kawasakiensis (interacts with) Pseudoxanthomonas_mexicana", "selected": false, "shared interaction": "interacts with", "shared name": "Paracoccus_kawasakiensis (interacts with) Pseudoxanthomonas_mexicana", "sign": 1.0, "to": "2659", "width": 1}, {"SUID": 2679, "adja": 0.5605467, "asso": 0.6137617, "data.key.column": 2141761, "diss": 0.4394533, "from": "2651", "interaction": "interacts with", "name": "Paracoccus_kawasakiensis (interacts with) Brackiella_oedipodis", "selected": false, "shared interaction": "interacts with", "shared name": "Paracoccus_kawasakiensis (interacts with) Brackiella_oedipodis", "sign": 1.0, "to": "2653", "width": 1}, {"SUID": 2677, "adja": 0.7636286, "asso": 0.8882571, "data.key.column": 2141758, "diss": 0.2363714, "from": "2649", "interaction": "interacts with", "name": "Paenochrobactrum_glaciei (interacts with) Candidimonas_humi", "selected": false, "shared interaction": "interacts with", "shared name": "Paenochrobactrum_glaciei (interacts with) Candidimonas_humi", "sign": 1.0, "to": "2657", "width": 1}, {"SUID": 2675, "adja": 0.5605467, "asso": 0.6137617, "data.key.column": 2141755, "diss": 0.4394533, "from": "2647", "interaction": "interacts with", "name": "Dysgonomonas_gadei (interacts with) Pseudoxanthomonas_mexicana", "selected": false, "shared interaction": "interacts with", "shared name": "Dysgonomonas_gadei (interacts with) Pseudoxanthomonas_mexicana", "sign": 1.0, "to": "2659", "width": 1}, {"SUID": 2673, "adja": 0.5605467, "asso": 0.6137617, "data.key.column": 2141752, "diss": 0.4394533, "from": "2647", "interaction": "interacts with", "name": "Dysgonomonas_gadei (interacts with) Brackiella_oedipodis", "selected": false, "shared interaction": "interacts with", "shared name": "Dysgonomonas_gadei (interacts with) Brackiella_oedipodis", "sign": 1.0, "to": "2653", "width": 1}, {"SUID": 2671, "adja": 0.5605467, "asso": 0.6137617, "data.key.column": 2141749, "diss": 0.4394533, "from": "2647", "interaction": "interacts with", "name": "Dysgonomonas_gadei (interacts with) Paracoccus_kawasakiensis", "selected": false, "shared interaction": "interacts with", "shared name": "Dysgonomonas_gadei (interacts with) Paracoccus_kawasakiensis", "sign": 1.0, "to": "2651", "width": 1}, {"SUID": 2669, "adja": 0.7636286, "asso": 0.8882571, "data.key.column": 2141746, "diss": 0.2363714, "from": "2645", "interaction": "interacts with", "name": "Tessaracoccus_bendigoensis (interacts with) Candidimonas_humi", "selected": false, "shared interaction": "interacts with", "shared name": "Tessaracoccus_bendigoensis (interacts with) Candidimonas_humi", "sign": 1.0, "to": "2657", "width": 1}, {"SUID": 2667, "adja": 0.7636286, "asso": 0.8882571, "data.key.column": 2141743, "diss": 0.2363714, "from": "2645", "interaction": "interacts with", "name": "Tessaracoccus_bendigoensis (interacts with) Paenochrobactrum_glaciei", "selected": false, "shared interaction": "interacts with", "shared name": "Tessaracoccus_bendigoensis (interacts with) Paenochrobactrum_glaciei", "sign": 1.0, "to": "2649", "width": 1}, {"SUID": 2665, "adja": 0.5936658, "asso": 0.669785, "data.key.column": 2141740, "diss": 0.4063342, "from": "2643", "interaction": "interacts with", "name": "Kocuria_palustris (interacts with) Pseudomonas_citronellolis", "selected": false, "shared interaction": "interacts with", "shared name": "Kocuria_palustris (interacts with) Pseudomonas_citronellolis", "sign": 1.0, "to": "2655", "width": 1}, {"SUID": 2663, "adja": 0.5989238, "asso": 0.6782758, "data.key.column": 2141737, "diss": 0.4010762, "from": "2641", "interaction": "interacts with", "name": "Millisia_brevis (interacts with) Pseudomonas_citronellolis", "selected": false, "shared interaction": "interacts with", "shared name": "Millisia_brevis (interacts with) Pseudomonas_citronellolis", "sign": 1.0, "to": "2655", "width": 1}, {"SUID": 2661, "adja": 0.6179206, "asso": 0.7080307, "data.key.column": 2141734, "diss": 0.3820794, "from": "2641", "interaction": "interacts with", "name": "Millisia_brevis (interacts with) Kocuria_palustris", "selected": false, "shared interaction": "interacts with", "shared name": "Millisia_brevis (interacts with) Kocuria_palustris", "sign": 1.0, "to": "2643", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.005,
+            "damping": 0.4,
+            "gravitationalConstant": -30,
+            "springConstant": 0.1,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

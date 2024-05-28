@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: white;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"betweenness_centrality": "35.0", "border-color": "#9b6bd9ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.26373626373626374", "color": {"background": "#c5aae9ff", "border": "#9b6bd9ff"}, "degree_centrality": "6.0", "font": {"size": 12}, "id": "n1", "label": "Chromulinales", "labels": ":Order", "name": "Chromulinales", "pagerank_centrality": "0.9691811600101972", "propertyValue": "[\u0027has_rank NCBITaxon:order\u0027]", "shape": "dot", "size": 19, "synonym": "Unknown", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "15.999999999999995", "border-color": "#47b9d1ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.27586206896551724", "color": {"background": "#b5e3ecff", "border": "#47b9d1ff"}, "degree_centrality": "8.0", "font": {"size": 12}, "id": "n13", "label": "Chrysophyceae", "labels": ":Phylum", "name": "Chrysophyceae", "pagerank_centrality": "1.2140061156910604", "propertyValue": "[\u0027has_rank NCBITaxon:class\u0027]", "shape": "dot", "size": 10, "synonym": "[\u0027\"algae\" RELATED in_part []\u0027, \u0027\"Chrysomonada\" RELATED synonym []\u0027, \u0027\"Chrysomonadida\" RELATED synonym []\u0027, \u0027\"chrysomonads\" EXACT OMO:0003003 []\u0027, \u0027\"Chrysophyta\" RELATED synonym []\u0027, \u0027\"chrysophytes\" EXACT OMO:0003003 []\u0027, \u0027\"golden algae\" EXACT genbank_common_name []\u0027, \u0027\"golden algae\" RELATED blast_name []\u0027]", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "15.999999999999995", "border-color": "#888408ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.27586206896551724", "color": {"background": "#d6d211ff", "border": "#888408ff"}, "degree_centrality": "8.0", "font": {"size": 12}, "id": "n158", "label": "Chrysophyceae", "labels": ":Class", "name": "Chrysophyceae", "pagerank_centrality": "1.2140061156910604", "propertyValue": "[\u0027has_rank NCBITaxon:class\u0027]", "shape": "dot", "size": 10, "synonym": "[\u0027\"algae\" RELATED in_part []\u0027, \u0027\"Chrysomonada\" RELATED synonym []\u0027, \u0027\"Chrysomonadida\" RELATED synonym []\u0027, \u0027\"chrysomonads\" EXACT OMO:0003003 []\u0027, \u0027\"Chrysophyta\" RELATED synonym []\u0027, \u0027\"chrysophytes\" EXACT OMO:0003003 []\u0027, \u0027\"golden algae\" EXACT genbank_common_name []\u0027, \u0027\"golden algae\" RELATED blast_name []\u0027]", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "25.666666666666664", "border-color": "#9b6bd9ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.24", "color": {"background": "#c5aae9ff", "border": "#9b6bd9ff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n2", "label": "Endogenida", "labels": ":Order", "name": "Endogenida", "pagerank_centrality": "0.8646239629179912", "propertyValue": "[\u0027has_rank NCBITaxon:order\u0027]", "shape": "dot", "size": 14, "synonym": "Unknown", "xref": "[\u0027GC_ID:6\u0027]"}, {"betweenness_centrality": "29.0", "border-color": "#888408ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.24742268041237114", "color": {"background": "#d6d211ff", "border": "#888408ff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n159", "label": "Phyllopharyngea", "labels": ":Class", "name": "Phyllopharyngea", "pagerank_centrality": "0.8480757730326801", "propertyValue": "[\u0027has_rank NCBITaxon:class\u0027]", "shape": "dot", "size": 16, "synonym": "Unknown", "xref": "[\u0027GC_ID:6\u0027]"}, {"betweenness_centrality": "25.666666666666664", "border-color": "#9b6bd9ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.24", "color": {"background": "#c5aae9ff", "border": "#9b6bd9ff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n3", "label": "Blattodea", "labels": ":Order", "name": "Blattodea", "pagerank_centrality": "0.8646239629179912", "propertyValue": "[\u0027has_rank NCBITaxon:order\u0027]", "shape": "dot", "size": 14, "synonym": "[\u0027\"Blattaria\" RELATED synonym []\u0027, \u0027\"Blattoptera\" RELATED synonym []\u0027, \u0027\"cockroaches\" EXACT genbank_common_name []\u0027, \u0027\"roaches\" RELATED blast_name []\u0027]", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "29.0", "border-color": "#888408ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.24742268041237114", "color": {"background": "#d6d211ff", "border": "#888408ff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n160", "label": "Insecta", "labels": ":Class", "name": "Insecta", "pagerank_centrality": "0.8480757730326801", "propertyValue": "[\u0027has_rank NCBITaxon:class\u0027]", "shape": "dot", "size": 16, "synonym": "[\u0027\"insects\" RELATED blast_name []\u0027, \u0027\"true insects\" EXACT genbank_common_name []\u0027]", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "25.666666666666664", "border-color": "#9b6bd9ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.24", "color": {"background": "#c5aae9ff", "border": "#9b6bd9ff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n4", "label": "Rhabditida", "labels": ":Order", "name": "Rhabditida", "pagerank_centrality": "0.8646239629179912", "propertyValue": "[\u0027has_rank NCBITaxon:order\u0027]", "shape": "dot", "size": 14, "synonym": "[\u0027\"Strongylida\" RELATED synonym []\u0027]", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "29.0", "border-color": "#888408ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.24742268041237114", "color": {"background": "#d6d211ff", "border": "#888408ff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n161", "label": "Chromadorea", "labels": ":Class", "name": "Chromadorea", "pagerank_centrality": "0.8480757730326801", "propertyValue": "[\u0027has_rank NCBITaxon:class\u0027]", "shape": "dot", "size": 16, "synonym": "[\u0027\"Adenophorea\" RELATED synonym []\u0027]", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "97.99999999999997", "border-color": "#cf8f44ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.3037974683544304", "color": {"background": "#e9ccaaff", "border": "#cf8f44ff"}, "degree_centrality": "10.0", "font": {"size": 12}, "id": "n0", "label": "Eukaryota", "labels": ":Kingdom", "name": "Eukaryota", "pagerank_centrality": "1.6599764942930284", "propertyValue": "[\u0027has_rank NCBITaxon:superkingdom\u0027]", "shape": "dot", "size": 50, "synonym": "[\u0027\"Eucarya\" RELATED synonym []\u0027, \u0027\"Eucaryotae\" RELATED synonym []\u0027, \u0027\"eucaryotes\" EXACT genbank_common_name []\u0027, \u0027\"Eukarya\" RELATED synonym []\u0027, \u0027\"Eukaryotae\" RELATED synonym []\u0027, \u0027\"eukaryotes\" EXACT OMO:0003003 []\u0027, \u0027\"eukaryotes\" RELATED blast_name []\u0027]", "xref": "[\u0027GC_ID:1\u0027, \u0027PMID:23020233\u0027, \u0027PMID:30257078\u0027]"}, {"betweenness_centrality": "36.333333333333336", "border-color": "#47b9d1ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.26666666666666666", "color": {"background": "#b5e3ecff", "border": "#47b9d1ff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n14", "label": "Ciliophora", "labels": ":Phylum", "name": "Ciliophora", "pagerank_centrality": "0.7881246574794172", "propertyValue": "[\u0027has_rank NCBITaxon:phylum\u0027]", "shape": "dot", "size": 19, "synonym": "[\u0027\"Ciliata\" RELATED synonym []\u0027, \u0027\"ciliates\" EXACT genbank_common_name []\u0027, \u0027\"ciliates\" RELATED blast_name []\u0027]", "xref": "[\u0027GC_ID:6\u0027]"}, {"betweenness_centrality": "36.333333333333336", "border-color": "#47b9d1ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.26666666666666666", "color": {"background": "#b5e3ecff", "border": "#47b9d1ff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n15", "label": "Arthropoda", "labels": ":Phylum", "name": "Arthropoda", "pagerank_centrality": "0.7881246574794172", "propertyValue": "[\u0027has_rank NCBITaxon:phylum\u0027]", "shape": "dot", "size": 19, "synonym": "[\u0027\"arthropods\" EXACT genbank_common_name []\u0027, \u0027\"arthropods\" RELATED blast_name []\u0027]", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "36.33333333333333", "border-color": "#47b9d1ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.26666666666666666", "color": {"background": "#b5e3ecff", "border": "#47b9d1ff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n16", "label": "Nematoda", "labels": ":Phylum", "name": "Nematoda", "pagerank_centrality": "0.7881246574794172", "propertyValue": "[\u0027has_rank NCBITaxon:phylum\u0027]", "shape": "dot", "size": 19, "synonym": "[\u0027\"Nemata\" RELATED synonym []\u0027, \u0027\"nematode\" EXACT OMO:0003003 []\u0027, \u0027\"nematodes\" EXACT OMO:0003003 []\u0027, \u0027\"nematodes\" RELATED blast_name []\u0027, \u0027\"roundworm\" EXACT OMO:0003003 []\u0027, \u0027\"roundworms\" EXACT genbank_common_name []\u0027]", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "41.0", "border-color": "#a48f23ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.2926829268292683", "cluster": "0", "color": {"background": "#e3cd72ff", "border": "#a48f23ff"}, "degree_centrality": "8.0", "font": {"size": 12}, "id": "n17", "label": "Paraphysomonas vestita", "labels": ":Species", "name": "Paraphysomonas vestita", "pagerank_centrality": "1.2731689183148553", "propertyValue": "[\u0027has_rank NCBITaxon:species\u0027]", "shape": "dot", "size": 22, "synonym": "Unknown", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "42.33333333333333", "border-color": "#a48f23ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.2891566265060241", "cluster": "0", "color": {"background": "#e3cd72ff", "border": "#a48f23ff"}, "degree_centrality": "8.0", "font": {"size": 12}, "id": "n18", "label": "Tokophrya lemnarum", "labels": ":Species", "name": "Tokophrya lemnarum", "pagerank_centrality": "1.2916948647845052", "propertyValue": "[\u0027has_rank NCBITaxon:species\u0027]", "shape": "dot", "size": 22, "synonym": "Unknown", "xref": "[\u0027GC_ID:6\u0027]"}, {"betweenness_centrality": "42.33333333333333", "border-color": "#a48f23ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.2891566265060241", "cluster": "0", "color": {"background": "#e3cd72ff", "border": "#a48f23ff"}, "degree_centrality": "8.0", "font": {"size": 12}, "id": "n19", "label": "Zootermopsis nevadensis", "labels": ":Species", "name": "Zootermopsis nevadensis", "pagerank_centrality": "1.2916948647845052", "propertyValue": "[\u0027has_rank NCBITaxon:species\u0027]", "shape": "dot", "size": 22, "synonym": "Unknown", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "42.33333333333333", "border-color": "#a48f23ff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.2891566265060241", "cluster": "0", "color": {"background": "#e3cd72ff", "border": "#a48f23ff"}, "degree_centrality": "8.0", "font": {"size": 12}, "id": "n20", "label": "Rhabditidoides humicolus", "labels": ":Species", "name": "Rhabditidoides humicolus", "pagerank_centrality": "1.2916948647845052", "propertyValue": "[\u0027has_rank NCBITaxon:species\u0027]", "shape": "dot", "size": 22, "synonym": "Unknown", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "35.0", "border-color": "#009bedff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.2696629213483146", "color": {"background": "#7ad1ffff", "border": "#009bedff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n236", "label": "Paraphysomonas", "labels": ":Genus", "name": "Paraphysomonas", "pagerank_centrality": "0.7259278096975768", "propertyValue": "[\u0027has_rank NCBITaxon:genus\u0027]", "shape": "dot", "size": 19, "synonym": "Unknown", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "31.666666666666668", "border-color": "#009bedff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.2553191489361702", "color": {"background": "#7ad1ffff", "border": "#009bedff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n237", "label": "Tokophrya", "labels": ":Genus", "name": "Tokophrya", "pagerank_centrality": "0.7787432475902936", "propertyValue": "[\u0027has_rank NCBITaxon:genus\u0027]", "shape": "dot", "size": 17, "synonym": "Unknown", "xref": "[\u0027GC_ID:6\u0027]"}, {"betweenness_centrality": "31.666666666666668", "border-color": "#009bedff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.2553191489361702", "color": {"background": "#7ad1ffff", "border": "#009bedff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n238", "label": "Zootermopsis", "labels": ":Genus", "name": "Zootermopsis", "pagerank_centrality": "0.7787432475902936", "propertyValue": "[\u0027has_rank NCBITaxon:genus\u0027]", "shape": "dot", "size": 17, "synonym": "Unknown", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "31.666666666666668", "border-color": "#009bedff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.2553191489361702", "color": {"background": "#7ad1ffff", "border": "#009bedff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n239", "label": "Rhabditidoides", "labels": ":Genus", "name": "Rhabditidoides", "pagerank_centrality": "0.7787432475902936", "propertyValue": "[\u0027has_rank NCBITaxon:genus\u0027]", "shape": "dot", "size": 17, "synonym": "Unknown", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "33.0", "border-color": "#31c17aff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.2608695652173913", "color": {"background": "#2793146b", "border": "#31c17aff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n201", "label": "Paraphysomonadaceae", "labels": ":Family", "name": "Paraphysomonadaceae", "pagerank_centrality": "0.7287600192607241", "propertyValue": "[\u0027has_rank NCBITaxon:family\u0027]", "shape": "dot", "size": 18, "synonym": "Unknown", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "26.333333333333336", "border-color": "#31c17aff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.24242424242424243", "color": {"background": "#2793146b", "border": "#31c17aff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n202", "label": "Tokophryidae", "labels": ":Family", "name": "Tokophryidae", "pagerank_centrality": "0.8440658575046587", "propertyValue": "[\u0027has_rank NCBITaxon:family\u0027]", "shape": "dot", "size": 15, "synonym": "Unknown", "xref": "[\u0027GC_ID:6\u0027]"}, {"betweenness_centrality": "26.333333333333332", "border-color": "#31c17aff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.24242424242424243", "color": {"background": "#2793146b", "border": "#31c17aff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n203", "label": "Termopsidae", "labels": ":Family", "name": "Termopsidae", "pagerank_centrality": "0.8440658575046587", "propertyValue": "[\u0027has_rank NCBITaxon:family\u0027]", "shape": "dot", "size": 15, "synonym": "[\u0027\"damp wood termites\" EXACT genbank_common_name []\u0027, \u0027\"rotton-wood termites\" EXACT OMO:0003003 []\u0027]", "xref": "[\u0027GC_ID:1\u0027]"}, {"betweenness_centrality": "26.333333333333336", "border-color": "#31c17aff", "borderWidth": 1.5, "borderWidthSelected": 2, "category": "OrganismTaxon", "closeness_centrality": "0.24242424242424243", "color": {"background": "#2793146b", "border": "#31c17aff"}, "degree_centrality": "4.0", "font": {"size": 12}, "id": "n204", "label": "Diplogasteridae", "labels": ":Family", "name": "Diplogasteridae", "pagerank_centrality": "0.8440658575046587", "propertyValue": "[\u0027has_rank NCBITaxon:family\u0027]", "shape": "dot", "size": 15, "synonym": "[\u0027\"Diplogastridae\" RELATED synonym []\u0027]", "xref": "[\u0027GC_ID:1\u0027]"}]);
+                  edges = new vis.DataSet([{"color": "#a5abb6ff", "font": {"size": 6}, "from": "n1", "id": "e6", "label": "SUBCLASS_OF", "to": "n13", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n1", "id": "e7", "label": "SUBCLASS_OF", "to": "n158", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n2", "id": "e8", "label": "SUBCLASS_OF", "to": "n159", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n3", "id": "e9", "label": "SUBCLASS_OF", "to": "n160", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n4", "id": "e10", "label": "SUBCLASS_OF", "to": "n161", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n13", "id": "e12", "label": "SUBCLASS_OF", "to": "n158", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n13", "id": "e18", "label": "SUBCLASS_OF", "to": "n0", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n14", "id": "e20", "label": "SUBCLASS_OF", "to": "n0", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n15", "id": "e21", "label": "SUBCLASS_OF", "to": "n0", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n16", "id": "e22", "label": "SUBCLASS_OF", "to": "n0", "width": 1}, {"associationSlot": "0.339110979062427", "biome": "ENVO_00002001", "biomeName": "wastewater", "color": "#B53C44FF", "font": {"size": 6}, "from": "n17", "id": "e0", "label": "ASSOCIATED_WITH", "supportingDataSource": "cclasso microbial association network", "supportingStudyMethodType": "assembly", "to": "n18", "width": 1}, {"associationSlot": "0.339110979062419", "biome": "ENVO_00002001", "biomeName": "wastewater", "color": "#B53C44FF", "font": {"size": 6}, "from": "n17", "id": "e1", "label": "ASSOCIATED_WITH", "supportingDataSource": "cclasso microbial association network", "supportingStudyMethodType": "assembly", "to": "n19", "width": 1}, {"associationSlot": "0.339110979062403", "biome": "ENVO_00002001", "biomeName": "wastewater", "color": "#B53C44FF", "font": {"size": 6}, "from": "n17", "id": "e2", "label": "ASSOCIATED_WITH", "supportingDataSource": "cclasso microbial association network", "supportingStudyMethodType": "assembly", "to": "n20", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n17", "id": "e23", "label": "SUBCLASS_OF", "to": "n236", "width": 1}, {"associationSlot": "0.339110979062389", "biome": "ENVO_00002001", "biomeName": "wastewater", "color": "#B53C44FF", "font": {"size": 6}, "from": "n18", "id": "e3", "label": "ASSOCIATED_WITH", "supportingDataSource": "cclasso microbial association network", "supportingStudyMethodType": "assembly", "to": "n19", "width": 1}, {"associationSlot": "0.339110979062409", "biome": "ENVO_00002001", "biomeName": "wastewater", "color": "#B53C44FF", "font": {"size": 6}, "from": "n18", "id": "e4", "label": "ASSOCIATED_WITH", "supportingDataSource": "cclasso microbial association network", "supportingStudyMethodType": "assembly", "to": "n20", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n18", "id": "e24", "label": "SUBCLASS_OF", "to": "n237", "width": 1}, {"associationSlot": "0.339110979062384", "biome": "ENVO_00002001", "biomeName": "wastewater", "color": "#B53C44FF", "font": {"size": 6}, "from": "n19", "id": "e5", "label": "ASSOCIATED_WITH", "supportingDataSource": "cclasso microbial association network", "supportingStudyMethodType": "assembly", "to": "n20", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n19", "id": "e25", "label": "SUBCLASS_OF", "to": "n238", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n20", "id": "e26", "label": "SUBCLASS_OF", "to": "n239", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n158", "id": "e19", "label": "SUBCLASS_OF", "to": "n0", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n159", "id": "e15", "label": "SUBCLASS_OF", "to": "n14", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n160", "id": "e16", "label": "SUBCLASS_OF", "to": "n15", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n161", "id": "e17", "label": "SUBCLASS_OF", "to": "n16", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n201", "id": "e31", "label": "SUBCLASS_OF", "to": "n1", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n202", "id": "e32", "label": "SUBCLASS_OF", "to": "n2", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n203", "id": "e33", "label": "SUBCLASS_OF", "to": "n3", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n204", "id": "e34", "label": "SUBCLASS_OF", "to": "n4", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n236", "id": "e27", "label": "SUBCLASS_OF", "to": "n201", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n237", "id": "e28", "label": "SUBCLASS_OF", "to": "n202", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n238", "id": "e29", "label": "SUBCLASS_OF", "to": "n203", "width": 1}, {"color": "#a5abb6ff", "font": {"size": 6}, "from": "n239", "id": "e30", "label": "SUBCLASS_OF", "to": "n204", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.005,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

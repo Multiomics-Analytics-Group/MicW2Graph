@@ -1,0 +1,200 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.10.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "cclasso_0.10",
+    "name" : "cclasso_0.10",
+    "SUID" : 232,
+    "__Annotations" : [ "" ],
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "265",
+        "shared_name" : "Rhabditidoides_humicolus",
+        "cluster" : 1.0,
+        "degree" : 3.0,
+        "name" : "Rhabditidoides_humicolus",
+        "SUID" : 265,
+        "id_original" : "Rhabditidoides_humicolus",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 63.63591194152832,
+        "y" : 15.127120971679688
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "263",
+        "shared_name" : "Zootermopsis_nevadensis",
+        "cluster" : 1.0,
+        "degree" : 3.0,
+        "name" : "Zootermopsis_nevadensis",
+        "SUID" : 263,
+        "id_original" : "Zootermopsis_nevadensis",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -15.14008903503418,
+        "y" : 63.67607116699219
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "261",
+        "shared_name" : "Tokophrya_lemnarum",
+        "cluster" : 1.0,
+        "degree" : 3.0,
+        "name" : "Tokophrya_lemnarum",
+        "SUID" : 261,
+        "id_original" : "Tokophrya_lemnarum",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 15.140382766723633,
+        "y" : -63.682373046875
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "259",
+        "shared_name" : "Paraphysomonas_vestita",
+        "cluster" : 1.0,
+        "degree" : 3.0,
+        "name" : "Paraphysomonas_vestita",
+        "SUID" : 259,
+        "id_original" : "Paraphysomonas_vestita",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -63.63620567321777,
+        "y" : -15.120819091796875
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "277",
+        "source" : "263",
+        "target" : "265",
+        "asso" : 0.339111,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 1554554,
+        "diss" : 0.574843,
+        "source_original" : "Zootermopsis_nevadensis",
+        "target_original" : "Rhabditidoides_humicolus",
+        "shared_name" : "Zootermopsis_nevadensis (interacts with) Rhabditidoides_humicolus",
+        "adja" : 0.425157,
+        "name" : "Zootermopsis_nevadensis (interacts with) Rhabditidoides_humicolus",
+        "interaction" : "interacts with",
+        "SUID" : 277,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "275",
+        "source" : "261",
+        "target" : "265",
+        "asso" : 0.339111,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 1554551,
+        "diss" : 0.574843,
+        "source_original" : "Tokophrya_lemnarum",
+        "target_original" : "Rhabditidoides_humicolus",
+        "shared_name" : "Tokophrya_lemnarum (interacts with) Rhabditidoides_humicolus",
+        "adja" : 0.425157,
+        "name" : "Tokophrya_lemnarum (interacts with) Rhabditidoides_humicolus",
+        "interaction" : "interacts with",
+        "SUID" : 275,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "273",
+        "source" : "261",
+        "target" : "263",
+        "asso" : 0.339111,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 1554548,
+        "diss" : 0.574843,
+        "source_original" : "Tokophrya_lemnarum",
+        "target_original" : "Zootermopsis_nevadensis",
+        "shared_name" : "Tokophrya_lemnarum (interacts with) Zootermopsis_nevadensis",
+        "adja" : 0.425157,
+        "name" : "Tokophrya_lemnarum (interacts with) Zootermopsis_nevadensis",
+        "interaction" : "interacts with",
+        "SUID" : 273,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "271",
+        "source" : "259",
+        "target" : "265",
+        "asso" : 0.339111,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 1554545,
+        "diss" : 0.574843,
+        "source_original" : "Paraphysomonas_vestita",
+        "target_original" : "Rhabditidoides_humicolus",
+        "shared_name" : "Paraphysomonas_vestita (interacts with) Rhabditidoides_humicolus",
+        "adja" : 0.425157,
+        "name" : "Paraphysomonas_vestita (interacts with) Rhabditidoides_humicolus",
+        "interaction" : "interacts with",
+        "SUID" : 271,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "269",
+        "source" : "259",
+        "target" : "263",
+        "asso" : 0.339111,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 1554542,
+        "diss" : 0.574843,
+        "source_original" : "Paraphysomonas_vestita",
+        "target_original" : "Zootermopsis_nevadensis",
+        "shared_name" : "Paraphysomonas_vestita (interacts with) Zootermopsis_nevadensis",
+        "adja" : 0.425157,
+        "name" : "Paraphysomonas_vestita (interacts with) Zootermopsis_nevadensis",
+        "interaction" : "interacts with",
+        "SUID" : 269,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "267",
+        "source" : "259",
+        "target" : "261",
+        "asso" : 0.339111,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 1554533,
+        "diss" : 0.574843,
+        "source_original" : "Paraphysomonas_vestita",
+        "target_original" : "Tokophrya_lemnarum",
+        "shared_name" : "Paraphysomonas_vestita (interacts with) Tokophrya_lemnarum",
+        "adja" : 0.425157,
+        "name" : "Paraphysomonas_vestita (interacts with) Tokophrya_lemnarum",
+        "interaction" : "interacts with",
+        "SUID" : 267,
+        "selected" : false
+      },
+      "selected" : false
+    } ]
+  }
+}

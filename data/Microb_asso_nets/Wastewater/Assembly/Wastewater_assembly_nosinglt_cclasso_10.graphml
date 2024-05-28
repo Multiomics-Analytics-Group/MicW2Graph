@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="SUID" attr.type="long" for="node" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="node" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="node" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="node" id="selected"/>
+    <key attr.name="id" attr.type="string" for="node" id="id"/>
+    <key attr.name="degree" attr.type="double" for="node" id="degree"/>
+    <key attr.name="cluster" attr.type="double" for="node" id="cluster"/>
+    <key attr.name="SUID" attr.type="long" for="edge" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="edge" id="shared name"/>
+    <key attr.name="shared interaction" attr.type="string" for="edge" id="shared interaction"/>
+    <key attr.name="name" attr.type="string" for="edge" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="edge" id="selected"/>
+    <key attr.name="interaction" attr.type="string" for="edge" id="interaction"/>
+    <key attr.name="source" attr.type="string" for="edge" id="source"/>
+    <key attr.name="target" attr.type="string" for="edge" id="target"/>
+    <key attr.name="data.key.column" attr.type="int" for="edge" id="data.key.column"/>
+    <key attr.name="asso" attr.type="double" for="edge" id="asso"/>
+    <key attr.name="diss" attr.type="double" for="edge" id="diss"/>
+    <key attr.name="adja" attr.type="double" for="edge" id="adja"/>
+    <key attr.name="sign" attr.type="double" for="edge" id="sign"/>
+    <key attr.name="SUID" attr.type="long" for="graph" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="graph" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="graph" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="graph" id="selected"/>
+    <key attr.name="__Annotations" attr.type="string" for="graph" id="__Annotations"/>
+    <graph edgedefault="directed" id="cclasso_0.10">
+        <node id="265">
+            <data key="SUID">265</data>
+            <data key="shared name">Rhabditidoides_humicolus</data>
+            <data key="name">Rhabditidoides_humicolus</data>
+            <data key="selected">false</data>
+            <data key="id">Rhabditidoides_humicolus</data>
+            <data key="degree">3.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <node id="263">
+            <data key="SUID">263</data>
+            <data key="shared name">Zootermopsis_nevadensis</data>
+            <data key="name">Zootermopsis_nevadensis</data>
+            <data key="selected">false</data>
+            <data key="id">Zootermopsis_nevadensis</data>
+            <data key="degree">3.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <node id="261">
+            <data key="SUID">261</data>
+            <data key="shared name">Tokophrya_lemnarum</data>
+            <data key="name">Tokophrya_lemnarum</data>
+            <data key="selected">false</data>
+            <data key="id">Tokophrya_lemnarum</data>
+            <data key="degree">3.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <node id="259">
+            <data key="SUID">259</data>
+            <data key="shared name">Paraphysomonas_vestita</data>
+            <data key="name">Paraphysomonas_vestita</data>
+            <data key="selected">false</data>
+            <data key="id">Paraphysomonas_vestita</data>
+            <data key="degree">3.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <edge source="263" target="265">
+            <data key="SUID">277</data>
+            <data key="shared name">Zootermopsis_nevadensis (interacts with) Rhabditidoides_humicolus</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Zootermopsis_nevadensis (interacts with) Rhabditidoides_humicolus</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Zootermopsis_nevadensis</data>
+            <data key="target">Rhabditidoides_humicolus</data>
+            <data key="data.key.column">1554554</data>
+            <data key="asso">0.339111</data>
+            <data key="diss">0.574843</data>
+            <data key="adja">0.425157</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="261" target="265">
+            <data key="SUID">275</data>
+            <data key="shared name">Tokophrya_lemnarum (interacts with) Rhabditidoides_humicolus</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Tokophrya_lemnarum (interacts with) Rhabditidoides_humicolus</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Tokophrya_lemnarum</data>
+            <data key="target">Rhabditidoides_humicolus</data>
+            <data key="data.key.column">1554551</data>
+            <data key="asso">0.339111</data>
+            <data key="diss">0.574843</data>
+            <data key="adja">0.425157</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="261" target="263">
+            <data key="SUID">273</data>
+            <data key="shared name">Tokophrya_lemnarum (interacts with) Zootermopsis_nevadensis</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Tokophrya_lemnarum (interacts with) Zootermopsis_nevadensis</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Tokophrya_lemnarum</data>
+            <data key="target">Zootermopsis_nevadensis</data>
+            <data key="data.key.column">1554548</data>
+            <data key="asso">0.339111</data>
+            <data key="diss">0.574843</data>
+            <data key="adja">0.425157</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="259" target="265">
+            <data key="SUID">271</data>
+            <data key="shared name">Paraphysomonas_vestita (interacts with) Rhabditidoides_humicolus</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Paraphysomonas_vestita (interacts with) Rhabditidoides_humicolus</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Paraphysomonas_vestita</data>
+            <data key="target">Rhabditidoides_humicolus</data>
+            <data key="data.key.column">1554545</data>
+            <data key="asso">0.339111</data>
+            <data key="diss">0.574843</data>
+            <data key="adja">0.425157</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="259" target="263">
+            <data key="SUID">269</data>
+            <data key="shared name">Paraphysomonas_vestita (interacts with) Zootermopsis_nevadensis</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Paraphysomonas_vestita (interacts with) Zootermopsis_nevadensis</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Paraphysomonas_vestita</data>
+            <data key="target">Zootermopsis_nevadensis</data>
+            <data key="data.key.column">1554542</data>
+            <data key="asso">0.339111</data>
+            <data key="diss">0.574843</data>
+            <data key="adja">0.425157</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="259" target="261">
+            <data key="SUID">267</data>
+            <data key="shared name">Paraphysomonas_vestita (interacts with) Tokophrya_lemnarum</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Paraphysomonas_vestita (interacts with) Tokophrya_lemnarum</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Paraphysomonas_vestita</data>
+            <data key="target">Tokophrya_lemnarum</data>
+            <data key="data.key.column">1554533</data>
+            <data key="asso">0.339111</data>
+            <data key="diss">0.574843</data>
+            <data key="adja">0.425157</data>
+            <data key="sign">1.0</data>
+        </edge>
+    </graph>
+</graphml>

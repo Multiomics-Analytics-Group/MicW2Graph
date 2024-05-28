@@ -1,0 +1,13 @@
+Superkingdom,Kingdom,Phylum,Class,Order,Family,Genus,Species,Genus_Species,ERZ794912,ERZ794919,ERZ794932,ERZ794914,ERZ794915,ERZ794916,ERZ794917,ERZ794918,ERZ794920,ERZ794921,ERZ794930,ERZ794931
+Bacteria,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,Cyclobacteriaceae,Mariniradius,saccharolyticus,Mariniradius_saccharolyticus,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+Bacteria,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,Cytophagaceae,Dyadobacter,psychrophilus,Dyadobacter_psychrophilus,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bacteria,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Crocinitomicaceae,Fluviicola,taffensis,Fluviicola_taffensis,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+Bacteria,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Labrenzia,marina,Labrenzia_marina,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bacteria,Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Polyangiaceae,Sorangium,cellulosum,Sorangium_cellulosum,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bacteria,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,moraviensis,Pseudomonas_moraviensis,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bacteria,Bacteria,Proteobacteria,Oligoflexia,Bdellovibrionales,Bdellovibrionaceae,Bdellovibrio,bacteriovorus,Bdellovibrio_bacteriovorus,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+Eukaryota,Eukaryota,,,,Vannellidae,Vannella,miroides,Vannella_miroides,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Eukaryota,Eukaryota,,,Arcellinida,Arcellidae,Arcella,gibbosa,Arcella_gibbosa,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Eukaryota,Eukaryota,,,Arcellinida,Arcellidae,Arcella,hemisphaerica,Arcella_hemisphaerica,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Eukaryota,Eukaryota,,Phyllopharyngea,Dysteriida,Dysteriidae,Dysteria,cristata,Dysteria_cristata,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+Eukaryota,Metazoa,Rotifera,Bdelloidea,Adinetida,Adinetidae,Adineta,vaga,Adineta_vaga,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0

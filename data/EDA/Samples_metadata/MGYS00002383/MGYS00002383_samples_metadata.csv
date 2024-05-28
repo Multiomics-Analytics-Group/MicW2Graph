@@ -1,0 +1,7 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+ERS2488841,CROATIA1,SAMEA4668225,Croatian wastewater treatment sludge,45.7897,16.0823,Croatia,Sludge,Wastewater treatment plant,sludge,ERR2586215
+ERS2488842,CROATIA2,SAMEA4668226,Croatian wastewater treatment sludge,45.7897,16.0823,Croatia,Sludge,Wastewater treatment plant,sludge,ERR2586216
+ERS2488843,CROATIA3,SAMEA4668227,Croatian wastewater treatment sludge,45.7897,16.0823,Croatia,Sludge,Wastewater treatment plant,sludge,ERR2586217
+ERS2488844,CROATIA4,SAMEA4668228,Croatian wastewater treatment sludge,45.7897,16.0823,Croatia,Sludge,Wastewater treatment plant,sludge,ERR2586218
+ERS2488845,CROATIA5,SAMEA4668229,Croatian wastewater treatment sludge,45.7897,16.0823,Croatia,Sludge,Wastewater treatment plant,sludge,ERR2586219
+ERS2488846,CROATIA6,SAMEA4668230,Croatian wastewater treatment sludge,45.7897,16.0823,Croatia,Sludge,Wastewater treatment plant,sludge,ERR2586220

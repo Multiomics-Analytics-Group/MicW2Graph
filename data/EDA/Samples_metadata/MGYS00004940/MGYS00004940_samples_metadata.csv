@@ -1,0 +1,2 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+SRS1914373,D5,SAMN06216280,Sewage sludge,30.59,121.14,"China:Songjiang, Shanghai",,,,ERZ795067

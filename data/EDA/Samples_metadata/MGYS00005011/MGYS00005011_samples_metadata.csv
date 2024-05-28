@@ -1,0 +1,4 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+SRS2422719,HS0,SAMN07488724,HS0,,,,,,,ERZ781404
+SRS2422978,HS5,SAMN07488725,HS5,,,,,,,ERZ781406
+SRS2422979,HS50,SAMN07488726,HS50,,,,,,,ERZ781405

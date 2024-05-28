@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="SUID" attr.type="long" for="node" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="node" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="node" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="node" id="selected"/>
+    <key attr.name="id" attr.type="string" for="node" id="id"/>
+    <key attr.name="degree" attr.type="double" for="node" id="degree"/>
+    <key attr.name="cluster" attr.type="double" for="node" id="cluster"/>
+    <key attr.name="SUID" attr.type="long" for="edge" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="edge" id="shared name"/>
+    <key attr.name="shared interaction" attr.type="string" for="edge" id="shared interaction"/>
+    <key attr.name="name" attr.type="string" for="edge" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="edge" id="selected"/>
+    <key attr.name="interaction" attr.type="string" for="edge" id="interaction"/>
+    <key attr.name="source" attr.type="string" for="edge" id="source"/>
+    <key attr.name="target" attr.type="string" for="edge" id="target"/>
+    <key attr.name="data.key.column" attr.type="int" for="edge" id="data.key.column"/>
+    <key attr.name="asso" attr.type="double" for="edge" id="asso"/>
+    <key attr.name="diss" attr.type="double" for="edge" id="diss"/>
+    <key attr.name="adja" attr.type="double" for="edge" id="adja"/>
+    <key attr.name="sign" attr.type="double" for="edge" id="sign"/>
+    <key attr.name="SUID" attr.type="long" for="graph" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="graph" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="graph" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="graph" id="selected"/>
+    <key attr.name="__Annotations" attr.type="string" for="graph" id="__Annotations"/>
+    <graph edgedefault="directed" id="cclasso_0.70">
+        <node id="7039">
+            <data key="SUID">7039</data>
+            <data key="shared name">Acinetobacter_rhizosphaerae</data>
+            <data key="name">Acinetobacter_rhizosphaerae</data>
+            <data key="selected">false</data>
+            <data key="id">Acinetobacter_rhizosphaerae</data>
+            <data key="degree">3.0</data>
+            <data key="cluster">3.0</data>
+        </node>
+        <node id="7037">
+            <data key="SUID">7037</data>
+            <data key="shared name">Thiodictyon_syntrophicum</data>
+            <data key="name">Thiodictyon_syntrophicum</data>
+            <data key="selected">false</data>
+            <data key="id">Thiodictyon_syntrophicum</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">4.0</data>
+        </node>
+        <node id="7035">
+            <data key="SUID">7035</data>
+            <data key="shared name">Enhydrobacter_aerosaccus</data>
+            <data key="name">Enhydrobacter_aerosaccus</data>
+            <data key="selected">false</data>
+            <data key="id">Enhydrobacter_aerosaccus</data>
+            <data key="degree">5.0</data>
+            <data key="cluster">3.0</data>
+        </node>
+        <node id="7033">
+            <data key="SUID">7033</data>
+            <data key="shared name">Eubacterium_biforme</data>
+            <data key="name">Eubacterium_biforme</data>
+            <data key="selected">false</data>
+            <data key="id">Eubacterium_biforme</data>
+            <data key="degree">5.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <node id="7031">
+            <data key="SUID">7031</data>
+            <data key="shared name">Acinetobacter_schindleri</data>
+            <data key="name">Acinetobacter_schindleri</data>
+            <data key="selected">false</data>
+            <data key="id">Acinetobacter_schindleri</data>
+            <data key="degree">3.0</data>
+            <data key="cluster">3.0</data>
+        </node>
+        <node id="7029">
+            <data key="SUID">7029</data>
+            <data key="shared name">Acinetobacter_lwoffii</data>
+            <data key="name">Acinetobacter_lwoffii</data>
+            <data key="selected">false</data>
+            <data key="id">Acinetobacter_lwoffii</data>
+            <data key="degree">8.0</data>
+            <data key="cluster">2.0</data>
+        </node>
+        <node id="7027">
+            <data key="SUID">7027</data>
+            <data key="shared name">Acinetobacter_johnsonii</data>
+            <data key="name">Acinetobacter_johnsonii</data>
+            <data key="selected">false</data>
+            <data key="id">Acinetobacter_johnsonii</data>
+            <data key="degree">8.0</data>
+            <data key="cluster">3.0</data>
+        </node>
+        <node id="7025">
+            <data key="SUID">7025</data>
+            <data key="shared name">Acinetobacter_guillouiae</data>
+            <data key="name">Acinetobacter_guillouiae</data>
+            <data key="selected">false</data>
+            <data key="id">Acinetobacter_guillouiae</data>
+            <data key="degree">6.0</data>
+            <data key="cluster">3.0</data>
+        </node>
+        <node id="7023">
+            <data key="SUID">7023</data>
+            <data key="shared name">Nitrosomonas_halophila</data>
+            <data key="name">Nitrosomonas_halophila</data>
+            <data key="selected">false</data>
+            <data key="id">Nitrosomonas_halophila</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">4.0</data>
+        </node>
+        <node id="7021">
+            <data key="SUID">7021</data>
+            <data key="shared name">Nitrosococcus_mobilis</data>
+            <data key="name">Nitrosococcus_mobilis</data>
+            <data key="selected">false</data>
+            <data key="id">Nitrosococcus_mobilis</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">4.0</data>
+        </node>
+        <node id="7019">
+            <data key="SUID">7019</data>
+            <data key="shared name">Neisseria_cinerea</data>
+            <data key="name">Neisseria_cinerea</data>
+            <data key="selected">false</data>
+            <data key="id">Neisseria_cinerea</data>
+            <data key="degree">3.0</data>
+            <data key="cluster">2.0</data>
+        </node>
+        <node id="7017">
+            <data key="SUID">7017</data>
+            <data key="shared name">Paracoccus_marcusii</data>
+            <data key="name">Paracoccus_marcusii</data>
+            <data key="selected">false</data>
+            <data key="id">Paracoccus_marcusii</data>
+            <data key="degree">2.0</data>
+            <data key="cluster">2.0</data>
+        </node>
+        <node id="7015">
+            <data key="SUID">7015</data>
+            <data key="shared name">Faecalibacterium_prausnitzii</data>
+            <data key="name">Faecalibacterium_prausnitzii</data>
+            <data key="selected">false</data>
+            <data key="id">Faecalibacterium_prausnitzii</data>
+            <data key="degree">4.0</data>
+            <data key="cluster">2.0</data>
+        </node>
+        <node id="7013">
+            <data key="SUID">7013</data>
+            <data key="shared name">Ruminococcus_gnavus</data>
+            <data key="name">Ruminococcus_gnavus</data>
+            <data key="selected">false</data>
+            <data key="id">Ruminococcus_gnavus</data>
+            <data key="degree">4.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <node id="7011">
+            <data key="SUID">7011</data>
+            <data key="shared name">Dorea_formicigenerans</data>
+            <data key="name">Dorea_formicigenerans</data>
+            <data key="selected">false</data>
+            <data key="id">Dorea_formicigenerans</data>
+            <data key="degree">3.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <node id="7009">
+            <data key="SUID">7009</data>
+            <data key="shared name">Blautia_producta</data>
+            <data key="name">Blautia_producta</data>
+            <data key="selected">false</data>
+            <data key="id">Blautia_producta</data>
+            <data key="degree">4.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <node id="7007">
+            <data key="SUID">7007</data>
+            <data key="shared name">Streptococcus_minor</data>
+            <data key="name">Streptococcus_minor</data>
+            <data key="selected">false</data>
+            <data key="id">Streptococcus_minor</data>
+            <data key="degree">3.0</data>
+            <data key="cluster">3.0</data>
+        </node>
+        <node id="7005">
+            <data key="SUID">7005</data>
+            <data key="shared name">Prevotella_copri</data>
+            <data key="name">Prevotella_copri</data>
+            <data key="selected">false</data>
+            <data key="id">Prevotella_copri</data>
+            <data key="degree">3.0</data>
+            <data key="cluster">2.0</data>
+        </node>
+        <node id="7003">
+            <data key="SUID">7003</data>
+            <data key="shared name">Bifidobacterium_longum</data>
+            <data key="name">Bifidobacterium_longum</data>
+            <data key="selected">false</data>
+            <data key="id">Bifidobacterium_longum</data>
+            <data key="degree">5.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <node id="7001">
+            <data key="SUID">7001</data>
+            <data key="shared name">Bifidobacterium_adolescentis</data>
+            <data key="name">Bifidobacterium_adolescentis</data>
+            <data key="selected">false</data>
+            <data key="id">Bifidobacterium_adolescentis</data>
+            <data key="degree">3.0</data>
+            <data key="cluster">1.0</data>
+        </node>
+        <edge source="7031" target="7035">
+            <data key="SUID">7117</data>
+            <data key="shared name">Acinetobacter_schindleri (interacts with) Enhydrobacter_aerosaccus</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Acinetobacter_schindleri (interacts with) Enhydrobacter_aerosaccus</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Acinetobacter_schindleri</data>
+            <data key="target">Enhydrobacter_aerosaccus</data>
+            <data key="data.key.column">685880</data>
+            <data key="asso">0.7130045</data>
+            <data key="diss">0.3788109</data>
+            <data key="adja">0.6211891</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7029" target="7035">
+            <data key="SUID">7115</data>
+            <data key="shared name">Acinetobacter_lwoffii (interacts with) Enhydrobacter_aerosaccus</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Acinetobacter_lwoffii (interacts with) Enhydrobacter_aerosaccus</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Acinetobacter_lwoffii</data>
+            <data key="target">Enhydrobacter_aerosaccus</data>
+            <data key="data.key.column">685877</data>
+            <data key="asso">0.7180979</data>
+            <data key="diss">0.3754345</data>
+            <data key="adja">0.6245655</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7029" target="7039">
+            <data key="SUID">7113</data>
+            <data key="shared name">Acinetobacter_lwoffii (interacts with) Acinetobacter_rhizosphaerae</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Acinetobacter_lwoffii (interacts with) Acinetobacter_rhizosphaerae</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Acinetobacter_lwoffii</data>
+            <data key="target">Acinetobacter_rhizosphaerae</data>
+            <data key="data.key.column">685874</data>
+            <data key="asso">0.7167385</data>
+            <data key="diss">0.3763386</data>
+            <data key="adja">0.6236614</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7027" target="7035">
+            <data key="SUID">7111</data>
+            <data key="shared name">Acinetobacter_johnsonii (interacts with) Enhydrobacter_aerosaccus</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Acinetobacter_johnsonii (interacts with) Enhydrobacter_aerosaccus</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Acinetobacter_johnsonii</data>
+            <data key="target">Enhydrobacter_aerosaccus</data>
+            <data key="data.key.column">685871</data>
+            <data key="asso">0.7242253</data>
+            <data key="diss">0.3713319</data>
+            <data key="adja">0.6286681</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7027" target="7031">
+            <data key="SUID">7109</data>
+            <data key="shared name">Acinetobacter_johnsonii (interacts with) Acinetobacter_schindleri</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Acinetobacter_johnsonii (interacts with) Acinetobacter_schindleri</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Acinetobacter_johnsonii</data>
+            <data key="target">Acinetobacter_schindleri</data>
+            <data key="data.key.column">685868</data>
+            <data key="asso">0.71213</data>
+            <data key="diss">0.3793877</data>
+            <data key="adja">0.6206123</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7027" target="7039">
+            <data key="SUID">7107</data>
+            <data key="shared name">Acinetobacter_johnsonii (interacts with) Acinetobacter_rhizosphaerae</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Acinetobacter_johnsonii (interacts with) Acinetobacter_rhizosphaerae</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Acinetobacter_johnsonii</data>
+            <data key="target">Acinetobacter_rhizosphaerae</data>
+            <data key="data.key.column">685865</data>
+            <data key="asso">0.7166853</data>
+            <data key="diss">0.376374</data>
+            <data key="adja">0.623626</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7027" target="7029">
+            <data key="SUID">7105</data>
+            <data key="shared name">Acinetobacter_johnsonii (interacts with) Acinetobacter_lwoffii</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Acinetobacter_johnsonii (interacts with) Acinetobacter_lwoffii</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Acinetobacter_johnsonii</data>
+            <data key="target">Acinetobacter_lwoffii</data>
+            <data key="data.key.column">685862</data>
+            <data key="asso">0.7393947</data>
+            <data key="diss">0.3609746</data>
+            <data key="adja">0.6390254</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7025" target="7035">
+            <data key="SUID">7103</data>
+            <data key="shared name">Acinetobacter_guillouiae (interacts with) Enhydrobacter_aerosaccus</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Acinetobacter_guillouiae (interacts with) Enhydrobacter_aerosaccus</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Acinetobacter_guillouiae</data>
+            <data key="target">Enhydrobacter_aerosaccus</data>
+            <data key="data.key.column">685859</data>
+            <data key="asso">0.7345811</data>
+            <data key="diss">0.3642931</data>
+            <data key="adja">0.6357069</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7025" target="7031">
+            <data key="SUID">7101</data>
+            <data key="shared name">Acinetobacter_guillouiae (interacts with) Acinetobacter_schindleri</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Acinetobacter_guillouiae (interacts with) Acinetobacter_schindleri</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Acinetobacter_guillouiae</data>
+            <data key="target">Acinetobacter_schindleri</data>
+            <data key="data.key.column">685856</data>
+            <data key="asso">0.7184034</data>
+            <data key="diss">0.375231</data>
+            <data key="adja">0.624769</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7025" target="7039">
+            <data key="SUID">7099</data>
+            <data key="shared name">Acinetobacter_guillouiae (interacts with) Acinetobacter_rhizosphaerae</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Acinetobacter_guillouiae (interacts with) Acinetobacter_rhizosphaerae</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Acinetobacter_guillouiae</data>
+            <data key="target">Acinetobacter_rhizosphaerae</data>
+            <data key="data.key.column">685853</data>
+            <data key="asso">0.7158082</data>
+            <data key="diss">0.3769561</data>
+            <data key="adja">0.6230439</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7025" target="7029">
+            <data key="SUID">7097</data>
+            <data key="shared name">Acinetobacter_guillouiae (interacts with) Acinetobacter_lwoffii</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Acinetobacter_guillouiae (interacts with) Acinetobacter_lwoffii</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Acinetobacter_guillouiae</data>
+            <data key="target">Acinetobacter_lwoffii</data>
+            <data key="data.key.column">685850</data>
+            <data key="asso">0.7187785</data>
+            <data key="diss">0.374981</data>
+            <data key="adja">0.625019</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7025" target="7027">
+            <data key="SUID">7095</data>
+            <data key="shared name">Acinetobacter_guillouiae (interacts with) Acinetobacter_johnsonii</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Acinetobacter_guillouiae (interacts with) Acinetobacter_johnsonii</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Acinetobacter_guillouiae</data>
+            <data key="target">Acinetobacter_johnsonii</data>
+            <data key="data.key.column">685847</data>
+            <data key="asso">0.7285531</data>
+            <data key="diss">0.3684066</data>
+            <data key="adja">0.6315934</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7023" target="7037">
+            <data key="SUID">7093</data>
+            <data key="shared name">Nitrosomonas_halophila (interacts with) Thiodictyon_syntrophicum</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Nitrosomonas_halophila (interacts with) Thiodictyon_syntrophicum</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Nitrosomonas_halophila</data>
+            <data key="target">Thiodictyon_syntrophicum</data>
+            <data key="data.key.column">685844</data>
+            <data key="asso">0.7129044</data>
+            <data key="diss">0.378877</data>
+            <data key="adja">0.621123</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7021" target="7037">
+            <data key="SUID">7091</data>
+            <data key="shared name">Nitrosococcus_mobilis (interacts with) Thiodictyon_syntrophicum</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Nitrosococcus_mobilis (interacts with) Thiodictyon_syntrophicum</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Nitrosococcus_mobilis</data>
+            <data key="target">Thiodictyon_syntrophicum</data>
+            <data key="data.key.column">685841</data>
+            <data key="asso">0.7114668</data>
+            <data key="diss">0.3798245</data>
+            <data key="adja">0.6201755</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7021" target="7023">
+            <data key="SUID">7089</data>
+            <data key="shared name">Nitrosococcus_mobilis (interacts with) Nitrosomonas_halophila</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Nitrosococcus_mobilis (interacts with) Nitrosomonas_halophila</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Nitrosococcus_mobilis</data>
+            <data key="target">Nitrosomonas_halophila</data>
+            <data key="data.key.column">685838</data>
+            <data key="asso">0.7168952</data>
+            <data key="diss">0.3762345</data>
+            <data key="adja">0.6237655</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7019" target="7029">
+            <data key="SUID">7087</data>
+            <data key="shared name">Neisseria_cinerea (interacts with) Acinetobacter_lwoffii</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Neisseria_cinerea (interacts with) Acinetobacter_lwoffii</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Neisseria_cinerea</data>
+            <data key="target">Acinetobacter_lwoffii</data>
+            <data key="data.key.column">685835</data>
+            <data key="asso">0.7065594</data>
+            <data key="diss">0.3830408</data>
+            <data key="adja">0.6169592</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7017" target="7029">
+            <data key="SUID">7085</data>
+            <data key="shared name">Paracoccus_marcusii (interacts with) Acinetobacter_lwoffii</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Paracoccus_marcusii (interacts with) Acinetobacter_lwoffii</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Paracoccus_marcusii</data>
+            <data key="target">Acinetobacter_lwoffii</data>
+            <data key="data.key.column">685832</data>
+            <data key="asso">0.7117176</data>
+            <data key="diss">0.3796593</data>
+            <data key="adja">0.6203407</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7017" target="7027">
+            <data key="SUID">7083</data>
+            <data key="shared name">Paracoccus_marcusii (interacts with) Acinetobacter_johnsonii</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Paracoccus_marcusii (interacts with) Acinetobacter_johnsonii</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Paracoccus_marcusii</data>
+            <data key="target">Acinetobacter_johnsonii</data>
+            <data key="data.key.column">685829</data>
+            <data key="asso">0.7148231</data>
+            <data key="diss">0.3776089</data>
+            <data key="adja">0.6223911</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7015" target="7029">
+            <data key="SUID">7081</data>
+            <data key="shared name">Faecalibacterium_prausnitzii (interacts with) Acinetobacter_lwoffii</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Faecalibacterium_prausnitzii (interacts with) Acinetobacter_lwoffii</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Faecalibacterium_prausnitzii</data>
+            <data key="target">Acinetobacter_lwoffii</data>
+            <data key="data.key.column">685826</data>
+            <data key="asso">0.7275552</data>
+            <data key="diss">0.3690832</data>
+            <data key="adja">0.6309168</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7015" target="7027">
+            <data key="SUID">7079</data>
+            <data key="shared name">Faecalibacterium_prausnitzii (interacts with) Acinetobacter_johnsonii</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Faecalibacterium_prausnitzii (interacts with) Acinetobacter_johnsonii</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Faecalibacterium_prausnitzii</data>
+            <data key="target">Acinetobacter_johnsonii</data>
+            <data key="data.key.column">685823</data>
+            <data key="asso">0.7115143</data>
+            <data key="diss">0.3797931</data>
+            <data key="adja">0.6202069</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7015" target="7019">
+            <data key="SUID">7077</data>
+            <data key="shared name">Faecalibacterium_prausnitzii (interacts with) Neisseria_cinerea</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Faecalibacterium_prausnitzii (interacts with) Neisseria_cinerea</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Faecalibacterium_prausnitzii</data>
+            <data key="target">Neisseria_cinerea</data>
+            <data key="data.key.column">685820</data>
+            <data key="asso">0.7134068</data>
+            <data key="diss">0.3785453</data>
+            <data key="adja">0.6214547</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7013" target="7033">
+            <data key="SUID">7075</data>
+            <data key="shared name">Ruminococcus_gnavus (interacts with) Eubacterium_biforme</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Ruminococcus_gnavus (interacts with) Eubacterium_biforme</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Ruminococcus_gnavus</data>
+            <data key="target">Eubacterium_biforme</data>
+            <data key="data.key.column">685817</data>
+            <data key="asso">0.7239811</data>
+            <data key="diss">0.3714962</data>
+            <data key="adja">0.6285038</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7011" target="7033">
+            <data key="SUID">7073</data>
+            <data key="shared name">Dorea_formicigenerans (interacts with) Eubacterium_biforme</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Dorea_formicigenerans (interacts with) Eubacterium_biforme</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Dorea_formicigenerans</data>
+            <data key="target">Eubacterium_biforme</data>
+            <data key="data.key.column">685814</data>
+            <data key="asso">0.7146967</data>
+            <data key="diss">0.3776925</data>
+            <data key="adja">0.6223075</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7011" target="7013">
+            <data key="SUID">7071</data>
+            <data key="shared name">Dorea_formicigenerans (interacts with) Ruminococcus_gnavus</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Dorea_formicigenerans (interacts with) Ruminococcus_gnavus</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Dorea_formicigenerans</data>
+            <data key="target">Ruminococcus_gnavus</data>
+            <data key="data.key.column">685811</data>
+            <data key="asso">0.7288631</data>
+            <data key="diss">0.3681962</data>
+            <data key="adja">0.6318038</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7009" target="7033">
+            <data key="SUID">7069</data>
+            <data key="shared name">Blautia_producta (interacts with) Eubacterium_biforme</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Blautia_producta (interacts with) Eubacterium_biforme</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Blautia_producta</data>
+            <data key="target">Eubacterium_biforme</data>
+            <data key="data.key.column">685808</data>
+            <data key="asso">0.7255661</data>
+            <data key="diss">0.370428</data>
+            <data key="adja">0.629572</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7009" target="7013">
+            <data key="SUID">7067</data>
+            <data key="shared name">Blautia_producta (interacts with) Ruminococcus_gnavus</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Blautia_producta (interacts with) Ruminococcus_gnavus</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Blautia_producta</data>
+            <data key="target">Ruminococcus_gnavus</data>
+            <data key="data.key.column">685805</data>
+            <data key="asso">0.7191775</data>
+            <data key="diss">0.3747149</data>
+            <data key="adja">0.6252851</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7007" target="7035">
+            <data key="SUID">7065</data>
+            <data key="shared name">Streptococcus_minor (interacts with) Enhydrobacter_aerosaccus</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Streptococcus_minor (interacts with) Enhydrobacter_aerosaccus</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Streptococcus_minor</data>
+            <data key="target">Enhydrobacter_aerosaccus</data>
+            <data key="data.key.column">685802</data>
+            <data key="asso">0.7095069</data>
+            <data key="diss">0.3811123</data>
+            <data key="adja">0.6188877</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7007" target="7027">
+            <data key="SUID">7063</data>
+            <data key="shared name">Streptococcus_minor (interacts with) Acinetobacter_johnsonii</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Streptococcus_minor (interacts with) Acinetobacter_johnsonii</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Streptococcus_minor</data>
+            <data key="target">Acinetobacter_johnsonii</data>
+            <data key="data.key.column">685799</data>
+            <data key="asso">0.7086963</data>
+            <data key="diss">0.3816436</data>
+            <data key="adja">0.6183564</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7007" target="7025">
+            <data key="SUID">7061</data>
+            <data key="shared name">Streptococcus_minor (interacts with) Acinetobacter_guillouiae</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Streptococcus_minor (interacts with) Acinetobacter_guillouiae</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Streptococcus_minor</data>
+            <data key="target">Acinetobacter_guillouiae</data>
+            <data key="data.key.column">685796</data>
+            <data key="asso">0.7009135</data>
+            <data key="diss">0.3867083</data>
+            <data key="adja">0.6132917</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7005" target="7029">
+            <data key="SUID">7059</data>
+            <data key="shared name">Prevotella_copri (interacts with) Acinetobacter_lwoffii</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Prevotella_copri (interacts with) Acinetobacter_lwoffii</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Prevotella_copri</data>
+            <data key="target">Acinetobacter_lwoffii</data>
+            <data key="data.key.column">685793</data>
+            <data key="asso">0.7073717</data>
+            <data key="diss">0.3825104</data>
+            <data key="adja">0.6174896</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7005" target="7019">
+            <data key="SUID">7057</data>
+            <data key="shared name">Prevotella_copri (interacts with) Neisseria_cinerea</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Prevotella_copri (interacts with) Neisseria_cinerea</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Prevotella_copri</data>
+            <data key="target">Neisseria_cinerea</data>
+            <data key="data.key.column">685790</data>
+            <data key="asso">0.7066187</data>
+            <data key="diss">0.3830021</data>
+            <data key="adja">0.6169979</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7005" target="7015">
+            <data key="SUID">7055</data>
+            <data key="shared name">Prevotella_copri (interacts with) Faecalibacterium_prausnitzii</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Prevotella_copri (interacts with) Faecalibacterium_prausnitzii</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Prevotella_copri</data>
+            <data key="target">Faecalibacterium_prausnitzii</data>
+            <data key="data.key.column">685787</data>
+            <data key="asso">0.7088693</data>
+            <data key="diss">0.3815302</data>
+            <data key="adja">0.6184698</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7003" target="7033">
+            <data key="SUID">7053</data>
+            <data key="shared name">Bifidobacterium_longum (interacts with) Eubacterium_biforme</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Bifidobacterium_longum (interacts with) Eubacterium_biforme</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Bifidobacterium_longum</data>
+            <data key="target">Eubacterium_biforme</data>
+            <data key="data.key.column">685784</data>
+            <data key="asso">0.7315329</data>
+            <data key="diss">0.366379</data>
+            <data key="adja">0.633621</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7003" target="7013">
+            <data key="SUID">7051</data>
+            <data key="shared name">Bifidobacterium_longum (interacts with) Ruminococcus_gnavus</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Bifidobacterium_longum (interacts with) Ruminococcus_gnavus</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Bifidobacterium_longum</data>
+            <data key="target">Ruminococcus_gnavus</data>
+            <data key="data.key.column">685781</data>
+            <data key="asso">0.7051362</data>
+            <data key="diss">0.3839686</data>
+            <data key="adja">0.6160314</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7003" target="7011">
+            <data key="SUID">7049</data>
+            <data key="shared name">Bifidobacterium_longum (interacts with) Dorea_formicigenerans</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Bifidobacterium_longum (interacts with) Dorea_formicigenerans</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Bifidobacterium_longum</data>
+            <data key="target">Dorea_formicigenerans</data>
+            <data key="data.key.column">685778</data>
+            <data key="asso">0.7059783</data>
+            <data key="diss">0.3834199</data>
+            <data key="adja">0.6165801</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7003" target="7009">
+            <data key="SUID">7047</data>
+            <data key="shared name">Bifidobacterium_longum (interacts with) Blautia_producta</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Bifidobacterium_longum (interacts with) Blautia_producta</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Bifidobacterium_longum</data>
+            <data key="target">Blautia_producta</data>
+            <data key="data.key.column">685775</data>
+            <data key="asso">0.7105462</data>
+            <data key="diss">0.3804299</data>
+            <data key="adja">0.6195701</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7001" target="7033">
+            <data key="SUID">7045</data>
+            <data key="shared name">Bifidobacterium_adolescentis (interacts with) Eubacterium_biforme</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Bifidobacterium_adolescentis (interacts with) Eubacterium_biforme</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Bifidobacterium_adolescentis</data>
+            <data key="target">Eubacterium_biforme</data>
+            <data key="data.key.column">685772</data>
+            <data key="asso">0.7302756</data>
+            <data key="diss">0.3672359</data>
+            <data key="adja">0.6327641</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7001" target="7009">
+            <data key="SUID">7043</data>
+            <data key="shared name">Bifidobacterium_adolescentis (interacts with) Blautia_producta</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Bifidobacterium_adolescentis (interacts with) Blautia_producta</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Bifidobacterium_adolescentis</data>
+            <data key="target">Blautia_producta</data>
+            <data key="data.key.column">685769</data>
+            <data key="asso">0.7090673</data>
+            <data key="diss">0.3814005</data>
+            <data key="adja">0.6185995</data>
+            <data key="sign">1.0</data>
+        </edge>
+        <edge source="7001" target="7003">
+            <data key="SUID">7041</data>
+            <data key="shared name">Bifidobacterium_adolescentis (interacts with) Bifidobacterium_longum</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">Bifidobacterium_adolescentis (interacts with) Bifidobacterium_longum</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="source">Bifidobacterium_adolescentis</data>
+            <data key="target">Bifidobacterium_longum</data>
+            <data key="data.key.column">685766</data>
+            <data key="asso">0.7138244</data>
+            <data key="diss">0.3782695</data>
+            <data key="adja">0.6217305</data>
+            <data key="sign">1.0</data>
+        </edge>
+    </graph>
+</graphml>

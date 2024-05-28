@@ -1,0 +1,3 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+SRS1060545,ES,SAMN04041125,ES,34.64,119.17,China,,,,ERZ795009
+SRS1060554,EG,SAMN04041126,EG,34.65,119.17,China,,,,ERZ795010

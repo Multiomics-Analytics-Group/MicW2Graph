@@ -1,0 +1,172 @@
+﻿sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+ERS2640788,B1cR1-1_Exp1,SAMEA4820898,Primer B1 Experiment 1 SRT 1 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729815
+ERS2640789,B1cR1-1_Exp2,SAMEA4820899,Primer B1 Experiment 2 SRT 1 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729816
+ERS2640790,B1cR1-2_Exp1,SAMEA4820900,Primer B1 Experiment 1 SRT 1 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729817
+ERS2640791,B1cR1-2_Exp2,SAMEA4820901,Primer B1 Experiment 2 SRT 1 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729818
+ERS2640792,B1cR1-3_Exp1,SAMEA4820902,Primer B1 Experiment 1 SRT 1 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729819
+ERS2640793,B1cR1-3_Exp2,SAMEA4820903,Primer B1 Experiment 2 SRT 1 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729820
+ERS2640794,B1cR2-1_Exp1,SAMEA4820904,Primer B1 Experiment 1 SRT 3 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729821
+ERS2640795,B1cR2-1_Exp2,SAMEA4820905,Primer B1 Experiment 2 SRT 3 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729822
+ERS2640796,B1cR2-2_Exp1,SAMEA4820906,Primer B1 Experiment 1 SRT 3 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729823
+ERS2640797,B1cR2-2_Exp2,SAMEA4820907,Primer B1 Experiment 2 SRT 3 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729824
+ERS2640798,B1cR2-3_Exp1,SAMEA4820908,Primer B1 Experiment 1 SRT 3 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729825
+ERS2640799,B1cR2-3_Exp2,SAMEA4820909,Primer B1 Experiment 2 SRT 3 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729826
+ERS2640800,B1cR3-1_Exp1,SAMEA4820910,Primer B1 Experiment 1 SRT 5 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729827
+ERS2640801,B1cR3-1_Exp2,SAMEA4820911,Primer B1 Experiment 2 SRT 5 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729828
+ERS2640802,B1cR3-2_Exp1,SAMEA4820912,Primer B1 Experiment 1 SRT 5 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729829
+ERS2640803,B1cR3-2_Exp2,SAMEA4820913,Primer B1 Experiment 2 SRT 5 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729830
+ERS2640804,B1cR3-3_Exp1,SAMEA4820914,Primer B1 Experiment 1 SRT 5 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729831
+ERS2640805,B1cR3-3_Exp2,SAMEA4820915,Primer B1 Experiment 2 SRT 5 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729832
+ERS2640806,B1cR4-1_Exp1,SAMEA4820916,Primer B1 Experiment 1 SRT 7 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729833
+ERS2640807,B1cR4-1_Exp2,SAMEA4820917,Primer B1 Experiment 2 SRT 7 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729834
+ERS2640808,B1cR4-2_Exp1,SAMEA4820918,Primer B1 Experiment 1 SRT 7 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729835
+ERS2640809,B1cR4-2_Exp2,SAMEA4820919,Primer B1 Experiment 2 SRT 7 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729836
+ERS2640810,B1cR4-3_Exp1,SAMEA4820920,Primer B1 Experiment 1 SRT 7 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729837
+ERS2640811,B1cR4-3_Exp2,SAMEA4820921,Primer B1 Experiment 2 SRT 7 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729838
+ERS2640812,B1cR5-1_Exp1,SAMEA4820922,Primer B1 Experiment 1 SRT 10 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729839
+ERS2640813,B1cR5-1_Exp2,SAMEA4820923,Primer B1 Experiment 2 SRT 10 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729840
+ERS2640814,B1cR5-2_Exp1,SAMEA4820924,Primer B1 Experiment 1 SRT 10 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729841
+ERS2640815,B1cR5-2_Exp2,SAMEA4820925,Primer B1 Experiment 2 SRT 10 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729842
+ERS2640816,B1cR5-3_Exp1,SAMEA4820926,Primer B1 Experiment 1 SRT 10 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729843
+ERS2640817,B1cR5-3_Exp2,SAMEA4820927,Primer B1 Experiment 2 SRT 10 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729844
+ERS2640818,B1cR6-1_Exp1,SAMEA4820928,Primer B1 Experiment 1 SRT 15 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729845
+ERS2640819,B1cR6-1_Exp2,SAMEA4820929,Primer B1 Experiment 2 SRT 15 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729846
+ERS2640820,B1cR6-2_Exp1,SAMEA4820930,Primer B1 Experiment 1 SRT 15 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729847
+ERS2640821,B1cR6-2_Exp2,SAMEA4820931,Primer B1 Experiment 2 SRT 15 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729848
+ERS2640822,B1cR6-3_Exp1,SAMEA4820932,Primer B1 Experiment 1 SRT 15 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729849
+ERS2640823,B1cR6-3_Exp2,SAMEA4820933,Primer B1 Experiment 2 SRT 15 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729850
+ERS2640824,B1gR1-1_Exp1,SAMEA4820934,Primer B1 Experiment 1 SRT 1 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729851
+ERS2640825,B1gR1-1_Exp2,SAMEA4820935,Primer B1 Experiment 2 SRT 1 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729852
+ERS2640826,B1gR1-2_Exp1,SAMEA4820936,Primer B1 Experiment 1 SRT 1 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729853
+ERS2640827,B1gR1-2_Exp2,SAMEA4820937,Primer B1 Experiment 2 SRT 1 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729854
+ERS2640828,B1gR1-3_Exp1,SAMEA4820938,Primer B1 Experiment 1 SRT 1 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729855
+ERS2640829,B1gR1-3_Exp2,SAMEA4820939,Primer B1 Experiment 2 SRT 1 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729856
+ERS2640830,B1gR2-1_Exp1,SAMEA4820940,Primer B1 Experiment 1 SRT 3 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729857
+ERS2640831,B1gR2-1_Exp2,SAMEA4820941,Primer B1 Experiment 2 SRT 3 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729858
+ERS2640832,B1gR2-2_Exp1,SAMEA4820942,Primer B1 Experiment 1 SRT 3 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729859
+ERS2640833,B1gR2-2_Exp2,SAMEA4820943,Primer B1 Experiment 2 SRT 3 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729860
+ERS2640834,B1gR2-3_Exp1,SAMEA4820944,Primer B1 Experiment 1 SRT 3 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729861
+ERS2640835,B1gR2-3_Exp2,SAMEA4820945,Primer B1 Experiment 2 SRT 3 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729862
+ERS2640836,B1gR3-1_Exp1,SAMEA4820946,Primer B1 Experiment 1 SRT 5 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729863
+ERS2640837,B1gR3-1_Exp2,SAMEA4820947,Primer B1 Experiment 2 SRT 5 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729864
+ERS2640838,B1gR3-2_Exp1,SAMEA4820948,Primer B1 Experiment 1 SRT 5 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729865
+ERS2640839,B1gR3-2_Exp2,SAMEA4820949,Primer B1 Experiment 2 SRT 5 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729866
+ERS2640840,B1gR3-3_Exp1,SAMEA4820950,Primer B1 Experiment 1 SRT 5 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729867
+ERS2640841,B1gR3-3_Exp2,SAMEA4820951,Primer B1 Experiment 2 SRT 5 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729868
+ERS2640842,B1gR4-1_Exp1,SAMEA4820952,Primer B1 Experiment 1 SRT 7 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729869
+ERS2640843,B1gR4-1_Exp2,SAMEA4820953,Primer B1 Experiment 2 SRT 7 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729870
+ERS2640844,B1gR4-2_Exp1,SAMEA4820954,Primer B1 Experiment 1 SRT 7 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729871
+ERS2640845,B1gR4-2_Exp2,SAMEA4820955,Primer B1 Experiment 2 SRT 7 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729872
+ERS2640846,B1gR4-3_Exp1,SAMEA4820956,Primer B1 Experiment 1 SRT 7 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729873
+ERS2640847,B1gR4-3_Exp2,SAMEA4820957,Primer B1 Experiment 2 SRT 7 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729874
+ERS2640848,B1gR5-1_Exp1,SAMEA4820958,Primer B1 Experiment 1 SRT 10 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729875
+ERS2640849,B1gR5-1_Exp2,SAMEA4820959,Primer B1 Experiment 2 SRT 10 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729876
+ERS2640850,B1gR5-2_Exp1,SAMEA4820960,Primer B1 Experiment 1 SRT 10 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729877
+ERS2640851,B1gR5-2_Exp2,SAMEA4820961,Primer B1 Experiment 2 SRT 10 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729878
+ERS2640852,B1gR5-3_Exp1,SAMEA4820962,Primer B1 Experiment 1 SRT 10 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729879
+ERS2640853,B1gR5-3_Exp2,SAMEA4820963,Primer B1 Experiment 2 SRT 10 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729880
+ERS2640854,B1gR6-1_Exp1,SAMEA4820964,Primer B1 Experiment 1 SRT 15 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729881
+ERS2640855,B1gR6-1_Exp2,SAMEA4820965,Primer B1 Experiment 2 SRT 15 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729882
+ERS2640856,B1gR6-2_Exp1,SAMEA4820966,Primer B1 Experiment 1 SRT 15 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729883
+ERS2640857,B1gR6-2_Exp2,SAMEA4820967,Primer B1 Experiment 2 SRT 15 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729884
+ERS2640858,B1gR6-3_Exp1,SAMEA4820968,Primer B1 Experiment 1 SRT 15 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729885
+ERS2640859,B1gR6-3_Exp2,SAMEA4820969,Primer B1 Experiment 2 SRT 15 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729886
+ERS2640860,B1-NEG_Exp2,SAMEA4820970,Primer B1 Experiment 2 Negative Control gDNA,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729887
+ERS2640861,B1pos-1_Exp1,SAMEA4820971,Primer B1 Experiment 1 Positive Control gDNA,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729888
+ERS2640862,B1pos-2_Exp1,SAMEA4820972,Primer B1 Experiment 1 Positive Control gDNA,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729889
+ERS2640863,B1pos-3_Exp1,SAMEA4820973,Primer B1 Experiment 1 Positive Control gDNA,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729890
+ERS2640864,B2cR1-1_Exp1,SAMEA4820974,Primer B2 Experiment 1 SRT 1 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729891
+ERS2640865,B2cR1-1_Exp2,SAMEA4820975,Primer B2 Experiment 2 SRT 1 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729892
+ERS2640866,B2cR1-2_Exp1,SAMEA4820976,Primer B2 Experiment 1 SRT 1 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729893
+ERS2640867,B2cR1-2_Exp2,SAMEA4820977,Primer B2 Experiment 2 SRT 1 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729894
+ERS2640868,B2cR1-3_Exp1,SAMEA4820978,Primer B2 Experiment 1 SRT 1 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729895
+ERS2640869,B2cR1-3_Exp2,SAMEA4820979,Primer B2 Experiment 2 SRT 1 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729896
+ERS2640870,B2cR2-1_Exp1,SAMEA4820980,Primer B2 Experiment 1 SRT 3 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729897
+ERS2640871,B2cR2-1_Exp2,SAMEA4820981,Primer B2 Experiment 2 SRT 3 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729898
+ERS2640872,B2cR2-2_Exp1,SAMEA4820982,Primer B2 Experiment 1 SRT 3 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729899
+ERS2640873,B2cR2-2_Exp2,SAMEA4820983,Primer B2 Experiment 2 SRT 3 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729900
+ERS2640874,B2cR2-3_Exp1,SAMEA4820984,Primer B2 Experiment 1 SRT 3 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729901
+ERS2640875,B2cR2-3_Exp2,SAMEA4820985,Primer B2 Experiment 2 SRT 3 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729902
+ERS2640876,B2cR3-1_Exp1,SAMEA4820986,Primer B2 Experiment 1 SRT 5 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729903
+ERS2640877,B2cR3-1_Exp2,SAMEA4820987,Primer B2 Experiment 2 SRT 5 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729904
+ERS2640878,B2cR3-2_Exp1,SAMEA4820988,Primer B2 Experiment 1 SRT 5 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729905
+ERS2640879,B2cR3-2_Exp2,SAMEA4820989,Primer B2 Experiment 2 SRT 5 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729906
+ERS2640880,B2cR3-3_Exp1,SAMEA4820990,Primer B2 Experiment 1 SRT 5 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729907
+ERS2640881,B2cR3-3_Exp2,SAMEA4820991,Primer B2 Experiment 2 SRT 5 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729908
+ERS2640882,B2cR4-1_Exp1,SAMEA4820992,Primer B2 Experiment 1 SRT 7 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729909
+ERS2640883,B2cR4-1_Exp2,SAMEA4820993,Primer B2 Experiment 2 SRT 7 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729910
+ERS2640884,B2cR4-2_Exp1,SAMEA4820994,Primer B2 Experiment 1 SRT 7 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729911
+ERS2640885,B2cR4-2_Exp2,SAMEA4820995,Primer B2 Experiment 2 SRT 7 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729912
+ERS2640886,B2cR4-3_Exp1,SAMEA4820996,Primer B2 Experiment 1 SRT 7 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729913
+ERS2640887,B2cR4-3_Exp2,SAMEA4820997,Primer B2 Experiment 2 SRT 7 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729914
+ERS2640888,B2cR5-1_Exp1,SAMEA4820998,Primer B2 Experiment 1 SRT 10 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729915
+ERS2640889,B2cR5-1_Exp2,SAMEA4820999,Primer B2 Experiment 2 SRT 10 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729916
+ERS2640890,B2cR5-2_Exp1,SAMEA4821000,Primer B2 Experiment 1 SRT 10 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729917
+ERS2640891,B2cR5-2_Exp2,SAMEA4821001,Primer B2 Experiment 2 SRT 10 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729918
+ERS2640892,B2cR5-3_Exp1,SAMEA4821002,Primer B2 Experiment 1 SRT 10 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729919
+ERS2640893,B2cR5-3_Exp2,SAMEA4821003,Primer B2 Experiment 2 SRT 10 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729920
+ERS2640894,B2cR6-1_Exp1,SAMEA4821004,Primer B2 Experiment 1 SRT 15 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729921
+ERS2640895,B2cR6-1_Exp2,SAMEA4821005,Primer B2 Experiment 2 SRT 15 day cDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729922
+ERS2640896,B2cR6-2_Exp1,SAMEA4821006,Primer B2 Experiment 1 SRT 15 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729923
+ERS2640897,B2cR6-2_Exp2,SAMEA4821007,Primer B2 Experiment 2 SRT 15 day cDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729924
+ERS2640898,B2cR6-3_Exp1,SAMEA4821008,Primer B2 Experiment 1 SRT 15 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729925
+ERS2640899,B2cR6-3_Exp2,SAMEA4821009,Primer B2 Experiment 2 SRT 15 day cDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729926
+ERS2640900,B2gR1-1_Exp1,SAMEA4821010,Primer B2 Experiment 1 SRT 1 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729927
+ERS2640901,B2gR1-1_Exp2,SAMEA4821011,Primer B2 Experiment 2 SRT 1 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729928
+ERS2640902,B2gR1-2_Exp1,SAMEA4821012,Primer B2 Experiment 1 SRT 1 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729929
+ERS2640903,B2gR1-2_Exp2,SAMEA4821013,Primer B2 Experiment 2 SRT 1 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729930
+ERS2640904,B2gR1-3_Exp1,SAMEA4821014,Primer B2 Experiment 1 SRT 1 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729931
+ERS2640905,B2gR1-3_Exp2,SAMEA4821015,Primer B2 Experiment 2 SRT 1 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729932
+ERS2640906,B2gR2-1_Exp1,SAMEA4821016,Primer B2 Experiment 1 SRT 3 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729933
+ERS2640907,B2gR2-1_Exp2,SAMEA4821017,Primer B2 Experiment 2 SRT 3 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729934
+ERS2640908,B2gR2-2_Exp1,SAMEA4821018,Primer B2 Experiment 1 SRT 3 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729935
+ERS2640909,B2gR2-2_Exp2,SAMEA4821019,Primer B2 Experiment 2 SRT 3 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729936
+ERS2640910,B2gR2-3_Exp1,SAMEA4821020,Primer B2 Experiment 1 SRT 3 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729937
+ERS2640911,B2gR2-3_Exp2,SAMEA4821021,Primer B2 Experiment 2 SRT 3 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729938
+ERS2640912,B2gR3-1_Exp1,SAMEA4821022,Primer B2 Experiment 1 SRT 5 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729939
+ERS2640913,B2gR3-1_Exp2,SAMEA4821023,Primer B2 Experiment 2 SRT 5 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729940
+ERS2640914,B2gR3-2_Exp1,SAMEA4821024,Primer B2 Experiment 1 SRT 5 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729941
+ERS2640915,B2gR3-2_Exp2,SAMEA4821025,Primer B2 Experiment 2 SRT 5 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729942
+ERS2640916,B2gR3-3_Exp1,SAMEA4821026,Primer B2 Experiment 1 SRT 5 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729943
+ERS2640917,B2gR3-3_Exp2,SAMEA4821027,Primer B2 Experiment 2 SRT 5 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729944
+ERS2640918,B2gR4-1_Exp1,SAMEA4821028,Primer B2 Experiment 1 SRT 7 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729945
+ERS2640919,B2gR4-1_Exp2,SAMEA4821029,Primer B2 Experiment 2 SRT 7 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729946
+ERS2640920,B2gR4-2_Exp1,SAMEA4821030,Primer B2 Experiment 1 SRT 7 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729947
+ERS2640921,B2gR4-2_Exp2,SAMEA4821031,Primer B2 Experiment 2 SRT 7 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729948
+ERS2640922,B2gR4-3_Exp1,SAMEA4821032,Primer B2 Experiment 1 SRT 7 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729949
+ERS2640923,B2gR4-3_Exp2,SAMEA4821033,Primer B2 Experiment 2 SRT 7 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729950
+ERS2640924,B2gR5-1_Exp1,SAMEA4821034,Primer B2 Experiment 1 SRT 10 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729951
+ERS2640925,B2gR5-1_Exp2,SAMEA4821035,Primer B2 Experiment 2 SRT 10 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729952
+ERS2640926,B2gR5-2_Exp1,SAMEA4821036,Primer B2 Experiment 1 SRT 10 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729953
+ERS2640927,B2gR5-2_Exp2,SAMEA4821037,Primer B2 Experiment 2 SRT 10 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729954
+ERS2640928,B2gR5-3_Exp1,SAMEA4821038,Primer B2 Experiment 1 SRT 10 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729955
+ERS2640929,B2gR5-3_Exp2,SAMEA4821039,Primer B2 Experiment 2 SRT 10 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729956
+ERS2640930,B2gR6-1_Exp1,SAMEA4821040,Primer B2 Experiment 1 SRT 15 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729957
+ERS2640931,B2gR6-1_Exp2,SAMEA4821041,Primer B2 Experiment 2 SRT 15 day gDNA replicate 1,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729958
+ERS2640932,B2gR6-2_Exp1,SAMEA4821042,Primer B2 Experiment 1 SRT 15 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729959
+ERS2640933,B2gR6-2_Exp2,SAMEA4821043,Primer B2 Experiment 2 SRT 15 day gDNA replicate 2,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729960
+ERS2640934,B2gR6-3_Exp1,SAMEA4821044,Primer B2 Experiment 1 SRT 15 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729961
+ERS2640935,B2gR6-3_Exp2,SAMEA4821045,Primer B2 Experiment 2 SRT 15 day gDNA replicate 3,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729962
+ERS2640936,B2-NEG_Exp2,SAMEA4821046,Primer B2 Experiment 2 Negative Control gDNA,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729963
+ERS2640937,B2pos-1_Exp1,SAMEA4821047,Primer B2 Experiment 1 Positive Control gDNA,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729964
+ERS2640938,B2pos-2_Exp1,SAMEA4821048,Primer B2 Experiment 1 Positive Control gDNA,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729965
+ERS2640939,B2pos-3_Exp1,SAMEA4821049,Primer B2 Experiment 1 Positive Control gDNA,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729966
+ERS2640940,cNegA_Exp2,SAMEA4821050,Primer B2 Experiment 2 Negative Control cDNA,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729967
+ERS2640941,cNegB_Exp2,SAMEA4821051,Primer B2 Experiment 2 Negative Control cDNA,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729968
+ERS2640942,gM1_Exp2,SAMEA4821052,Primer B2 Experiment 2 Positive Control gDNA,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729969
+ERS2640943,gM2_Exp2,SAMEA4821053,Primer B2 Experiment 2 Positive Control gDNA,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729970
+ERS2640944,gNegA_Exp2,SAMEA4821054,Primer B2 Experiment 2 Negative Control gDNA,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729971
+ERS2640945,gNegB_Exp2,SAMEA4821055,Primer B2 Experiment 2 Negative Control gDNA,47.4055,8.5976,Switzerland,wastewater treatment plant,sewage,sludge,ERR2729972
+ERS1864879,Exp1_R1_SRT1,SAMEA104205861,A sequencing batch reactor operating with sludge originating from the Niderglatt WWTP was operated with a sludge retention time of 1 day. Samples were withdrawn after exposing the reactor to a set of micropollutants.,47.5005,8.4953,Switzerland,wastewater treatment plant,sewage,sludge,ERR2088984
+ERS1864880,Exp1_R2_SRT3,SAMEA104205862,A sequencing batch reactor operating with sludge originating from the Niderglatt WWTP was operated with a sludge retention time of 3 days. Samples were withdrawn after exposing the reactor to a set of micropollutants.,47.5005,8.4953,Switzerland,wastewater treatment plant,sewage,sludge,ERR2088985
+ERS1864881,Exp1_R3_SRT5,SAMEA104205863,Sequencing batch reactor sludge retention time 5 days,47.5005,8.4953,Switzerland,wastewater treatment plant,sewage,sludge,ERR2088986
+ERS1864882,Exp1_R4_SRT7,SAMEA104205864,A sequencing batch reactor operating with sludge originating from the Niderglatt WWTP was operated with a sludge retention time of 7 days. Samples were withdrawn after exposing the reactor to a set of micropollutants.,47.5005,8.4953,Switzerland,wastewater treatment plant,sewage,sludge,ERR2088987
+ERS1864883,Exp1_R5_SRT10,SAMEA104205865,A sequencing batch reactor operating with sludge originating from the Niderglatt WWTP was operated with a sludge retention time of 10 days. Samples were withdrawn after exposing the reactor to a set of micropollutants.,47.5005,8.4953,Switzerland,wastewater treatment plant,sewage,sludge,ERR2088988
+ERS1864884,Exp1_R6_SRT15,SAMEA104205866,A sequencing batch reactor operating with sludge originating from the Niderglatt WWTP was operated with a sludge retention time of 15 days. Samples were withdrawn after exposing the reactor to a set of micropollutants.,47.5005,8.4953,Switzerland,wastewater treatment plant,sewage,sludge,ERR2088989
+ERS1864885,Exp2_R1_SRT1,SAMEA104205867,A sequencing batch reactor operating with sludge originating from the Niderglatt WWTP was operated with a sludge retention time of 1 day. Samples were withdrawn after exposing the reactor to a set of micropollutants.,47.5005,8.4953,Switzerland,wastewater treatment plant,sewage,sludge,ERR2088990
+ERS1864886,Exp2_R2_SRT3,SAMEA104205868,A sequencing batch reactor operating with sludge originating from the Niderglatt WWTP was operated with a sludge retention time of 3 days. Samples were withdrawn after exposing the reactor to a set of micropollutants.,47.5005,8.4953,Switzerland,wastewater treatment plant,sewage,sludge,ERR2088991
+ERS1864887,Exp2_R3_SRT5,SAMEA104205869,A sequencing batch reactor operating with sludge originating from the Niderglatt WWTP was operated with a sludge retention time of 5 days. Samples were withdrawn after exposing the reactor to a set of micropollutants.,47.5005,8.4953,Switzerland,wastewater treatment plant,sewage,sludge,ERR2088992
+ERS1864888,Exp2_R4_SRT7,SAMEA104205870,A sequencing batch reactor operating with sludge originating from the Niderglatt WWTP was operated with a sludge retention time of 7 days. Samples were withdrawn after exposing the reactor to a set of micropollutants.,47.5005,8.4953,Switzerland,wastewater treatment plant,sewage,sludge,ERR2088993
+ERS1864889,Exp2_R5_SRT10,SAMEA104205871,A sequencing batch reactor operating with sludge originating from the Niderglatt WWTP was operated with a sludge retention time of 10 days. Samples were withdrawn after exposing the reactor to a set of micropollutants.,47.5005,8.4953,Switzerland,wastewater treatment plant,sewage,sludge,ERR2088994
+ERS1864890,Exp2_R6_SRT15,SAMEA104205872,A sequencing batch reactor operating with sludge originating from the Niderglatt WWTP was operated with a sludge retention time of 15 days. Samples were withdrawn after exposing the reactor to a set of micropollutants.,47.5005,8.4953,Switzerland,wastewater treatment plant,sewage,sludge,ERR2088995
+,,,,,,,,,,

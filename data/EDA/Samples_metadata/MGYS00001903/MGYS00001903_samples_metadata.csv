@@ -1,0 +1,2 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+ERS1833119,b2forensics1,SAMEA104174101,wastewater sample collected on november 1st 2016,48.698,2.1795,France,,,,ERR2041951

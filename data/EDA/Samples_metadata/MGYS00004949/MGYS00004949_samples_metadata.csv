@@ -1,0 +1,2 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+SRS2212571,Gp0115564,SAMN06343852,"Active sludge microbial communities from Klosterneuburg, Austria, studying microevolution and ecology of nitrifiers - Klosterneuburg WWTP active sludge metagenome KNB14_supernatant",48.3,16.2,Austria: Klosterneuburg,,,,ERZ795076

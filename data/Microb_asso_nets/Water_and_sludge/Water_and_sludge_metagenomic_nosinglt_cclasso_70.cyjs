@@ -1,0 +1,440 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.10.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "cclasso_0.70",
+    "name" : "cclasso_0.70",
+    "SUID" : 2726,
+    "__Annotations" : [ "" ],
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "2769",
+        "shared_name" : "Acinetobacter_rhizosphaerae",
+        "cluster" : 2.0,
+        "degree" : 4.0,
+        "name" : "Acinetobacter_rhizosphaerae",
+        "SUID" : 2769,
+        "id_original" : "Acinetobacter_rhizosphaerae",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -17.238394734138808,
+        "y" : -12.466447291211553
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2767",
+        "shared_name" : "Eubacterium_biforme",
+        "cluster" : 1.0,
+        "degree" : 3.0,
+        "name" : "Eubacterium_biforme",
+        "SUID" : 2767,
+        "id_original" : "Eubacterium_biforme",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 187.36579047309027,
+        "y" : -0.8787095811631929
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2765",
+        "shared_name" : "Acinetobacter_lwoffii",
+        "cluster" : 2.0,
+        "degree" : 3.0,
+        "name" : "Acinetobacter_lwoffii",
+        "SUID" : 2765,
+        "id_original" : "Acinetobacter_lwoffii",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -100.1348541402903,
+        "y" : 104.82028809123386
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2763",
+        "shared_name" : "Acinetobacter_johnsonii",
+        "cluster" : 2.0,
+        "degree" : 4.0,
+        "name" : "Acinetobacter_johnsonii",
+        "SUID" : 2763,
+        "id_original" : "Acinetobacter_johnsonii",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -231.94201616364478,
+        "y" : -9.048301288917537
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2761",
+        "shared_name" : "Acinetobacter_guillouiae",
+        "cluster" : 2.0,
+        "degree" : 3.0,
+        "name" : "Acinetobacter_guillouiae",
+        "SUID" : 2761,
+        "id_original" : "Acinetobacter_guillouiae",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -240.3844889161899,
+        "y" : 99.65603760246552
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2759",
+        "shared_name" : "Paracoccus_marcusii",
+        "cluster" : 2.0,
+        "degree" : 2.0,
+        "name" : "Paracoccus_marcusii",
+        "SUID" : 2759,
+        "id_original" : "Paracoccus_marcusii",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -148.5877685172206,
+        "y" : -88.85652174168902
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2757",
+        "shared_name" : "Collinsella_aerofaciens",
+        "cluster" : 1.0,
+        "degree" : 3.0,
+        "name" : "Collinsella_aerofaciens",
+        "SUID" : 2757,
+        "id_original" : "Collinsella_aerofaciens",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 108.58978949652777,
+        "y" : 47.67024061414931
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2755",
+        "shared_name" : "Bifidobacterium_longum",
+        "cluster" : 1.0,
+        "degree" : 3.0,
+        "name" : "Bifidobacterium_longum",
+        "SUID" : 2755,
+        "id_original" : "Bifidobacterium_longum",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 138.87026129828558,
+        "y" : -79.68820359971788
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2753",
+        "shared_name" : "Bifidobacterium_adolescentis",
+        "cluster" : 1.0,
+        "degree" : 3.0,
+        "name" : "Bifidobacterium_adolescentis",
+        "SUID" : 2753,
+        "id_original" : "Bifidobacterium_adolescentis",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 60.09367285834418,
+        "y" : -31.126649644639755
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "2797",
+        "source" : "2765",
+        "target" : "2769",
+        "asso" : 0.725709,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2866247,
+        "diss" : 0.3703316,
+        "source_original" : "Acinetobacter_lwoffii",
+        "target_original" : "Acinetobacter_rhizosphaerae",
+        "shared_name" : "Acinetobacter_lwoffii (interacts with) Acinetobacter_rhizosphaerae",
+        "adja" : 0.6296684,
+        "name" : "Acinetobacter_lwoffii (interacts with) Acinetobacter_rhizosphaerae",
+        "interaction" : "interacts with",
+        "SUID" : 2797,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2795",
+        "source" : "2763",
+        "target" : "2769",
+        "asso" : 0.7317154,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2866244,
+        "diss" : 0.3662544,
+        "source_original" : "Acinetobacter_johnsonii",
+        "target_original" : "Acinetobacter_rhizosphaerae",
+        "shared_name" : "Acinetobacter_johnsonii (interacts with) Acinetobacter_rhizosphaerae",
+        "adja" : 0.6337456,
+        "name" : "Acinetobacter_johnsonii (interacts with) Acinetobacter_rhizosphaerae",
+        "interaction" : "interacts with",
+        "SUID" : 2795,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2793",
+        "source" : "2763",
+        "target" : "2765",
+        "asso" : 0.7458311,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2866241,
+        "diss" : 0.356489,
+        "source_original" : "Acinetobacter_johnsonii",
+        "target_original" : "Acinetobacter_lwoffii",
+        "shared_name" : "Acinetobacter_johnsonii (interacts with) Acinetobacter_lwoffii",
+        "adja" : 0.643511,
+        "name" : "Acinetobacter_johnsonii (interacts with) Acinetobacter_lwoffii",
+        "interaction" : "interacts with",
+        "SUID" : 2793,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2791",
+        "source" : "2761",
+        "target" : "2769",
+        "asso" : 0.732387,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2866238,
+        "diss" : 0.3657957,
+        "source_original" : "Acinetobacter_guillouiae",
+        "target_original" : "Acinetobacter_rhizosphaerae",
+        "shared_name" : "Acinetobacter_guillouiae (interacts with) Acinetobacter_rhizosphaerae",
+        "adja" : 0.6342043,
+        "name" : "Acinetobacter_guillouiae (interacts with) Acinetobacter_rhizosphaerae",
+        "interaction" : "interacts with",
+        "SUID" : 2791,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2789",
+        "source" : "2761",
+        "target" : "2765",
+        "asso" : 0.7131603,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2866235,
+        "diss" : 0.3787081,
+        "source_original" : "Acinetobacter_guillouiae",
+        "target_original" : "Acinetobacter_lwoffii",
+        "shared_name" : "Acinetobacter_guillouiae (interacts with) Acinetobacter_lwoffii",
+        "adja" : 0.6212919,
+        "name" : "Acinetobacter_guillouiae (interacts with) Acinetobacter_lwoffii",
+        "interaction" : "interacts with",
+        "SUID" : 2789,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2787",
+        "source" : "2761",
+        "target" : "2763",
+        "asso" : 0.7167854,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2866232,
+        "diss" : 0.3763075,
+        "source_original" : "Acinetobacter_guillouiae",
+        "target_original" : "Acinetobacter_johnsonii",
+        "shared_name" : "Acinetobacter_guillouiae (interacts with) Acinetobacter_johnsonii",
+        "adja" : 0.6236925,
+        "name" : "Acinetobacter_guillouiae (interacts with) Acinetobacter_johnsonii",
+        "interaction" : "interacts with",
+        "SUID" : 2787,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2785",
+        "source" : "2759",
+        "target" : "2769",
+        "asso" : 0.7010612,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2866229,
+        "diss" : 0.3866127,
+        "source_original" : "Paracoccus_marcusii",
+        "target_original" : "Acinetobacter_rhizosphaerae",
+        "shared_name" : "Paracoccus_marcusii (interacts with) Acinetobacter_rhizosphaerae",
+        "adja" : 0.6133873,
+        "name" : "Paracoccus_marcusii (interacts with) Acinetobacter_rhizosphaerae",
+        "interaction" : "interacts with",
+        "SUID" : 2785,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2783",
+        "source" : "2759",
+        "target" : "2763",
+        "asso" : 0.7022219,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2866226,
+        "diss" : 0.3858615,
+        "source_original" : "Paracoccus_marcusii",
+        "target_original" : "Acinetobacter_johnsonii",
+        "shared_name" : "Paracoccus_marcusii (interacts with) Acinetobacter_johnsonii",
+        "adja" : 0.6141385,
+        "name" : "Paracoccus_marcusii (interacts with) Acinetobacter_johnsonii",
+        "interaction" : "interacts with",
+        "SUID" : 2783,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2781",
+        "source" : "2757",
+        "target" : "2767",
+        "asso" : 0.720146,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2866223,
+        "diss" : 0.3740682,
+        "source_original" : "Collinsella_aerofaciens",
+        "target_original" : "Eubacterium_biforme",
+        "shared_name" : "Collinsella_aerofaciens (interacts with) Eubacterium_biforme",
+        "adja" : 0.6259318,
+        "name" : "Collinsella_aerofaciens (interacts with) Eubacterium_biforme",
+        "interaction" : "interacts with",
+        "SUID" : 2781,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2779",
+        "source" : "2755",
+        "target" : "2767",
+        "asso" : 0.7065896,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2866220,
+        "diss" : 0.3830211,
+        "source_original" : "Bifidobacterium_longum",
+        "target_original" : "Eubacterium_biforme",
+        "shared_name" : "Bifidobacterium_longum (interacts with) Eubacterium_biforme",
+        "adja" : 0.6169789,
+        "name" : "Bifidobacterium_longum (interacts with) Eubacterium_biforme",
+        "interaction" : "interacts with",
+        "SUID" : 2779,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2777",
+        "source" : "2755",
+        "target" : "2757",
+        "asso" : 0.7119983,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2866217,
+        "diss" : 0.3794744,
+        "source_original" : "Bifidobacterium_longum",
+        "target_original" : "Collinsella_aerofaciens",
+        "shared_name" : "Bifidobacterium_longum (interacts with) Collinsella_aerofaciens",
+        "adja" : 0.6205256,
+        "name" : "Bifidobacterium_longum (interacts with) Collinsella_aerofaciens",
+        "interaction" : "interacts with",
+        "SUID" : 2777,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2775",
+        "source" : "2753",
+        "target" : "2767",
+        "asso" : 0.7063081,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2866214,
+        "diss" : 0.3832049,
+        "source_original" : "Bifidobacterium_adolescentis",
+        "target_original" : "Eubacterium_biforme",
+        "shared_name" : "Bifidobacterium_adolescentis (interacts with) Eubacterium_biforme",
+        "adja" : 0.6167951,
+        "name" : "Bifidobacterium_adolescentis (interacts with) Eubacterium_biforme",
+        "interaction" : "interacts with",
+        "SUID" : 2775,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2773",
+        "source" : "2753",
+        "target" : "2757",
+        "asso" : 0.71302,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2866211,
+        "diss" : 0.3788008,
+        "source_original" : "Bifidobacterium_adolescentis",
+        "target_original" : "Collinsella_aerofaciens",
+        "shared_name" : "Bifidobacterium_adolescentis (interacts with) Collinsella_aerofaciens",
+        "adja" : 0.6211992,
+        "name" : "Bifidobacterium_adolescentis (interacts with) Collinsella_aerofaciens",
+        "interaction" : "interacts with",
+        "SUID" : 2773,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "2771",
+        "source" : "2753",
+        "target" : "2755",
+        "asso" : 0.7235742,
+        "shared_interaction" : "interacts with",
+        "sign" : 1.0,
+        "data_key_column" : 2866208,
+        "diss" : 0.3717699,
+        "source_original" : "Bifidobacterium_adolescentis",
+        "target_original" : "Bifidobacterium_longum",
+        "shared_name" : "Bifidobacterium_adolescentis (interacts with) Bifidobacterium_longum",
+        "adja" : 0.6282301,
+        "name" : "Bifidobacterium_adolescentis (interacts with) Bifidobacterium_longum",
+        "interaction" : "interacts with",
+        "SUID" : 2771,
+        "selected" : false
+      },
+      "selected" : false
+    } ]
+  }
+}

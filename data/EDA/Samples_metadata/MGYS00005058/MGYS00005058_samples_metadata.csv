@@ -1,0 +1,25 @@
+sample_id,sample_name,biosample,sample_description,latitude,longitude,geolocation,biome,biome_feature,biome_material,assembly_run_ids
+ERS2967391,TG.EFF_W57.READ2 Taxonomy ID:256318,SAMEA5159662,TG.EFF_W57.READ2 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985255
+ERS2967392,MN.EFF_W55.READ2 Taxonomy ID:256318,SAMEA5159663,MN.EFF_W55.READ2 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985256
+ERS2967393,AH.EFF_W75.READ1 Taxonomy ID:256318,SAMEA5159664,AH.EFF_W75.READ1 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985257
+ERS2967394,TE.EFF_W59.READ1 Taxonomy ID:256318,SAMEA5159665,TE.EFF_W59.READ1 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985258
+ERS2967395,FD.EFF_W65.READ1 Taxonomy ID:256318,SAMEA5159666,FD.EFF_W65.READ1 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985259
+ERS2967396,AD.EFF_W67.READ1 Taxonomy ID:256318,SAMEA5159667,AD.EFF_W67.READ1 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985260
+ERS2967397,EM.EFF_W53.READ2 Taxonomy ID:256318,SAMEA5159669,EM.EFF_W53.READ2 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985261
+ERS2967398,MN.EFF_W55.READ1 Taxonomy ID:256318,SAMEA5159670,MN.EFF_W55.READ1 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985262
+ERS2967399,ZR.EFF_W63.READ2 Taxonomy ID:256318,SAMEA5159671,ZR.EFF_W63.READ2 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985263
+ERS2967400,FD.EFF_W65.READ2 Taxonomy ID:256318,SAMEA5159672,FD.EFF_W65.READ2 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985264
+ERS2967401,AD.EFF_W67.READ2 Taxonomy ID:256318,SAMEA5159673,AD.EFF_W67.READ2 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985265
+ERS2967402,ZR.EFF_W63.READ1 Taxonomy ID:256318,SAMEA5159674,ZR.EFF_W63.READ1 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985266
+ERS2967403,WT.EFF_W61.READ2 Taxonomy ID:256318,SAMEA5159675,WT.EFF_W61.READ2 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985267
+ERS2967404,TG.EFF_W57.READ1 Taxonomy ID:256318,SAMEA5159676,TG.EFF_W57.READ1 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985268
+ERS2967405,TU.EFF_W69.READ2 Taxonomy ID:256318,SAMEA5159677,TU.EFF_W69.READ2 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985269
+ERS2967406,AH.EFF_W75.READ2 Taxonomy ID:256318,SAMEA5159678,AH.EFF_W75.READ2 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985270
+ERS2967407,TE.EFF_W59.READ2 Taxonomy ID:256318,SAMEA5159679,TE.EFF_W59.READ2 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985271
+ERS2967408,BE.EFF_W71.READ1 Taxonomy ID:256318,SAMEA5159680,BE.EFF_W71.READ1 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985272
+ERS2967409,BE.EFF_W71.READ2 Taxonomy ID:256318,SAMEA5159681,BE.EFF_W71.READ2 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985273
+ERS2967410,WT.EFF_W61.READ1 Taxonomy ID:256318,SAMEA5159682,WT.EFF_W61.READ1 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985274
+ERS2967411,FR.EFF_W73.READ2 Taxonomy ID:256318,SAMEA5159683,FR.EFF_W73.READ2 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985275
+ERS2967412,EM.EFF_W53.READ1 Taxonomy ID:256318,SAMEA5159684,EM.EFF_W53.READ1 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985276
+ERS2967413,TU.EFF_W69.READ1 Taxonomy ID:256318,SAMEA5159685,TU.EFF_W69.READ1 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985277
+ERS2967414,FR.EFF_W73.READ1 Taxonomy ID:256318,SAMEA5159686,FR.EFF_W73.READ1 Taxonomy ID:256318,46.8182,8.2275,Switzerland,aquatic biome,wastewater treatment plant,water,ERR2985278

@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: white;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"SUID": 161, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 2.0, "color": "#E15F99", "degree": 2.0, "font": {"size": 12}, "id": "161", "label": "Vahlkampfia_avara", "name": "Vahlkampfia_avara", "selected": false, "shape": "dot", "shared name": "Vahlkampfia_avara", "size": 6}, {"SUID": 169, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 2.0, "color": "#E15F99", "degree": 2.0, "font": {"size": 12}, "id": "169", "label": "Plasmopara_viticola", "name": "Plasmopara_viticola", "selected": false, "shape": "dot", "shared name": "Plasmopara_viticola", "size": 6}, {"SUID": 159, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 2.0, "color": "#E15F99", "degree": 2.0, "font": {"size": 12}, "id": "159", "label": "Jakoba_libera", "name": "Jakoba_libera", "selected": false, "shape": "dot", "shared name": "Jakoba_libera", "size": 6}, {"SUID": 157, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 1.0, "color": "#2E91E5", "degree": 4.0, "font": {"size": 12}, "id": "157", "label": "Sorangium_cellulosum", "name": "Sorangium_cellulosum", "selected": false, "shape": "dot", "shared name": "Sorangium_cellulosum", "size": 30}, {"SUID": 167, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 1.0, "color": "#2E91E5", "degree": 2.0, "font": {"size": 12}, "id": "167", "label": "Mycoplasma_hyorhinis", "name": "Mycoplasma_hyorhinis", "selected": false, "shape": "dot", "shared name": "Mycoplasma_hyorhinis", "size": 6}, {"SUID": 165, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 1.0, "color": "#2E91E5", "degree": 2.0, "font": {"size": 12}, "id": "165", "label": "Adineta_vaga", "name": "Adineta_vaga", "selected": false, "shape": "dot", "shared name": "Adineta_vaga", "size": 6}, {"SUID": 163, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 1.0, "color": "#2E91E5", "degree": 2.0, "font": {"size": 12}, "id": "163", "label": "Pseudomonas_moraviensis", "name": "Pseudomonas_moraviensis", "selected": false, "shape": "dot", "shared name": "Pseudomonas_moraviensis", "size": 6}, {"SUID": 155, "borderWidth": 2, "borderWidthSelected": 2.5, "cluster": 1.0, "color": "#2E91E5", "degree": 4.0, "font": {"size": 12}, "id": "155", "label": "Labrenzia_marina", "name": "Labrenzia_marina", "selected": false, "shape": "dot", "shared name": "Labrenzia_marina", "size": 30}]);
+                  edges = new vis.DataSet([{"SUID": 189, "adja": 0.3650401, "asso": 0.1936518, "data.key.column": 746, "diss": 0.6349599, "from": "161", "interaction": "interacts with", "name": "Vahlkampfia_avara (interacts with) Plasmopara_viticola", "selected": false, "shared interaction": "interacts with", "shared name": "Vahlkampfia_avara (interacts with) Plasmopara_viticola", "sign": 1.0, "to": "169", "width": 1}, {"SUID": 187, "adja": 0.3353247, "asso": 0.1164135, "data.key.column": 743, "diss": 0.6646753, "from": "159", "interaction": "interacts with", "name": "Jakoba_libera (interacts with) Plasmopara_viticola", "selected": false, "shared interaction": "interacts with", "shared name": "Jakoba_libera (interacts with) Plasmopara_viticola", "sign": 1.0, "to": "169", "width": 1}, {"SUID": 185, "adja": 0.3414988, "asso": 0.1327522, "data.key.column": 740, "diss": 0.6585012, "from": "159", "interaction": "interacts with", "name": "Jakoba_libera (interacts with) Vahlkampfia_avara", "selected": false, "shared interaction": "interacts with", "shared name": "Jakoba_libera (interacts with) Vahlkampfia_avara", "sign": 1.0, "to": "161", "width": 1}, {"SUID": 183, "adja": 0.2190583, "asso": -0.21974, "data.key.column": 737, "diss": 0.7809417, "from": "157", "interaction": "interacts with", "name": "Sorangium_cellulosum (interacts with) Mycoplasma_hyorhinis", "selected": false, "shared interaction": "interacts with", "shared name": "Sorangium_cellulosum (interacts with) Mycoplasma_hyorhinis", "sign": -1.0, "to": "167", "width": 1}, {"SUID": 181, "adja": 0.3455059, "asso": 0.143275, "data.key.column": 734, "diss": 0.6544941, "from": "157", "interaction": "interacts with", "name": "Sorangium_cellulosum (interacts with) Adineta_vaga", "selected": false, "shared interaction": "interacts with", "shared name": "Sorangium_cellulosum (interacts with) Adineta_vaga", "sign": 1.0, "to": "165", "width": 1}, {"SUID": 179, "adja": 0.4709116, "asso": 0.4401309, "data.key.column": 731, "diss": 0.5290884, "from": "157", "interaction": "interacts with", "name": "Sorangium_cellulosum (interacts with) Pseudomonas_moraviensis", "selected": false, "shared interaction": "interacts with", "shared name": "Sorangium_cellulosum (interacts with) Pseudomonas_moraviensis", "sign": 1.0, "to": "163", "width": 1}, {"SUID": 177, "adja": 0.2190583, "asso": -0.21974, "data.key.column": 728, "diss": 0.7809417, "from": "155", "interaction": "interacts with", "name": "Labrenzia_marina (interacts with) Mycoplasma_hyorhinis", "selected": false, "shared interaction": "interacts with", "shared name": "Labrenzia_marina (interacts with) Mycoplasma_hyorhinis", "sign": -1.0, "to": "167", "width": 1}, {"SUID": 175, "adja": 0.3455059, "asso": 0.143275, "data.key.column": 725, "diss": 0.6544941, "from": "155", "interaction": "interacts with", "name": "Labrenzia_marina (interacts with) Adineta_vaga", "selected": false, "shared interaction": "interacts with", "shared name": "Labrenzia_marina (interacts with) Adineta_vaga", "sign": 1.0, "to": "165", "width": 1}, {"SUID": 173, "adja": 0.4709116, "asso": 0.4401309, "data.key.column": 722, "diss": 0.5290884, "from": "155", "interaction": "interacts with", "name": "Labrenzia_marina (interacts with) Pseudomonas_moraviensis", "selected": false, "shared interaction": "interacts with", "shared name": "Labrenzia_marina (interacts with) Pseudomonas_moraviensis", "sign": 1.0, "to": "163", "width": 1}, {"SUID": 171, "adja": 0.1776158, "asso": -0.3526316, "data.key.column": 713, "diss": 0.8223842, "from": "155", "interaction": "interacts with", "name": "Labrenzia_marina (interacts with) Sorangium_cellulosum", "selected": false, "shared interaction": "interacts with", "shared name": "Labrenzia_marina (interacts with) Sorangium_cellulosum", "sign": -1.0, "to": "157", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.005,
+            "damping": 0.4,
+            "gravitationalConstant": -30,
+            "springConstant": 0.1,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
