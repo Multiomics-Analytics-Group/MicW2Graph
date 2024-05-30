@@ -939,4 +939,4 @@ def footer():
     with cols[4]:
         st.image('images/biolink-logo.png', width=100)
 
-    st.markdown('The code for this project is available under the [MIT License](https://mit-license.org/) in this [GitHub repo](https://github.com/sayalaruano/Dashboard_MGnify_wwt_studies). If you use or modify the source code of this project, please provide the proper attributions for this work.')
+    st.markdown('The code for this project is available under the [MIT License](https://mit-license.org/) in this [GitHub repo](https://github.com/Multiomics-Analytics-Group/MicW2Graph). If you use or modify the source code or the outputs of this project, cite this work using the following DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11394618.svg)](https://doi.org/10.5281/zenodo.11394618)')
