@@ -11,8 +11,8 @@ __pycache__/
 .python-version
 
 # Poetry
-poetry.lock
-poetry.toml
+#poetry.lock
+#poetry.toml
 
 # Environments
 .env

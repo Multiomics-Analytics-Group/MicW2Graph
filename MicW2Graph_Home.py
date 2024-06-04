@@ -33,15 +33,14 @@ st.markdown("<h3 style='text-align: center; color: #2b8cbe;'>Building a knowledg
 st.markdown("---")
 
 # Summary of the project
-# st.markdown("<h3 style='text-align: center; color: black;'>About the project</h3>", unsafe_allow_html=True)
-
 st.markdown('''
-<p style="text-align: justify;">In this project, we investigated the microbiome of the <strong>wastewater treatment</strong> (WWT) process to build 
-<strong>MicW2Graph</strong>, an open-source <strong>knowledge graph</strong> that integrates WWT metagenomic and metatranscriptomic information with their biological context, 
-including biological processes, environmental and phenotypic features, chemical compounds, and additional metadata. We developed a workflow to collect 
-meta-omics datasets from <strong>MGnify</strong> and infer potential interactions among microorganisms through <strong>microbial association networks</strong>. 
-MicW2Graph enables the investigation of research questions related to WWT, focusing on aspects such as microbial connections, community memberships, 
-and potential ecological functions.</p>
+<p style="text-align: justify;"><strong style="color: #023858">Wastewater treatment</strong> (WWT) is the process of removing contaminants from used water before it is discharged 
+back into the environment, which contributes to address water scarcity and to protect aquatic ecosystems. In this project, we investigated the microbiome of WWT to build 
+<strong style="color: #023858">MicW2Graph</strong>, an open-source <strong style="color: #023858">knowledge graph</strong> (KG) that integrates metagenomic 
+and metatranscriptomic information with their biological context, including biological processes, environmental and phenotypic features, chemical compounds, 
+and additional metadata. We developed a workflow to collect meta-omics datasets from <strong style="color: #023858">MGnify</strong> and infer potential 
+interactions among microorganisms through <strong style="color: #023858">microbial association networks</strong> (MANs). MicW2Graph enables the investigation of research 
+questions related to WWT, focusing on aspects such as microbial connections, community memberships, and potential ecological functions.</p>
 ''', unsafe_allow_html=True)
 
 # Schematic summary of the project
