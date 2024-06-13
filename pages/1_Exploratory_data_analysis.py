@@ -10,7 +10,7 @@ import pandas as pd
 
 
 # General web settings
-im = Image.open("images/favicon.ico")
+im = Image.open("images/MicW2Graph_logo.ico")
 st.set_page_config(layout="wide", page_title="MicW2Graph", menu_items={}, page_icon=im)
 st.session_state.sidebar_state = 'collapsed'
 style.load_css()
