@@ -16,6 +16,6 @@ stvis
 urllib3
 jsonapi-client
 scikit-learn
-scikit-bio 
+scikit-bio==0.5.9 
 seaborn
 colorcet
