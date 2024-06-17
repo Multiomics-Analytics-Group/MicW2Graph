@@ -29,9 +29,9 @@
      showgrid="true"
      width="480pt"
      units="pt"
-     inkscape:zoom="0.90509668"
-     inkscape:cx="407.13883"
-     inkscape:cy="376.75533"
+     inkscape:zoom="1.28"
+     inkscape:cx="410.15625"
+     inkscape:cy="508.59375"
      inkscape:window-width="1920"
      inkscape:window-height="970"
      inkscape:window-x="0"
@@ -392,7 +392,7 @@
        transform="scale(1.0321462,0.968855)"><tspan
          sodipodi:role="line"
          id="tspan326195"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.17393px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.294151"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.17393px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.294151"
          x="40.944954"
          y="64.638809">116 studies</tspan></text>
     <text
@@ -404,7 +404,7 @@
        transform="scale(1.0321462,0.968855)"><tspan
          sodipodi:role="line"
          id="tspan328407"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.17393px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.294151"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.17393px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.294151"
          x="42.343163"
          y="88.891968">110 studies</tspan></text>
     <text
@@ -416,7 +416,7 @@
        transform="scale(1.0321462,0.968855)"><tspan
          sodipodi:role="line"
          id="tspan329545"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.17393px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.294151"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.17393px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.294151"
          x="43.271935"
          y="108.61152">48 studies</tspan></text>
     <text
@@ -428,13 +428,13 @@
        transform="scale(1.0321462,0.968855)"><tspan
          sodipodi:role="line"
          id="tspan331715"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.17393px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.294151"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.17393px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.294151"
          x="55.362625"
          y="131.89273">47 </tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.17393px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.294151"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.17393px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.294151"
          x="55.362625"
-         y="138.4281"
+         y="138.47528"
          id="tspan5">studies</tspan></text>
     <text
        xml:space="preserve"
@@ -444,24 +444,24 @@
        id="text363551"
        transform="scale(1.099405,0.90958292)"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
          x="91.660889"
          y="55.565239"
          id="tspan363549">Filter MGnify studies by biome </tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
          x="91.660889"
-         y="60.609493"
+         y="60.645794"
          id="tspan7">(Wastewater) and experiment type </tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
          x="91.660889"
-         y="65.653748"
+         y="65.726349"
          id="tspan6">(assembly, metagenomic, or </tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
          x="91.660889"
-         y="70.698006"
+         y="70.8069"
          id="tspan10">metatranscriptomic)</tspan></text>
     <text
        xml:space="preserve"
@@ -471,14 +471,14 @@
        id="text382260"
        transform="scale(1.099405,0.90958292)"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
          x="85.599991"
          y="86.936012"
          id="tspan19">Drop studies that lack sample data </tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
          x="85.599991"
-         y="91.98027"
+         y="92.016563"
          id="tspan11">or species-level abundance information</tspan></text>
     <text
        xml:space="preserve"
@@ -488,14 +488,14 @@
        id="text404964"
        transform="scale(1.099405,0.90958292)"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
          x="77.24659"
          y="113.09865"
          id="tspan16">Filter out studies with less taxa than its </tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
          x="77.24659"
-         y="118.14291"
+         y="118.1792"
          id="tspan14">biome’s median taxa</tspan></text>
     <text
        xml:space="preserve"
@@ -505,14 +505,14 @@
        id="text463527"
        transform="scale(1.099405,0.90958292)"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
          x="69.387932"
          y="142.26425"
          id="tspan466517">Exclude study due to outlier sample variance, </tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.97995px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.276156"
          x="69.387932"
-         y="147.3085"
+         y="147.3448"
          id="tspan4">evidenced by PCoA plot divergence</tspan></text>
     <text
        xml:space="preserve"
@@ -522,14 +522,14 @@
        id="text64484-3-5-0-6-20-1-2-9-7-2-2"
        transform="scale(1.053083,0.94959277)"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.17393px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;text-anchor:middle;stroke-width:0.822128"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.17393px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.822128"
          x="133.61378"
          y="29.740173"
          id="tspan110618">Wastewater treatment </tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.17393px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;text-anchor:middle;stroke-width:0.822128"
-         x="134.33252"
-         y="36.254776"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.17393px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.822128"
+         x="134.28639"
+         y="36.207584"
          id="tspan1">metaomics studies </tspan></text>
     <g
        id="g53"
@@ -946,14 +946,14 @@
          id="text64484-3-5-0-6-20-1-2-9-7-2"
          transform="scale(0.99670232,1.0033086)"><tspan
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.09276px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;text-anchor:middle;stroke-width:0.175807"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.09276px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.175807"
            x="5.6246309"
            y="36.4673"
            id="tspan29955-0-3-9-0">Abundance </tspan><tspan
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.09276px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;text-anchor:middle;stroke-width:0.175807"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.09276px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.175807"
            x="5.6246309"
-           y="37.843216"
+           y="37.833252"
            id="tspan114830">tables</tspan></text>
       <g
          id="g21580"
@@ -1885,14 +1885,14 @@
          id="text64484-7"
          transform="scale(1.035199,0.96599785)"><tspan
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05199px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;text-anchor:middle;stroke-width:0.55762"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05199px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.55762"
            x="129.69667"
            y="180.56801"
            id="tspan88429-6">Microbial association </tspan><tspan
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05199px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;text-anchor:middle;stroke-width:0.55762"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05199px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.55762"
            x="129.69667"
-           y="184.41083"
+           y="184.383"
            id="tspan123836">networks</tspan></text>
     </g>
     <g
@@ -1906,19 +1906,19 @@
          id="text64484-3-5-8"
          transform="scale(1.0302715,0.97061796)"><tspan
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.74183px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;text-anchor:middle;stroke-width:0.683658"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.74183px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.683658"
            x="100.18504"
            y="180.52016"
            id="tspan53-9">Group studies by </tspan><tspan
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.74183px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;text-anchor:middle;stroke-width:0.683658"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.74183px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.683658"
            x="100.18504"
-           y="185.23157"
+           y="185.19745"
            id="tspan59">biome and </tspan><tspan
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.74183px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;text-anchor:middle;stroke-width:0.683658"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.74183px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.683658"
            x="100.18504"
-           y="189.94299"
+           y="189.87473"
            id="tspan3">experiment type</tspan></text>
       <g
          id="g74"
