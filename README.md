@@ -96,12 +96,15 @@ The use cases demonstrate the potential of MicW2Graph to discover new species as
 </p>
 
 ## **How to run the web app locally?**
-[Poetry][Poetry] was used to create a Python virtual environment, which allows the management of python libraries and their dependencies. Each Poetry virtual environment has a `pyproject.toml` file with the names and versions of libraries installed, and a `poetry.lock` file, a JSON file that contains versions of libraries and their dependencies.
+[Pyenv][Pyenv] and [Poetry][Poetry] were used to create a Python virtual environment, which allows the management of python libraries and their dependencies. Each Poetry virtual environment has a `pyproject.toml` file with the names and versions of libraries installed, and a `poetry.lock` file, a JSON file that contains versions of libraries and their dependencies.
 
-To create a Python virtual environment with libraries and dependencies required for this project, you should install Poetry, clone this GitHub repository, open a terminal, move to the folder containing this repository, and run the following commands:
+To create a Python virtual environment with libraries and dependencies required for this project, you should install Pyenv and Poetry, create a Python virtual environment with the **3.11** version of Python, clone this GitHub repository, open a terminal, move to the folder containing this repository, and run the following commands:
 
 ```bash
-# Create the Python virtual environment 
+# Activate 3.11.0 version of Python
+$ pyenv local 3.11.0
+
+# Create the Python virtual environment with Poetry
 $ poetry install
 
 # Activate the Python virtual environment 
@@ -129,6 +132,7 @@ If you have comments or suggestions about this project, you can [open an issue][
 [CCLasso]: https://github.com/huayingfang/CCLasso
 [NetCoMi]: https://github.com/stefpeschel/NetCoMi
 [net_inf_analysis]: https://github.com/Multiomics-Analytics-Group/Microbial_network_inference_and_analysis_MicW2Graph
+[Pyenv]: https://github.com/pyenv/pyenv
 [Poetry]: https://python-poetry.org/
 [Poetry-doc]: https://python-poetry.org/docs/basic-usage/
 [sysbio]: https://www.maastrichtuniversity.nl/education/master/systems-biology
