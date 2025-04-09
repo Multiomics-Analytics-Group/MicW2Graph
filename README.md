@@ -1,6 +1,8 @@
-<h1 align="center">
-    MicW2Graph
-</h1>
+<p align="center">
+<figure>
+  <img width="350px" src="./images/MicW2Graph_logo.svg" alt="MicW2Graph logo"/>
+</figure>
+</p>
 
 <p align="center">
     <a href="https://github.com/Multiomics-Analytics-Group/MicW2Graph/blob/main/LICENSE">
