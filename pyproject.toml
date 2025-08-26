@@ -33,6 +33,7 @@ dependencies = [
 dev = [
     "kaleido==0.2.1",
     "ipykernel>=6.29.4,<7",
+    "black>=25.1.0",
 ]
 
 [tool.uv]
