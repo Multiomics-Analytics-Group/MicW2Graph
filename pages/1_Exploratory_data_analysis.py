@@ -64,8 +64,8 @@ if eda_type == "Summary of all studies":
     pie_plot_countries_json = pie_plot_countries.to_json()
 
     # Save the JSON to a file
-    with open("plots/pie_plot_countries.json", "w") as f:
-        f.write(pie_plot_countries_json)
+    #with open("plots/pie_plot_countries.json", "w") as f:
+    #    f.write(pie_plot_countries_json)
 
     # Create bar plot for the data types of the studies
     st.markdown("<h4 style='text-align: left; color: black;'>Data types for all studies</h4>", unsafe_allow_html=True)
@@ -77,8 +77,8 @@ if eda_type == "Summary of all studies":
     bar_plot_dtypes_json = bar_plot_dtypes.to_json()
 
     # Save the JSON to a file
-    with open("plots/bar_plot_dtypes.json", "w") as f:
-        f.write(bar_plot_dtypes_json)
+    #with open("plots/bar_plot_dtypes.json", "w") as f:
+    #    f.write(bar_plot_dtypes_json)
 
     # Access the merged files per biome paths from the config file
     merged_files_per_biome = st.session_state.config['merged_files_per_biome']
@@ -116,8 +116,8 @@ if eda_type == "Summary of all studies":
     pie_plots_biomes_json = pie_plots_biomes.to_json()
 
     # Save the JSON to a file
-    with open("plots/pie_plots_biomes.json", "w") as f:
-        f.write(pie_plots_biomes_json)
+    #with open("plots/pie_plots_biomes.json", "w") as f:
+    #    f.write(pie_plots_biomes_json)
 
     # Create a stacked bar plot for the top 5 species by biome
     st.markdown("<h4 style='text-align: left; color: black;'>Top 5 species by biome</h4>", unsafe_allow_html=True)
@@ -135,8 +135,8 @@ if eda_type == "Summary of all studies":
     top_species_plot_biome_json = top_species_plot_biome.to_json()
 
     # Save the JSON to a file
-    with open("plots/top_species_plot_biome.json", "w") as f:
-        f.write(top_species_plot_biome_json)
+    #with open("plots/top_species_plot_biome.json", "w") as f:
+    #    f.write(top_species_plot_biome_json)
 
     # Create PCoA plots for all studies colored by different variables
     st.markdown("<h4 style='text-align: left; color: black;'>PCoA plots of samples from all studies using Bray-Curtis dissimilarity matrices</h4>", unsafe_allow_html=True)
