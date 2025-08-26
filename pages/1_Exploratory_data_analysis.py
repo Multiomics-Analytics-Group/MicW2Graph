@@ -193,7 +193,7 @@ if eda_type == "Summary of all studies":
     )
 
     # Save the sample info as parquet file
-    sample_info_parquet = sample_info.to_parquet("plots/sample_info_allbiomes.parquet")
+    #sample_info_parquet = sample_info.to_parquet("plots/sample_info_allbiomes.parquet")
 
     # Display merged abundance data for all studies
     st.markdown("<h4 style='text-align: left; color: black;'>Abundance data for all studies</h4>", unsafe_allow_html=True)
