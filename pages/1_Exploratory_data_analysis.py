@@ -60,11 +60,25 @@ if eda_type == "Summary of all studies":
                                             'Country', px.colors.qualitative.Dark24)
     st.plotly_chart(pie_plot_countries, use_container_width=True)
 
+    # Convert the figure to JSON
+    pie_plot_countries_json = pie_plot_countries.to_json()
+
+    # Save the JSON to a file
+    with open("plots/pie_plot_countries.json", "w") as f:
+        f.write(pie_plot_countries_json)
+
     # Create bar plot for the data types of the studies
     st.markdown("<h4 style='text-align: left; color: black;'>Data types for all studies</h4>", unsafe_allow_html=True)
     bar_plot_dtypes = web_utils.plot_bar(studies_data, 'experiment_type', 'biome', 'Biome',
                                              'Experiment type', 'Number of studies', px.colors.qualitative.Dark24)
     st.plotly_chart(bar_plot_dtypes, use_container_width=True)
+
+    # Convert the figure to JSON
+    bar_plot_dtypes_json = bar_plot_dtypes.to_json()
+
+    # Save the JSON to a file
+    with open("plots/bar_plot_dtypes.json", "w") as f:
+        f.write(bar_plot_dtypes_json)
 
     # Access the merged files per biome paths from the config file
     merged_files_per_biome = st.session_state.config['merged_files_per_biome']
@@ -98,6 +112,13 @@ if eda_type == "Summary of all studies":
                     'Studies', 'Samples', 'Biomes', px.colors.qualitative.Dark24)
     st.plotly_chart(pie_plots_biomes, use_container_width=True)
 
+    # Convert the figure to JSON
+    pie_plots_biomes_json = pie_plots_biomes.to_json()
+
+    # Save the JSON to a file
+    with open("plots/pie_plots_biomes.json", "w") as f:
+        f.write(pie_plots_biomes_json)
+
     # Create a stacked bar plot for the top 5 species by biome
     st.markdown("<h4 style='text-align: left; color: black;'>Top 5 species by biome</h4>", unsafe_allow_html=True)
     
@@ -109,6 +130,13 @@ if eda_type == "Summary of all studies":
     # Create the stacked bar plot
     top_species_plot_biome, abund_tax_merged = web_utils.plot_stacked_bar_allbiomes(abund_dfs, tax_dfs, biome_names, px.colors.qualitative.Dark24)
     st.plotly_chart(top_species_plot_biome, use_container_width=True)
+
+    # Convert the figure to JSON
+    top_species_plot_biome_json = top_species_plot_biome.to_json()
+
+    # Save the JSON to a file
+    with open("plots/top_species_plot_biome.json", "w") as f:
+        f.write(top_species_plot_biome_json)
 
     # Create PCoA plots for all studies colored by different variables
     st.markdown("<h4 style='text-align: left; color: black;'>PCoA plots of samples from all studies using Bray-Curtis dissimilarity matrices</h4>", unsafe_allow_html=True)
@@ -163,6 +191,9 @@ if eda_type == "Summary of all studies":
         file_name='sample_info_allbiomes.csv',
         mime='text/csv',
     )
+
+    # Save the sample info as parquet file
+    sample_info_parquet = sample_info.to_parquet("plots/sample_info_allbiomes.parquet")
 
     # Display merged abundance data for all studies
     st.markdown("<h4 style='text-align: left; color: black;'>Abundance data for all studies</h4>", unsafe_allow_html=True)
