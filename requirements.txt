@@ -8,10 +8,10 @@ pyvis
 PyYAML
 requests
 scipy
-streamlit
+streamlit==1.32.2
 streamlit-aggrid==0.3.4.post3
-streamlit_extras
-streamlit-option-menu
+streamlit-extras==0.4.2
+streamlit-option-menu==0.3.12
 stvis
 urllib3
 jsonapi-client
