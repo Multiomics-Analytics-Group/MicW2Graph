@@ -72,15 +72,14 @@ The exploratory data analysis was encapsulated in a **module of the MicW2Graph w
 </p>
 
 ## Microbial association networks (MANs)
+> [!TIP]
+> The MANs for this study are available for download and visualization in the MicW2Graph web application.
 
 MANs are **weighted and undirected networks**, defined as *G = (V, E)*, where *V* is a set of nodes and *E* is a set of edges. Nodes in these networks are Operational Taxonomic Units at a specific taxonomic level, while **edges indicate substantial co-presence (positive interaction) or mutual exclusion (negative interaction) trends** in microorganism abundances across samples. 
 
 **Weights** in MANs correspond to association values among species defined by the inference method, and there is an edge between two nodes if this number is greater than or equal to a given cutoff *t*. 
 
 In this project, we selected the [Correlation inference for Compositional data through Lasso (CCLasso)][CCLasso] method. Network inference was conducted using the [NetCoMi][NetCoMi] R package. 
-
-> [!TIP]
-> The MANs for this study are available for download and visualization in the MicW2Graph web application.
 
 <p align="center">
 <figure>
@@ -91,6 +90,8 @@ In this project, we selected the [Correlation inference for Compositional data t
 The code for the network inference and analysis of MANs is available in this [GitHub repository][net_inf_analysis].
 
 ## MicW2Graph
+> [!TIP]
+> The KG and sub-biome subgraphs are available for download and visualization in the MicW2Graph web application.
 
 MicW2Graph incorporates the **MANs with the optimal association threshold for each WWT sub-biome and experiment type**, the **biological context** of the species within the MANs, and **ontologies** that standardize and expand the information of this resource. 
 
@@ -104,9 +105,6 @@ The MicW2Graph **metagraph** and a snapshot of the graph database with nodes and
 </figure>
 </p>
 
-> [!TIP]
-> The KG and sub-biome subgraphs are available for download and visualization in the MicW2Graph web application.
-
 <p align="center">
 <figure>
   <img src="./images/Kg_MicW2Graph.gif" alt="MicW2Graph metagraph"/>
@@ -114,11 +112,10 @@ The MicW2Graph **metagraph** and a snapshot of the graph database with nodes and
 </p>
 
 ## Case studies
-
-The use cases demonstrate the **potential of MicW2Graph to discover new species associated with WWT biological processes**, showing how the available information of well-known species can help to predict potential functions and traits for less studied species. These species and communities can be further investigated as potential candidates to optimize the bioremediation process. 
-
 > [!TIP]
 > The subgraphs for the case studies can be visualized and downloaded in the MicW2Graph web application.
+
+The use cases demonstrate the **potential of MicW2Graph to discover new species associated with WWT biological processes**, showing how the available information of well-known species can help to predict potential functions and traits for less studied species. These species and communities can be further investigated as potential candidates to optimize the bioremediation process. 
 
 <p align="center">
 <figure>
