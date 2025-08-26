@@ -3,7 +3,7 @@ networkx
 numpy
 pandas
 scipy
-plotly
+plotly==5.22.0
 pyvis
 PyYAML
 requests
