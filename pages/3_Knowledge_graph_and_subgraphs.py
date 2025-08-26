@@ -225,28 +225,28 @@ with col2:
             # Load HTML into HTML component for display on Streamlit
             components.html(html_data, height=600)
 
-    # Download buttons for the subgraph
-    c1, c2, c3 = st.columns(3)
+        # Download buttons for the subgraph
+        c1, c2, c3 = st.columns(3)
 
-    with c1:
-        st.download_button(
-            label="Download as GraphML",
-            data=open(kg_subgraph_graphml, "r", encoding="utf-8"),
-            file_name=f"{sub_biome}_{exp_type}_kg_subgraph.graphml",
-            mime="text/plain",
-        )
-    with c2:
-        st.write("")
-    with c3:
-        # Add the .dump extension to the path
-        kg_subgraph_dump = kg_subgraph_path + ".dump"
-        with open(kg_subgraph_dump, "rb") as file:
+        with c1:
             st.download_button(
-                label="Download as Dump file",
-                data=file,
-                file_name=f"{sub_biome}_{exp_type}_kg_subgraph.dump",
-                mime="application/octet-stream",
+                label="Download as GraphML",
+                data=open(kg_subgraph_graphml, "r", encoding="utf-8"),
+                file_name=f"{sub_biome}_{exp_type}_kg_subgraph.graphml",
+                mime="text/plain",
             )
+        with c2:
+            st.write("")
+        with c3:
+            # Add the .dump extension to the path
+            kg_subgraph_dump = kg_subgraph_path + ".dump"
+            with open(kg_subgraph_dump, "rb") as file:
+                st.download_button(
+                    label="Download as Dump file",
+                    data=file,
+                    file_name=f"{sub_biome}_{exp_type}_kg_subgraph.dump",
+                    mime="application/octet-stream",
+                )
 
 
 with col3:
