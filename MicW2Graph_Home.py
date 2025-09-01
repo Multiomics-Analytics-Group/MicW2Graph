@@ -57,7 +57,7 @@ st.markdown(
     "<h3 style='text-align: center; color: black;'>Schematic summary of the MicW2Graph project</h3>",
     unsafe_allow_html=True,
 )
-st.image("images/Methods_MicW2Graph.svg", use_column_width=True)
+st.image("images/Methods_MicW2Graph.png", use_column_width=True)
 
 # Credits
 st.markdown(

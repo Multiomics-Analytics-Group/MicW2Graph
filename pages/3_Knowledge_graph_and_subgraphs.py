@@ -38,7 +38,7 @@ st.markdown(
     "<h3 style='text-align: center; color: black;'>Metagraph and visualization of the KG for all sub-biomes and experiment types</h3>",
     unsafe_allow_html=True,
 )
-st.image("images/MicW2Graph_metagraph_fig_horiz.svg", use_column_width=True)
+st.image("images/MicW2Graph_metagraph_fig_horiz.png", use_column_width=True)
 
 col1, col2, col3 = st.columns(3)
 
